@@ -10,6 +10,7 @@ git 기반의 프로젝트에 참여하려면 git에 대해서 알아야 합니�
 $git clone https://github.com/jehoons/sbie_bone.git
 
 or
+
 # linux를 사용하는 경우, 
 $git clone git@github.com:jehoons/sbie_bone.git
 ```
