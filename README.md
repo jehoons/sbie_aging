@@ -13,3 +13,4 @@ or
 # linux를 사용하는 경우, 
 $git clone git@github.com:jehoons/sbie_bone.git
 ```
+
