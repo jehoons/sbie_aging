@@ -1,4 +1,4 @@
-node_1, interaction, node_2, 
+node_1, interaction, node_2,comment
 FOXO,1,SIRT1,
 SIRT1,1,PGC1a,
 SIRT1,1,FOXO,
