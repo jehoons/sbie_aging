@@ -1,4 +1,7 @@
-### Table 1. 
+### Table 1. Network for aging study 
 
-#### (**A**) Aging 연구를 위해서 수집한 테스트 네트워크 
-네트워크의 조절관계는 조사되어 있지만, 상세한 로직정보는 아직 알려지지 않았습니다. 
+#### (**A**) Regulation network
+레귤레이션 네트워크란 *activation*과 *inhibition*에 관한 정보를 포함하고 있지만, 로직함수에 관련된 정보는 포함하고 있은 네트워크입니다. 
+
+
+
