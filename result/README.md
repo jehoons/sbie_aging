@@ -4,4 +4,4 @@
 #### [Table 1. Network for aging study](table_s1)
 
 #### [Table 2. MaBoSS simulation](table_s2)
-(A) Network and simulation configuration (B) Simulation result files
+(**A**) Network and simulation configuration (**B**) Simulation result files
