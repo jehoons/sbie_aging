@@ -1,3 +1,3 @@
 ### Table 1. Network for aging study 
 #### (**A**) Regulation network
-레귤레이션 네트워크란 *activation*과 *inhibition*에 관한 정보를 포함하고 있지만, 로직함수에 관련된 정보는 포함하고 있은 네트워크입니다. `A, +1, B`은 A가 B를 *activation*한다는 것을 의미하고 `B, -1, C`는 B가 C를 *inhibition*한다는 것을 의미합니다.
+A regulation network is a network that contains information about activation and inhibition, but it does not contain information about logic functions. `A, +1, B` means that A activates B, and` B, -1, C` means that B inhibits * C.
