@@ -7,6 +7,10 @@
 
 #### (A) Network and simulation configuration
 
+Table-2A-Network.bnd
+
+Table-2A-Simul-setting.cfg
+
 #### (B) Simulation result files
 
 Table-2B-Result.out_fp.csv
