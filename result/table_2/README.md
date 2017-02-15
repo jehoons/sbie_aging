@@ -1,10 +1,9 @@
 ### Table 2. MaBoSS simulation
-실험방법: 
-
+Model network and simulation setting files (**Table 2A**) extracted from original paper are used for this simulation. Simulation is excuted by following commands: 
 ```
-../../usr/bin/MaBoSS Table-2A-Network.bnd -c Table-2A-Simul-setting.cfg -o Table-2B-Result.out 
+MaBoSS Table-2A-Network.bnd -c Table-2A-Simul-setting.cfg -o Table-2B-Result.out 
  ```
-
+ 
 #### (A) Network and simulation configuration
 
 Table-2A-Network.bnd
