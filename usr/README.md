@@ -1,9 +1,9 @@
-### Usr directory 
+# Usr directory 
 Packages are installed in the usr directory. 
 
-### Packages 
+## Packages 
 
-#### MaBoSS - boolean network simulator
+### MaBoSS - boolean network simulator
 
 for linux os
 
