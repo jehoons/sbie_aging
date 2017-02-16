@@ -1,0 +1,63 @@
+
+-------------------------------------------------- Run --------------------------------------------------
+MaBoSS version: 2.0 [networks up to 64 nodes]
+
+Run start time: Thu Feb 16 23:17:38 2017
+Run end time: Thu Feb 16 23:17:39 2017
+
+Core user runtime: 0.5 secs using 1 thread
+Core elapsed runtime: 0.608 secs using 1 thread
+
+Epilogue user runtime: 0.01 secs using 1 thread
+Epilogue elapsed runtime: 0.008 secs using 1 thread
+
+StatDist user runtime: 0.03 secs using 1 thread
+StatDist elapsed runtime: 0.032 secs using 1 thread
+
+Time Tick: 0.01
+Max Time: 5
+Sample Count: 5000
+StatDist Trajectory Count: 100
+StatDist Similarity Cache Maximum Size: 20000
+Discrete Time: FALSE
+Random Generator: physical
+Generated Number Count: 57572
+
+---------------------------------------------------------------------------------------------------------
+
+------------------------------------------------ Network ------------------------------------------------
+node A {
+  rate_up = (T AND (NOT B)) ? $Au : 0;
+  rate_down = B ? $Ad : 0;
+}
+
+node B {
+  rate_up = A ? $Au : 0;
+  rate_down = A ? 0 : $Ad;
+}
+
+node T {
+  rate_up = 0;
+  rate_down = ((NOT A) AND (NOT B)) ? $escape : 0;
+}
+
+node C {
+  logic = 1 AND 2;
+}
+
+node D {
+  logic = NOT (A AND B);
+}
+---------------------------------------------------------------------------------------------------------
+
+----------------------------------------------- Variables -----------------------------------------------
+$Ad = 4;
+$Au = 1;
+$Bd = 3;
+$Bu = 2;
+$coucou = 204;
+$escape = 10;
+$p0 = 0.5;
+$p1 = 0.5;
+---------------------------------------------------------------------------------------------------------
+
