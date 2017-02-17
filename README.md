@@ -46,3 +46,5 @@ PATH=$TOPDIR/${tooldir}:$TOPDIR/engine/pub:$PATH; export PATH
 PERL5LIB=$TOPDIR/${tooldir}:${PERL5LIB}; export PERL5LIB
 PYTHONPATH=$TOPDIR/${tooldir}:${PYTHONPATH}; export PYTHONPATH
 ```
+
+Output format is described in [here](https://maboss.curie.fr/pub/DescriptionOutputFile.pdf).

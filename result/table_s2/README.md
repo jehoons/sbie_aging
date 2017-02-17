@@ -15,8 +15,7 @@ MaBoSS 시뮬레이션을 실행하는 방법은:
 MaBoSS Four_cycle.bnd -c Four_cycle_FEscape.cfg -o Four_cycle.out
 ```
 
-#### (**B**) Test Loic2016 model
-
+#### (**B**) Test Loic2016 model 
 ```
 Loic2016-model.bnd
 Loic2016-model.cfg
