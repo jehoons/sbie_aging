@@ -1,4 +1,4 @@
-# sbie_aging
+# Aging research 
 This project is to study aging process and how to overcome or reverse it. See also [Google Drive](https://drive.google.com/open?id=0B2Fh-6_aEya5MU9nTldLN2FIVW8). 
 
 ## Learning git 
@@ -14,7 +14,7 @@ or
 $git clone git@github.com:jehoons/sbie_bone.git
 ```
 
-## Packages 
+## Packages
 ### MaBoSS - Markovian Boolean Stochastic Simulator
 MaBoSS can be run on Linux or Windows OS, but I will explain the installation process for Linux OS. You can download, build, and install MaBoSS by running the following commands:
 
