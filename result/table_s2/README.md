@@ -27,3 +27,4 @@ MaBoSS 시뮬레이션을 실행하는 방법은:
 ```
 MaBoSS Loic2016-model.bnd -c Loic2016-model.cfg -o Loic2016-model.out
 ```
+
