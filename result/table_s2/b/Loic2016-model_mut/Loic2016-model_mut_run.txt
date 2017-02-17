@@ -2,35 +2,38 @@
 -------------------------------------------------- Run --------------------------------------------------
 MaBoSS version: 2.0 [networks up to 64 nodes]
 
-Run start time: Fri Feb 17 17:58:17 2017
-Run end time: Fri Feb 17 17:58:20 2017
+Run start time: Fri Feb 17 22:20:25 2017
+Run end time: Fri Feb 17 22:20:26 2017
 
-Core user runtime: 8.82 secs using 4 threads
-Core elapsed runtime: 2.323 secs using 4 threads
+Core user runtime: 3.13 secs using 60 threads
+Core elapsed runtime: 0.656 secs using 60 threads
 
-Epilogue user runtime: 0.66 secs using 1 thread
-Epilogue elapsed runtime: 0.691 secs using 1 thread
+Epilogue user runtime: 0.17 secs using 1 thread
+Epilogue elapsed runtime: 0.174 secs using 1 thread
 
-StatDist user runtime: 0.11 secs using 1 thread
-StatDist elapsed runtime: 0.136 secs using 1 thread
+StatDist user runtime: 0.05 secs using 1 thread
+StatDist elapsed runtime: 0.049 secs using 1 thread
 
 Time Tick: 0.1
 Max Time: 400
-Sample Count: 5000
-StatDist Trajectory Count: 100
+Sample Count: 1000
+StatDist Trajectory Count: 30
 StatDist Similarity Cache Maximum Size: 20000
 Discrete Time: FALSE
 Random Generator: standard
 Seed Pseudo Random: 100
-Generated Number Count: 3023269
+Generated Number Count: 157303
 
 ---------------------------------------------------------------------------------------------------------
 
 ------------------------------------------------ Network ------------------------------------------------
 node Insulin {
   logic = (Insulin);
-  rate_up = @logic ? $u_Insulin : 0;
-  rate_down = @logic ? 0 : $d_Insulin;
+  rate_up = ($Low_Insulin ? 0 : ($High_Insulin ? @max_rate : (@logic ? $u_Insulin : 0)));
+  rate_down = ($Low_Insulin ? @max_rate : ($High_Insulin ? 0 : (@logic ? 0 : $d_Insulin)));
+
+  // extra attributes
+  max_rate = 1.79769e+308 / 1;
 }
 
 node GF {
@@ -179,6 +182,8 @@ node PP1C {
 ---------------------------------------------------------------------------------------------------------
 
 ----------------------------------------------- Variables -----------------------------------------------
+$High_Insulin = 1;
+$Low_Insulin = 0;
 $d_AKT = 1;
 $d_AMPK = 1;
 $d_ATP = 1;

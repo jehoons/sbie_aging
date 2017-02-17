@@ -1,7 +1,8 @@
 Node Insulin {
   logic = (Insulin);
-  rate_up = @logic ? $u_Insulin : 0;
-  rate_down = @logic ? 0 : $d_Insulin;
+  rate_up  = ( $Low_Insulin ? 0.0 : ( $High_Insulin ? @max_rate : ( @logic ? $u_Insulin : 0)));
+  rate_down  = ( $Low_Insulin ? @max_rate : ( $High_Insulin ? 0.0 : ( @logic ? 0 : $d_Insulin)));
+	 max_rate = 1.7976931348623157E+308/1;
 }
 
 Node GF {
