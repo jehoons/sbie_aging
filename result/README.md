@@ -3,5 +3,5 @@
 ### Results
 #### [Table 1. Network for aging study](table_s1)
 (**A**) Regulation network
-#### [Table 2. MaBoSS simulation](table_s2)
-(**A**) Simulation of toy model (**B**) Simulation of Loic 2016 model
+#### [Table 2. Test aging model (Loic et al., 2016)](table_s2)
+(**A**) Test toy model (**B**) Test Loic2016 model
