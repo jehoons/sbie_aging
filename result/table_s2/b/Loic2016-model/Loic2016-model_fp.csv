@@ -1,0 +1,8 @@
+Fixed Points (6)
+FP	Proba	State	Insulin	GF	p16	p21	mTORC1_S6K1	Senescence	CDK2	E2F1	Metabolism	G1_S	PP2A	MAPK	p53	PRC	AKT	MYC	MDM2	FOXO	IRS_PIK3CA	PTEN	AMPK	TSC	ATP	RB1	PP1C
+#1	0.0804	Insulin -- GF -- p21 -- mTORC1_S6K1 -- Senescence -- Metabolism -- MAPK -- p53 -- IRS_PIK3CA -- PTEN -- ATP -- RB1 -- PP1C	1	1	0	1	1	1	0	0	1	0	0	1	1	0	0	0	0	0	1	1	0	0	1	1	1
+#2	0.246	GF -- p21 -- mTORC1_S6K1 -- Senescence -- Metabolism -- MAPK -- p53 -- PTEN -- ATP -- RB1 -- PP1C	0	1	0	1	1	1	0	0	1	0	0	1	1	0	0	0	0	0	0	1	0	0	1	1	1
+#3	0.2388	Insulin -- mTORC1_S6K1 -- Metabolism -- p53 -- AKT -- IRS_PIK3CA -- ATP -- RB1 -- PP1C	1	0	0	0	1	0	0	0	1	0	0	0	1	0	1	0	0	0	1	0	0	0	1	1	1
+#4	0.1686	Insulin -- GF -- mTORC1_S6K1 -- Metabolism -- MAPK -- p53 -- AKT -- IRS_PIK3CA -- ATP -- RB1 -- PP1C	1	1	0	0	1	0	0	0	1	0	0	1	1	0	1	0	0	0	1	0	0	0	1	1	1
+#5	0.0118	Insulin -- GF -- mTORC1_S6K1 -- CDK2 -- E2F1 -- Metabolism -- G1_S -- MAPK -- p53 -- AKT -- IRS_PIK3CA -- ATP -- PP1C	1	1	0	0	1	0	1	1	1	1	0	1	1	0	1	0	0	0	1	0	0	0	1	0	1
+#6	0.008	GF -- mTORC1_S6K1 -- CDK2 -- E2F1 -- Metabolism -- G1_S -- MAPK -- p53 -- AKT -- ATP -- PP1C	0	1	0	0	1	0	1	1	1	1	0	1	1	0	1	0	0	0	0	0	0	0	1	0	1
