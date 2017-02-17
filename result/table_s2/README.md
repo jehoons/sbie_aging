@@ -14,18 +14,18 @@ If you run `MBSS_FormatTable.pl`, you can change the format of the output file i
 
 #### (**B**) Test Loic2016 model 
 
-Step 1. Mutate original network to set constant node such as input or mutation.
+**Step 1**. Mutate original network to set constant node such as input or mutation.
 ```
 MBSS_MutBndCfg.pl Loic2016-model.bnd Loic2016-model.cfg 'Insulin'
 ```
-Step 2. `vim Loic2016-model.cfg`, and set the value of the low_insulin or high_insulin variable to a value between 0 and 1.
+**Step 2**. `vim Loic2016-model.cfg`, and set the value of the low_insulin or high_insulin variable to a value between 0 and 1.
 
-Step 3. Run simulation.
+**Step 3**. Run simulation.
 ```
 MBSS_FormatTable.pl Loic2016-model_mut.bnd Loic2016-model_mut.cfg
 ```
 
-Step 4. Postprocess the output 
+**Step 4**. Postprocess the output 
 ```
 python postproc.py Loic2016-model_mut
 ```
