@@ -2,27 +2,27 @@
 -------------------------------------------------- Run --------------------------------------------------
 MaBoSS version: 2.0 [networks up to 64 nodes]
 
-Run start time: Sat Feb 18 14:38:37 2017
-Run end time: Sat Feb 18 14:38:38 2017
+Run start time: Sat Feb 18 15:38:40 2017
+Run end time: Sat Feb 18 15:38:42 2017
 
-Core user runtime: 2.44 secs using 60 threads
-Core elapsed runtime: 0.607 secs using 60 threads
+Core user runtime: 12.56 secs using 60 threads
+Core elapsed runtime: 1.539 secs using 60 threads
 
-Epilogue user runtime: 0.13 secs using 1 thread
-Epilogue elapsed runtime: 0.144 secs using 1 thread
+Epilogue user runtime: 0.37 secs using 1 thread
+Epilogue elapsed runtime: 0.399 secs using 1 thread
 
-StatDist user runtime: 0.05 secs using 1 thread
-StatDist elapsed runtime: 0.048 secs using 1 thread
+StatDist user runtime: 0.07 secs using 1 thread
+StatDist elapsed runtime: 0.071 secs using 1 thread
 
 Time Tick: 0.1
 Max Time: 400
-Sample Count: 1000
+Sample Count: 5000
 StatDist Trajectory Count: 30
 StatDist Similarity Cache Maximum Size: 20000
 Discrete Time: FALSE
 Random Generator: standard
 Seed Pseudo Random: 100
-Generated Number Count: 152887
+Generated Number Count: 656007
 
 ---------------------------------------------------------------------------------------------------------
 
@@ -139,7 +139,7 @@ node FOXO {
 }
 
 node IRS_PIK3CA {
-  logic = $T2D_PATIENT ? (Insulin) : (Insulin OR mTORC1_S6K1);
+  logic = $T2D_PATIENT ? Insulin AND NOT mTORC1_S6K1 : Insulin;
   rate_up = @logic ? $u_IRS_PIK3CA : 0;
   rate_down = @logic ? 0 : $d_IRS_PIK3CA;
 }

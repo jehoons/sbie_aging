@@ -3,6 +3,8 @@ from ipdb import set_trace
 from os.path import dirname,join
 import os 
 import matplotlib.pyplot as plt 
+import matplotlib
+matplotlib.style.use('ggplot')
 
 def run_postproc(datafile, processed):
     df = pd.read_csv(datafile, sep='\t')
@@ -45,3 +47,14 @@ if __name__ == '__main__':
     processed = '%s/%s_probtraj_table_processed.csv' % (datadir, datadir)
 
     run_postproc(datafile=datafile, processed=processed)
+
+    df = pd.read_csv(processed) 
+    df2 = df[['Time', 'p21', 'mTORC1_S6K1', 'AKT', 'Insulin', 'Senescence', '<nil>']]
+    df2.set_index('Time', inplace=True)
+    
+    plt.figure(); 
+    df2.plot()
+    # plt.show()
+    plt.savefig(datadir+'_fig.jpg')
+    # set_trace()
+
