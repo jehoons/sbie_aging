@@ -1,6 +1,6 @@
 ### Table 2. Test aging model (Loic et al., 2016)
-
-#### (**A**) Test toy model 
+This result is related to [#11](https://github.com/jehoons/sbie_aging/issues/11). 
+#### (**A**) Test toy model
 
 This model is a simple toy model provided by MaBoSS. The `.bnd` file defines the simulation model, and `.cfg` defines the configuration how the simulation model runs. How to run simulation:
 ```
@@ -29,4 +29,5 @@ MBSS_FormatTable.pl Loic2016-model_mut.bnd Loic2016-model_mut.cfg
 ```
 python postproc.py Loic2016-model_mut
 ```
+
 
