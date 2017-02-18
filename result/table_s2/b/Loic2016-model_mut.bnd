@@ -72,7 +72,7 @@ Node ATP {
 }
 
 Node IRS_PIK3CA {
-  logic = (Insulin);
+  logic = $T2D_PATIENT ? (Insulin) : (Insulin | mTORC1_S6K1);
   rate_up = @logic ? $u_IRS_PIK3CA : 0;
   rate_down = @logic ? 0 : $d_IRS_PIK3CA;
 }
