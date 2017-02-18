@@ -1,16 +1,50 @@
-# sbie_aging
-노화현상을 공부하고 어떻게 극복할 것인가를 연구하는 프로젝트입니다. 문서자료는 [구글드라이브](https://drive.google.com/open?id=0B2Fh-6_aEya5MU9nTldLN2FIVW8)를 참고하세요.
+# Aging research 
+This project is to study aging process and how to overcome or reverse it. See also [Google Drive](https://drive.google.com/open?id=0B2Fh-6_aEya5MU9nTldLN2FIVW8). 
 
-### Learning git 
-git 기반의 프로젝트에 참여하려면 git에 대해서 알아야 합니다. 먼저, [git-scm](https://git-scm.com/download/win)을 설치합니다. 설치한 후에는 마우스 우클릭하여 **git bash here**를 선택할 수 있습니다. 선택하면 해당 위치에서 **bash shell**이 실행될 것입니다. 자세한 사용방법은 [git-cheat-sheet](https://www.git-tower.com/blog/git-cheat-sheet/)에 나와 있으니 읽고 따라해 봅시다. 어렵지 않아요~ 로컬저장소로 소스코드를 다운로드하려면 다음 명령을 이용하여 프로젝트를 클로닝합니다:
+## Learning git 
+To participate in this project, first of all, you need to learn about git. First, install [git-scm] (https://git-scm.com/download/win). After installation, you can right-click and select `git bash here`. If selected, `bash shell` will be executed at that location. For more information, see also [git-cheat-sheet](https://www.git-tower.com/blog/git-cheat-sheet/). To make local clone (or repository) of project to your computer, run the following command: 
 
 ```
-# windows를 사용하는 경우,
+# in case that you are using Windows OS
 $git clone https://github.com/jehoons/sbie_bone.git
 
 or
 
-# linux를 사용하는 경우, 
+# in case that you are using Linux OS 
 $git clone git@github.com:jehoons/sbie_bone.git
 ```
 
+## Packages
+### MaBoSS - Markovian Boolean Stochastic Simulator
+MaBoSS can be run on Linux or Windows OS, but I will explain the installation process for Linux OS. You can download, build, and install MaBoSS by running the following commands:
+
+```bash 
+cd usr 
+wget https://maboss.curie.fr/pub/MaBoSS-env-2.0.tgz
+cd MaBoSS-env-2.0/
+./check-requirements.sh 
+cd engine/src
+make 
+# or 
+make install
+# Then, you can find the bin file MaBoSS.  
+```
+
+After installation, run the following commands to enable MaBoSS to run.
+
+```bash 
+cd MaBoSS-env-2.0/
+source MaBoSS.env 
+```
+
+If you do not want to run the above command for each time, add the following code lines to .bashrc:
+
+```bash 
+TOPDIR=/home/pbs/git/sbie_aging/usr/MaBoSS-env-2.0
+tooldir=tools
+PATH=$TOPDIR/${tooldir}:$TOPDIR/engine/pub:$PATH; export PATH
+PERL5LIB=$TOPDIR/${tooldir}:${PERL5LIB}; export PERL5LIB
+PYTHONPATH=$TOPDIR/${tooldir}:${PYTHONPATH}; export PYTHONPATH
+```
+
+Output format is described in [here](https://maboss.curie.fr/pub/DescriptionOutputFile.pdf).

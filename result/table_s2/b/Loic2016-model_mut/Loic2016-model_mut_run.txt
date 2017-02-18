@@ -1,0 +1,238 @@
+
+-------------------------------------------------- Run --------------------------------------------------
+MaBoSS version: 2.0 [networks up to 64 nodes]
+
+Run start time: Fri Feb 17 22:20:25 2017
+Run end time: Fri Feb 17 22:20:26 2017
+
+Core user runtime: 3.13 secs using 60 threads
+Core elapsed runtime: 0.656 secs using 60 threads
+
+Epilogue user runtime: 0.17 secs using 1 thread
+Epilogue elapsed runtime: 0.174 secs using 1 thread
+
+StatDist user runtime: 0.05 secs using 1 thread
+StatDist elapsed runtime: 0.049 secs using 1 thread
+
+Time Tick: 0.1
+Max Time: 400
+Sample Count: 1000
+StatDist Trajectory Count: 30
+StatDist Similarity Cache Maximum Size: 20000
+Discrete Time: FALSE
+Random Generator: standard
+Seed Pseudo Random: 100
+Generated Number Count: 157303
+
+---------------------------------------------------------------------------------------------------------
+
+------------------------------------------------ Network ------------------------------------------------
+node Insulin {
+  logic = (Insulin);
+  rate_up = ($Low_Insulin ? 0 : ($High_Insulin ? @max_rate : (@logic ? $u_Insulin : 0)));
+  rate_down = ($Low_Insulin ? @max_rate : ($High_Insulin ? 0 : (@logic ? 0 : $d_Insulin)));
+
+  // extra attributes
+  max_rate = 1.79769e+308 / 1;
+}
+
+node GF {
+  logic = (GF);
+  rate_up = @logic ? $u_GF : 0;
+  rate_down = @logic ? 0 : $d_GF;
+}
+
+node p16 {
+  logic = (MAPK AND NOT p53 AND NOT E2F1 AND NOT PRC);
+  rate_up = @logic ? $u_p16 : 0;
+  rate_down = @logic ? 0 : $d_p16;
+}
+
+node p21 {
+  logic = (NOT p53 AND NOT AKT AND NOT MYC AND FOXO) OR (p53 AND NOT AKT AND NOT MYC);
+  rate_up = @logic ? $u_p21 : 0;
+  rate_down = @logic ? 0 : $d_p21;
+}
+
+node mTORC1_S6K1 {
+  logic = (NOT AMPK AND NOT TSC);
+  rate_up = @logic ? $u_mTORC1_S6K1 : 0;
+  rate_down = @logic ? 0 : $d_mTORC1_S6K1;
+}
+
+node Senescence {
+  logic = (NOT p16 AND p21 AND mTORC1_S6K1) OR (p16);
+  rate_up = @logic ? $u_Senescence : 0;
+  rate_down = @logic ? 0 : $d_Senescence;
+}
+
+node CDK2 {
+  logic = (NOT p21 AND mTORC1_S6K1 AND NOT MYC AND E2F1) OR (NOT p21 AND mTORC1_S6K1 AND MYC);
+  rate_up = @logic ? $u_CDK2 : 0;
+  rate_down = @logic ? 0 : $d_CDK2;
+}
+
+node E2F1 {
+  logic = (NOT GF AND MYC AND NOT RB1 AND E2F1) OR (GF AND NOT RB1 AND E2F1);
+  rate_up = @logic ? $u_E2F1 : 0;
+  rate_down = @logic ? 0 : $d_E2F1;
+}
+
+node Metabolism {
+  logic = (NOT MAPK AND NOT AKT AND mTORC1_S6K1 AND PP1C) OR (NOT MAPK AND AKT AND mTORC1_S6K1) OR (MAPK AND NOT AKT AND PP1C) OR (MAPK AND AKT);
+  rate_up = @logic ? $u_Metabolism : 0;
+  rate_down = @logic ? 0 : $d_Metabolism;
+}
+
+node G1_S {
+  logic = (NOT p21 AND CDK2 AND E2F1 AND Metabolism);
+  rate_up = @logic ? $u_G1_S : 0;
+  rate_down = @logic ? 0 : $d_G1_S;
+}
+
+node PP2A {
+  logic = (NOT mTORC1_S6K1);
+  rate_up = @logic ? $u_PP2A : 0;
+  rate_down = @logic ? 0 : $d_PP2A;
+}
+
+node MAPK {
+  logic = (GF AND NOT PP2A);
+  rate_up = @logic ? $u_MAPK : 0;
+  rate_down = @logic ? 0 : $d_MAPK;
+}
+
+node p53 {
+  logic = (NOT MDM2);
+  rate_up = @logic ? $u_p53 : 0;
+  rate_down = @logic ? 0 : $d_p53;
+}
+
+node PRC {
+  logic = (NOT AKT AND MYC);
+  rate_up = @logic ? $u_PRC : 0;
+  rate_down = @logic ? 0 : $d_PRC;
+}
+
+node AKT {
+  logic = (NOT IRS_PIK3CA AND NOT PTEN AND CDK2 AND NOT PP2A) OR (IRS_PIK3CA AND NOT PTEN AND NOT PP2A);
+  rate_up = @logic ? $u_AKT : 0;
+  rate_down = @logic ? 0 : $d_AKT;
+}
+
+node MYC {
+  logic = (MAPK AND NOT p53 AND mTORC1_S6K1 AND E2F1);
+  rate_up = @logic ? $u_MYC : 0;
+  rate_down = @logic ? 0 : $d_MYC;
+}
+
+node MDM2 {
+  logic = (NOT p16 AND NOT p53 AND AKT AND NOT mTORC1_S6K1 AND NOT MYC AND NOT E2F1) OR (NOT p16 AND p53 AND NOT mTORC1_S6K1 AND NOT MYC AND NOT E2F1) OR (p16 AND NOT mTORC1_S6K1 AND NOT MYC AND NOT E2F1);
+  rate_up = @logic ? $u_MDM2 : 0;
+  rate_down = @logic ? 0 : $d_MDM2;
+}
+
+node FOXO {
+  logic = (NOT MAPK AND NOT p16 AND NOT AKT AND NOT AMPK AND Metabolism) OR (NOT MAPK AND NOT p16 AND NOT AKT AND AMPK) OR (NOT MAPK AND p16 AND NOT AKT);
+  rate_up = @logic ? $u_FOXO : 0;
+  rate_down = @logic ? 0 : $d_FOXO;
+}
+
+node IRS_PIK3CA {
+  logic = (Insulin);
+  rate_up = @logic ? $u_IRS_PIK3CA : 0;
+  rate_down = @logic ? 0 : $d_IRS_PIK3CA;
+}
+
+node PTEN {
+  logic = (p53 AND NOT AKT);
+  rate_up = @logic ? $u_PTEN : 0;
+  rate_down = @logic ? 0 : $d_PTEN;
+}
+
+node AMPK {
+  logic = (p53 AND NOT ATP);
+  rate_up = @logic ? $u_AMPK : 0;
+  rate_down = @logic ? 0 : $d_AMPK;
+}
+
+node TSC {
+  logic = (NOT MAPK AND NOT AKT AND AMPK);
+  rate_up = @logic ? $u_TSC : 0;
+  rate_down = @logic ? 0 : $d_TSC;
+}
+
+node ATP {
+  logic = (Metabolism);
+  rate_up = @logic ? $u_ATP : 0;
+  rate_down = @logic ? 0 : $d_ATP;
+}
+
+node RB1 {
+  logic = (NOT CDK2);
+  rate_up = @logic ? $u_RB1 : 0;
+  rate_down = @logic ? 0 : $d_RB1;
+}
+
+node PP1C {
+  logic = (NOT MAPK AND AKT) OR (MAPK);
+  rate_up = @logic ? $u_PP1C : 0;
+  rate_down = @logic ? 0 : $d_PP1C;
+}
+---------------------------------------------------------------------------------------------------------
+
+----------------------------------------------- Variables -----------------------------------------------
+$High_Insulin = 1;
+$Low_Insulin = 0;
+$d_AKT = 1;
+$d_AMPK = 1;
+$d_ATP = 1;
+$d_CDK2 = 1;
+$d_E2F1 = 1;
+$d_FOXO = 1;
+$d_G1_S = 1;
+$d_GF = 1;
+$d_IRS_PIK3CA = 1;
+$d_Insulin = 1;
+$d_MAPK = 1;
+$d_MDM2 = 1;
+$d_MYC = 1;
+$d_Metabolism = 1;
+$d_PP1C = 1;
+$d_PP2A = 1;
+$d_PRC = 1;
+$d_PTEN = 1;
+$d_RB1 = 1;
+$d_Senescence = 1;
+$d_TSC = 1;
+$d_mTORC1_S6K1 = 1;
+$d_p16 = 1;
+$d_p21 = 1;
+$d_p53 = 1;
+$u_AKT = 1;
+$u_AMPK = 1;
+$u_ATP = 1;
+$u_CDK2 = 1;
+$u_E2F1 = 1;
+$u_FOXO = 1;
+$u_G1_S = 1;
+$u_GF = 1;
+$u_IRS_PIK3CA = 1;
+$u_Insulin = 1;
+$u_MAPK = 1;
+$u_MDM2 = 1;
+$u_MYC = 1;
+$u_Metabolism = 1;
+$u_PP1C = 1;
+$u_PP2A = 1;
+$u_PRC = 1;
+$u_PTEN = 1;
+$u_RB1 = 1;
+$u_Senescence = 1;
+$u_TSC = 1;
+$u_mTORC1_S6K1 = 1;
+$u_p16 = 1;
+$u_p21 = 1;
+$u_p53 = 1;
+---------------------------------------------------------------------------------------------------------
+

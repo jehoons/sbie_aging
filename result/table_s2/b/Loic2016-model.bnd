@@ -1,0 +1,149 @@
+Node Insulin {
+  logic = (Insulin);
+  rate_up = @logic ? $u_Insulin : 0;
+  rate_down = @logic ? 0 : $d_Insulin;
+}
+
+Node GF {
+  logic = (GF);
+  rate_up = @logic ? $u_GF : 0;
+  rate_down = @logic ? 0 : $d_GF;
+}
+
+Node Senescence {
+  logic = (!p16 & p21 & mTORC1_S6K1) | (p16);
+  rate_up = @logic ? $u_Senescence : 0;
+  rate_down = @logic ? 0 : $d_Senescence;
+}
+
+Node G1_S {
+  logic = (!p21 & CDK2 & E2F1 & Metabolism);
+  rate_up = @logic ? $u_G1_S : 0;
+  rate_down = @logic ? 0 : $d_G1_S;
+}
+
+Node MAPK {
+  logic = (GF & !PP2A);
+  rate_up = @logic ? $u_MAPK : 0;
+  rate_down = @logic ? 0 : $d_MAPK;
+}
+
+Node p16 {
+  logic = (MAPK & !p53 & !E2F1 & !PRC);
+  rate_up = @logic ? $u_p16 : 0;
+  rate_down = @logic ? 0 : $d_p16;
+}
+
+Node MDM2 {
+  logic = (!p16 & !p53 & AKT & !mTORC1_S6K1 & !MYC & !E2F1) | (!p16 & p53 & !mTORC1_S6K1 & !MYC & !E2F1) | (p16 & !mTORC1_S6K1 & !MYC & !E2F1);
+  rate_up = @logic ? $u_MDM2 : 0;
+  rate_down = @logic ? 0 : $d_MDM2;
+}
+
+Node p53 {
+  logic = (!MDM2);
+  rate_up = @logic ? $u_p53 : 0;
+  rate_down = @logic ? 0 : $d_p53;
+}
+
+Node p21 {
+  logic = (!p53 & !AKT & !MYC & FOXO) | (p53 & !AKT & !MYC);
+  rate_up = @logic ? $u_p21 : 0;
+  rate_down = @logic ? 0 : $d_p21;
+}
+
+Node AKT {
+  logic = (!IRS_PIK3CA & !PTEN & CDK2 & !PP2A) | (IRS_PIK3CA & !PTEN & !PP2A);
+  rate_up = @logic ? $u_AKT : 0;
+  rate_down = @logic ? 0 : $d_AKT;
+}
+
+Node mTORC1_S6K1 {
+  logic = (!AMPK & !TSC);
+  rate_up = @logic ? $u_mTORC1_S6K1 : 0;
+  rate_down = @logic ? 0 : $d_mTORC1_S6K1;
+}
+
+Node ATP {
+  logic = (Metabolism);
+  rate_up = @logic ? $u_ATP : 0;
+  rate_down = @logic ? 0 : $d_ATP;
+}
+
+Node IRS_PIK3CA {
+  logic = (Insulin);
+  rate_up = @logic ? $u_IRS_PIK3CA : 0;
+  rate_down = @logic ? 0 : $d_IRS_PIK3CA;
+}
+
+Node AMPK {
+  logic = (p53 & !ATP);
+  rate_up = @logic ? $u_AMPK : 0;
+  rate_down = @logic ? 0 : $d_AMPK;
+}
+
+Node PTEN {
+  logic = (p53 & !AKT);
+  rate_up = @logic ? $u_PTEN : 0;
+  rate_down = @logic ? 0 : $d_PTEN;
+}
+
+Node TSC {
+  logic = (!MAPK & !AKT & AMPK);
+  rate_up = @logic ? $u_TSC : 0;
+  rate_down = @logic ? 0 : $d_TSC;
+}
+
+Node MYC {
+  logic = (MAPK & !p53 & mTORC1_S6K1 & E2F1);
+  rate_up = @logic ? $u_MYC : 0;
+  rate_down = @logic ? 0 : $d_MYC;
+}
+
+Node CDK2 {
+  logic = (!p21 & mTORC1_S6K1 & !MYC & E2F1) | (!p21 & mTORC1_S6K1 & MYC);
+  rate_up = @logic ? $u_CDK2 : 0;
+  rate_down = @logic ? 0 : $d_CDK2;
+}
+
+Node RB1 {
+  logic = (!CDK2);
+  rate_up = @logic ? $u_RB1 : 0;
+  rate_down = @logic ? 0 : $d_RB1;
+}
+
+Node E2F1 {
+  logic = (!GF & MYC & !RB1 & E2F1) | (GF & !RB1 & E2F1);
+  rate_up = @logic ? $u_E2F1 : 0;
+  rate_down = @logic ? 0 : $d_E2F1;
+}
+
+Node PRC {
+  logic = (!AKT & MYC);
+  rate_up = @logic ? $u_PRC : 0;
+  rate_down = @logic ? 0 : $d_PRC;
+}
+
+Node Metabolism {
+  logic = (!MAPK & !AKT & mTORC1_S6K1 & PP1C) | (!MAPK & AKT & mTORC1_S6K1) | (MAPK & !AKT & PP1C) | (MAPK & AKT);
+  rate_up = @logic ? $u_Metabolism : 0;
+  rate_down = @logic ? 0 : $d_Metabolism;
+}
+
+Node PP2A {
+  logic = (!mTORC1_S6K1);
+  rate_up = @logic ? $u_PP2A : 0;
+  rate_down = @logic ? 0 : $d_PP2A;
+}
+
+Node FOXO {
+  logic = (!MAPK & !p16 & !AKT & !AMPK & Metabolism) | (!MAPK & !p16 & !AKT & AMPK) | (!MAPK & p16 & !AKT);
+  rate_up = @logic ? $u_FOXO : 0;
+  rate_down = @logic ? 0 : $d_FOXO;
+}
+
+Node PP1C {
+  logic = (!MAPK & AKT) | (MAPK);
+  rate_up = @logic ? $u_PP1C : 0;
+  rate_down = @logic ? 0 : $d_PP1C;
+}
