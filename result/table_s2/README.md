@@ -45,3 +45,5 @@ MBSS_FormatTable.pl Loic2016-model_mut_t2d.bnd Loic2016-model_mut_t2d.cfg
 python postproc.py Loic2016-model_normal
 python postproc.py Loic2016-model_t2d
 ```
+
+By default, the output is given as the probability that the attractor will occur. The `postproc.py` converts this to the probability that each node value will be activated. The conversion result is stored in the  `_probtraj_table_processed.csv` file.
