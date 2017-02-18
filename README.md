@@ -38,7 +38,7 @@ cd MaBoSS-env-2.0/
 source MaBoSS.env
 ```
 
-If you do not want to run the above command for each time, add the following code lines to .bashrc:
+If you do not want to run the above command for each time, add the following code lines to `.bashrc`:
 
 ```bash
 TOPDIR=/home/pbs/git/sbie_aging/usr/MaBoSS-env-2.0
