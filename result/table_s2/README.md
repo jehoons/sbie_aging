@@ -11,7 +11,7 @@ MBSS_FormatTable.pl toymodel.bnd toymodel.cfg
 MBSS_TrajectoryFig.py toymodel
 ```
 
-If you run `MBSS_FormatTable.pl`, you can change the format of the output file into a more understandable table format.
+If you run `MBSS_FormatTable.pl` instead of `MaBoSS`, you can change the format of the output file into a more understandable table format.
 
 #### (**B**) Test Loic2016 model
 **Step 1**. Mutate original network
