@@ -14,8 +14,6 @@ MBSS_TrajectoryFig.py toymodel
 
 If you run `MBSS_FormatTable.pl` instead of `MaBoSS`, you can change the format of the output file into a more understandable table format.
 
-
-
 #### (**B**) Test Loic2016 model
 **Step 1**. Mutate original network
 In order to create effects such as external stimulation or mutation, it is necessary to fix certain values from the original network. This is called mutation in MaBoSS. By doing this, you can, for example, add the effect of insulin into the model network.
