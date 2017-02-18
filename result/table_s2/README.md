@@ -2,16 +2,19 @@
 This result is related to [#11](https://github.com/jehoons/sbie_aging/issues/11).
 
 #### (**A**) Test toy model
-This model is a simple toy model provided by MaBoSS. The `.bnd` file defines the simulation model, and `.cfg` defines the configuration how the simulation model runs. How to run simulation:
+This model is a simple toy model provided by MaBoSS. The `.bnd` file defines the simulation model, and `.cfg` defines the configuration how the simulation model runs. One or more `.cfg` files may exist for a ` .bnd` file. How to run simulation:
 
 ```
 MaBoSS toymodel.bnd -c toymodel.cfg -o toymodel.out
 # or
 MBSS_FormatTable.pl toymodel.bnd toymodel.cfg
+# to make a result figure run:
 MBSS_TrajectoryFig.py toymodel
 ```
 
 If you run `MBSS_FormatTable.pl` instead of `MaBoSS`, you can change the format of the output file into a more understandable table format.
+
+
 
 #### (**B**) Test Loic2016 model
 **Step 1**. Mutate original network
