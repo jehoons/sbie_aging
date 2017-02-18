@@ -14,15 +14,14 @@ MBSS_TrajectoryFig.py toymodel
 If you run `MBSS_FormatTable.pl`, you can change the format of the output file into a more understandable table format.
 
 #### (**B**) Test Loic2016 model
-**Step 1**. Mutate original network to set constant node such as input or mutation.
+**Step 1**. Mutate original network
+In order to create effects such as external stimulation or mutation, it is necessary to fix certain values from the original network. This is called mutation in MaBoSS. By doing this, you can, for example, add the effect of adding insulin into the model network.
 
 ```
 MBSS_MutBndCfg.pl Loic2016-model.bnd Loic2016-model.cfg 'Insulin'
 ```
 
-이렇게 해줍으로서 인슐린자극을 시뮬레이션 할 수 있습니다.
-
-또한, 원본의 네트워크를 다음과 같이 T2D환자의 경우일때 `Insulin`과 `mTORC1_S6K1`에 모두 의존하도록 로직을 다음과 같이 수정합니다.
+This will create `_mut.bnd` and` _mut.cfg` files. The `MBSS_MutBndCfg.pl` can help you with simple tasks such as setting the value of a specific variable, but adding complex logic should be done by manual work. In the case of T2D patients, the `IRS_PIK3CA` depends on both the `Insulin` and the` mTORC1_S6K1`, so the logic equation is modified as follows.
 
 ```
 Node IRS_PIK3CA {
@@ -32,18 +31,17 @@ Node IRS_PIK3CA {
 }
 ```
 
-수정된 네트워크는 `_mut.bnd` 파일에 저장합니다. 다음으로 우리는 정상과 당뇨환자의 경우를 각각 조사하고자 합니다. `$T2D_PATIENT` 변수는 `.cfg` 파일에서 변수 값을 0과 1로 설정해 주어야 하고 각각의 경우에 대해서 `_mut_normal.cfg`와 `_mut_t2d.cfg` 파일로 저장합니다.
-
-**Step 2**. `vim Loic2016-model.cfg`, and set the value of the low_insulin or high_insulin variable to a value between 0 and 1.
+For convenience, names `_mut.bnd` and` _mut.cfg` are `_mut_normal.bnd` and` _mut_normal.cfg` respectively. Then copy it and save it as `_mut_t2d.bnd`,` _mut_t2d.cfg`. These are the configuration files for normal and diabetic patients, respectively. Set `$ T2D_PATIENT` variable to 0 in` _mut_normal.cfg` file and 1 in `_mut_t2d.cfg` file with` vim`, respectively.
 
 **Step 3**. Run simulation.
 
 ```
-MBSS_FormatTable.pl Loic2016-model_mut.bnd Loic2016-model_mut.cfg
+MBSS_FormatTable.pl Loic2016-model_mut_normal.bnd Loic2016-model_mut_normal.cfg
+MBSS_FormatTable.pl Loic2016-model_mut_t2d.bnd Loic2016-model_mut_t2d.cfg
 ```
 
-**Step 4**. Postprocess the output
-
+**Step 4**. Postprocess the output.
 ```
-python postproc.py Loic2016-model_mut
+python postproc.py Loic2016-model_normal
+python postproc.py Loic2016-model_t2d
 ```
