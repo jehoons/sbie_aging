@@ -18,7 +18,7 @@ If you run `MBSS_FormatTable.pl` instead of `MaBoSS`, you can change the format 
 
 #### (**B**) Test Loic2016 model
 **Step 1**. Mutate original network
-In order to create effects such as external stimulation or mutation, it is necessary to fix certain values from the original network. This is called mutation in MaBoSS. By doing this, you can, for example, add the effect of adding insulin into the model network.
+In order to create effects such as external stimulation or mutation, it is necessary to fix certain values from the original network. This is called mutation in MaBoSS. By doing this, you can, for example, add the effect of insulin into the model network.
 
 ```
 MBSS_MutBndCfg.pl Loic2016-model.bnd Loic2016-model.cfg 'Insulin'
