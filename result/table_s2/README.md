@@ -48,7 +48,7 @@ If you run `MBSS_FormatTable.pl` instead of `MaBoSS`, you can change the format 
 [(Verlingue et al., 2016)][(Verlingue et al., 2016)] developed a boolean network model to describe type 2 diabetes. Model network is shown as below.
 
 <p align=center>
-<img src="../../assets/img/verlingue2016-2.png" width="300" /><br>
+<img src="../../assets/img/verlingue2016-2.png" width="600" /><br>
 Model diagram from (Verlingue et al., 2016)
 </p>
 
