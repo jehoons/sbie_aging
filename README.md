@@ -1,8 +1,8 @@
 # Aging research
-This project is to study aging process and how to overcome or reverse it. See also [Google Drive](https://drive.google.com/open?id=0B2Fh-6_aEya5MU9nTldLN2FIVW8).
+This project is to study aging process and how to overcome or reverse it. See also [Google Drive][Google Drive].
 
 ## Learning git
-To participate in this project, first of all, you need to learn about git. First, install [git-scm] (https://git-scm.com/download/win). After installation, you can right-click and select `git bash here`. If selected, `bash shell` will be executed at that location. For more information, see also [git-cheat-sheet](https://www.git-tower.com/blog/git-cheat-sheet/). To make local clone (or repository) of project to your computer, run the following command:
+To participate in this project, first of all, you need to learn about git. First, install [git-scm][git-scm]. After installation, you can right-click and select `git bash here`. If selected, `bash shell` will be executed at that location. For more information, see also [git-cheat-sheet][git-cheat-sheet]. To make local clone (or repository) of project to your computer, run the following command:
 
 ```
 # in case that you are using Windows OS
@@ -50,5 +50,8 @@ PYTHONPATH=$TOPDIR/${tooldir}:${PYTHONPATH}; export PYTHONPATH
 
 See also [format][maboss-format], and [paper][maboss-paper].
 
+[Google Drive]: https://drive.google.com/open?id=0B2Fh-6_aEya5MU9nTldLN2FIVW8
+[git-scm]: https://git-scm.com/download/win
+[git-cheat-sheet]: https://www.git-tower.com/blog/git-cheat-sheet
 [maboss-format]: https://maboss.curie.fr/pub/DescriptionOutputFile.pdf
 [maboss-paper]: https://www.dropbox.com/s/6tzams9gvml6ern/Verlingue%20et%20al.%20-%202016%20-%20A%20comprehensive%20approach%20to%20the%20molecular%20determin.pdf?dl=0
