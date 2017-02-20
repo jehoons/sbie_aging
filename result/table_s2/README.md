@@ -5,6 +5,7 @@ This result is related to [#11](https://github.com/jehoons/sbie_aging/issues/11)
 
 <p align=center>
 <img src="../../assets/img/maboss-toymodel.png" width="300" />
+
 toy model
 </p>
 
