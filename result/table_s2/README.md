@@ -94,4 +94,4 @@ By default, the output is given as the probability that the attractor will occur
 
 [(Verlingue et al., 2016)]: ../../assets/paper/Verlingue%20et%20al.%20-%202016%20-%20A%20comprehensive%20approach%20to%20the%20molecular%20determin.pdf
 
-[Verlingue et al., 2016-SI009]: ../../assets/paper/Verlingue%20et%20al.%20-%202016%20-%20A%20comprehensive%20approach%20to%20the%20molecular%20determin.pdf
+[Verlingue et al., 2016-SI009]: ../../assets/paper/Verlingue%20et%20al.%20-%202016%20-%20A%20comprehensive%20approach%20to%20the%20molecular%20determin-supInfo009.doc
