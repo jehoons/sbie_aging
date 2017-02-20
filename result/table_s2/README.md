@@ -3,12 +3,35 @@ This result is related to [#11](https://github.com/jehoons/sbie_aging/issues/11)
 
 #### (**A**) Test toy model
 
+This model is a simple toy model provided by MaBoSS. The `.bnd` file defines the simulation model, and `.cfg` defines the configuration how the simulation model runs. One or more `.cfg` files may exist for a ` .bnd` file.
+
 <p align=center>
 <img src="../../assets/img/maboss-toymodel.png" width="300" /><br>
 Toy model with three nodes
 </p>
 
-This model is a simple toy model provided by MaBoSS. The `.bnd` file defines the simulation model, and `.cfg` defines the configuration how the simulation model runs. One or more `.cfg` files may exist for a ` .bnd` file. How to run simulation:
+The code that describes the toy model is as follows:
+```
+Node C
+{
+    rate_up=0.0;
+    rate_down=((not A) and (not B)) ? $escape : 0.0; 
+}
+
+Node A
+{
+    rate_up=(C and (not B)) ? $Au : 0.0; 
+    rate_down=B ? $Ad : 0.0;
+}
+
+Node B
+{
+    rate_up=A ? $Au : 0.0; 
+    rate_down=A ? 0.0 : $Ad; 
+}
+```
+
+How to run simulation:
 
 ```
 MaBoSS toymodel.bnd -c toymodel.cfg -o toymodel.out
