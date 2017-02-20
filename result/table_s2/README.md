@@ -45,7 +45,11 @@ If you run `MBSS_FormatTable.pl` instead of `MaBoSS`, you can change the format 
 
 #### (**B**) Test Loic2016 model
 
-[Verlingue et al., 2016][Verlingue et al] developed a boolean network model to describe type 2 diabetes. Follow the steps below to perform the simulation.
+[Verlingue et al., 2016][Verlingue et al] developed a boolean network model to describe type 2 diabetes. Model network is shown as below.
+
+![][../../assets/img/verlingue2016-1.png]
+
+Follow the steps below to perform the simulation.
 
 **Step 1. Mutate original network**
 
