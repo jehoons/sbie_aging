@@ -15,19 +15,19 @@ The code that describes the toy model is as follows:
 Node C
 {
     rate_up=0.0;
-    rate_down=((not A) and (not B)) ? $escape : 0.0; 
+    rate_down=((not A) and (not B)) ? $escape : 0.0;
 }
 
 Node A
 {
-    rate_up=(C and (not B)) ? $Au : 0.0; 
+    rate_up=(C and (not B)) ? $Au : 0.0;
     rate_down=B ? $Ad : 0.0;
 }
 
 Node B
 {
-    rate_up=A ? $Au : 0.0; 
-    rate_down=A ? 0.0 : $Ad; 
+    rate_up=A ? $Au : 0.0;
+    rate_down=A ? 0.0 : $Ad;
 }
 ```
 
@@ -44,6 +44,9 @@ MBSS_TrajectoryFig.py toymodel
 If you run `MBSS_FormatTable.pl` instead of `MaBoSS`, you can change the format of the output file into a more understandable table format.
 
 #### (**B**) Test Loic2016 model
+
+[Verlingue et. al., 2016][Verlingue et al] developed a boolean network model to describe type 2 diabetes. Follow the steps below to perform the simulation.
+
 **Step 1. Mutate original network**
 
 In order to create effects such as external stimulation or mutation, it is necessary to fix certain values from the original network. This is called mutation in MaBoSS. By doing this, you can, for example, add the effect of insulin into the model network.
@@ -78,3 +81,6 @@ python postproc.py Loic2016-model_t2d
 ```
 
 By default, the output is given as the probability that the attractor will occur. The `postproc.py` converts this to the probability that each node value will be activated. The conversion result is stored in the  `_probtraj_table_processed.csv` file.
+
+
+[Verlingue et al]: ../../assets/paper/Verlingue et al. - 2016 - A comprehensive approach to the molecular determin.pdf
