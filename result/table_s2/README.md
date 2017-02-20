@@ -45,7 +45,9 @@ If you run `MBSS_FormatTable.pl` instead of `MaBoSS`, you can change the format 
 
 #### (**B**) Test Loic2016 model
 
-[(Verlingue et al., 2016)][(Verlingue et al., 2016)] developed a boolean network model to describe type 2 diabetes. Model network is shown as below.
+[(Verlingue et al., 2016)][(Verlingue et al., 2016)] developed a boolean network model to describe type 2 diabetes. See also [supporting information][Verlingue et al., 2016-SI009].
+
+Model network is shown as below.
 
 <p align=center>
 <img src="../../assets/img/verlingue2016-2.png" width="600" /><br>
@@ -91,3 +93,5 @@ By default, the output is given as the probability that the attractor will occur
 
 
 [(Verlingue et al., 2016)]: ../../assets/paper/Verlingue%20et%20al.%20-%202016%20-%20A%20comprehensive%20approach%20to%20the%20molecular%20determin.pdf
+
+[Verlingue et al., 2016-SI009]: ../../assets/paper/Verlingue%20et%20al.%20-%202016%20-%20A%20comprehensive%20approach%20to%20the%20molecular%20determin.pdf
