@@ -15,7 +15,8 @@ MBSS_TrajectoryFig.py toymodel
 If you run `MBSS_FormatTable.pl` instead of `MaBoSS`, you can change the format of the output file into a more understandable table format.
 
 #### (**B**) Test Loic2016 model
-**Step 1**. Mutate original network
+**Step 1. Mutate original network**
+
 In order to create effects such as external stimulation or mutation, it is necessary to fix certain values from the original network. This is called mutation in MaBoSS. By doing this, you can, for example, add the effect of insulin into the model network.
 
 ```
@@ -34,14 +35,14 @@ Node IRS_PIK3CA {
 
 For convenience, names `_mut.bnd` and` _mut.cfg` are `_mut_normal.bnd` and` _mut_normal.cfg` respectively. Then copy it and save it as `_mut_t2d.bnd`,` _mut_t2d.cfg`. These are the configuration files for normal and diabetic patients, respectively. Set `$ T2D_PATIENT` variable to 0 in` _mut_normal.cfg` file and 1 in `_mut_t2d.cfg` file with` vim`, respectively.
 
-**Step 2**. Run simulation.
+**Step 2. Run simulation**
 
 ```
 MBSS_FormatTable.pl Loic2016-model_mut_normal.bnd Loic2016-model_mut_normal.cfg
 MBSS_FormatTable.pl Loic2016-model_mut_t2d.bnd Loic2016-model_mut_t2d.cfg
 ```
 
-**Step 3**. Postprocess the output.
+**Step 3. Postprocess the output**
 ```
 python postproc.py Loic2016-model_normal
 python postproc.py Loic2016-model_t2d
