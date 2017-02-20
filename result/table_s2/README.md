@@ -2,6 +2,10 @@
 This result is related to [#11](https://github.com/jehoons/sbie_aging/issues/11).
 
 #### (**A**) Test toy model
+
+<img src="../../assets/img/maboss-toymodel.png" width="300" />
+<p>toy model</p>
+
 This model is a simple toy model provided by MaBoSS. The `.bnd` file defines the simulation model, and `.cfg` defines the configuration how the simulation model runs. One or more `.cfg` files may exist for a ` .bnd` file. How to run simulation:
 
 ```
