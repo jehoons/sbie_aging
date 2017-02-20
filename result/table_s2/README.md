@@ -45,11 +45,11 @@ If you run `MBSS_FormatTable.pl` instead of `MaBoSS`, you can change the format 
 
 #### (**B**) Test Loic2016 model
 
-[Verlingue et al., 2016][Verlingue et al] developed a boolean network model to describe type 2 diabetes. Model network is shown as below.
+[(Verlingue et al., 2016)][(Verlingue et al., 2016)] developed a boolean network model to describe type 2 diabetes. Model network is shown as below.
 
 <p align=center>
 <img src="../../assets/img/verlingue2016-1.png" width="300" /><br>
-Model diagram from [Verlingue et al., 2016][Verlingue et al]
+Model diagram from (Verlingue et al., 2016)
 </p>
 
 Follow the steps below to perform the simulation.
@@ -90,4 +90,4 @@ python postproc.py Loic2016-model_t2d
 By default, the output is given as the probability that the attractor will occur. The `postproc.py` converts this to the probability that each node value will be activated. The conversion result is stored in the  `_probtraj_table_processed.csv` file.
 
 
-[Verlingue et al]: ../../assets/paper/Verlingue%20et%20al.%20-%202016%20-%20A%20comprehensive%20approach%20to%20the%20molecular%20determin.pdf
+[(Verlingue et al., 2016)]: ../../assets/paper/Verlingue%20et%20al.%20-%202016%20-%20A%20comprehensive%20approach%20to%20the%20molecular%20determin.pdf
