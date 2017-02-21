@@ -1,8 +1,6 @@
 ### Table 2. Test geroconversion model
 
-This result is related to [#11](https://github.com/jehoons/sbie_aging/issues/11).
-
-[(Verlingue et al., 2016)][(Verlingue et al., 2016)] developed a boolean network model to describe type 2 diabetes. See also [supporting information][Verlingue et al., 2016-SI009].
+This table is related to [#11](https://github.com/jehoons/sbie_aging/issues/11). [(Verlingue et al., 2016)][(Verlingue et al., 2016)] developed a boolean network model to describe type 2 diabetes. See also [supporting information][Verlingue et al., 2016-SI009].
 
 #### (**A**) Test toy model
 
