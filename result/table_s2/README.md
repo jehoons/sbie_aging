@@ -53,7 +53,7 @@ Model network is shown as below.
 Model diagram from (Verlingue et al., 2016)
 </p>
 
-[(Fig. 2 in Verlingue et al., 2016)][(Verlingue et al., 2016)] shows the response of the normal and diabetic networks to insulin stimulation. Follow the steps below to perform the simulation.
+[Verlingue et al., 2016:Fig.2][(Verlingue et al., 2016)] shows the response of the normal and diabetic networks to insulin stimulation. Follow the steps below to perform the simulation.
 
 **Step 1. Mutate original network**
 
