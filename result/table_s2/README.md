@@ -1,6 +1,8 @@
-### Table 2. Test geroconversion model(Verlingue et al., 2016)
+### Table 2. Test geroconversion model
 
 This result is related to [#11](https://github.com/jehoons/sbie_aging/issues/11).
+
+[(Verlingue et al., 2016)][(Verlingue et al., 2016)] developed a boolean network model to describe type 2 diabetes. See also [supporting information][Verlingue et al., 2016-SI009].
 
 #### (**A**) Test toy model
 
@@ -44,9 +46,7 @@ MBSS_TrajectoryFig.py toymodel
 
 If you run `MBSS_FormatTable.pl` instead of `MaBoSS`, you can change the format of the output file into a more understandable table format.
 
-#### (**B**) Reproduce Figure 2 of [(Verlingue et al., 2016)][(Verlingue et al., 2016)]
-
-[(Verlingue et al., 2016)][(Verlingue et al., 2016)] developed a boolean network model to describe type 2 diabetes. See also [supporting information][Verlingue et al., 2016-SI009].
+#### (**B**) Reproduce Figure 2 of the paper
 
 Model network is shown as below.
 
@@ -55,7 +55,7 @@ Model network is shown as below.
 Model diagram from (Verlingue et al., 2016)
 </p>
 
-Follow the steps below to perform the simulation.
+[(Fig. 2 in Verlingue et al., 2016)][(Verlingue et al., 2016)] shows the response of the normal and diabetic networks to insulin stimulation. Follow the steps below to perform the simulation.
 
 **Step 1. Mutate original network**
 
@@ -85,6 +85,7 @@ MBSS_FormatTable.pl Loic2016-model_mut_t2d.bnd Loic2016-model_mut_t2d.cfg
 ```
 
 **Step 3. Postprocess the output**
+
 ```
 python postproc.py Loic2016-model_normal
 python postproc.py Loic2016-model_t2d
