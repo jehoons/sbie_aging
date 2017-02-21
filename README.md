@@ -51,5 +51,5 @@ PYTHONPATH=$TOPDIR/${tooldir}:${PYTHONPATH}; export PYTHONPATH
 [git-scm]: https://git-scm.com/download/win
 [git-cheat-sheet]: https://www.git-tower.com/blog/git-cheat-sheet
 [maboss-paper]: http://bmcsystbiol.biomedcentral.com/articles/10.1186/1752-0509-6-116
-[maboss-outputformat]: ../../assets/paper/maboss-outputformat.pdf
+[maboss-outputformat]: ../assets/paper/maboss-outputformat.pdf
 [maboss-website]: https://maboss.curie.fr
