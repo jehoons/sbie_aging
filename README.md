@@ -15,9 +15,8 @@ $git clone git@github.com:jehoons/sbie_bone.git
 ```
 
 ## Packages
-### MaBoSS - Markovian Boolean Stochastic Simulator
-
-[MaBoSS][MaBoSS-site] can be run on Linux or Windows OS, but I will explain the installation process for Linux OS. You can download, build, and install MaBoSS by running the following commands:
+### MaBoSS simulation package
+MaBoSS is a Markovian Boolean Stochastic Simulator, and is described in ([paper][maboss-paper], [output-format][maboss-format], [online][maboss-website]). MaBoSS can be run on Linux or Windows OS, but I will explain the installation process for Linux OS. You can download, build, and install MaBoSS by running the following commands:
 
 ```bash
 cd usr
@@ -48,11 +47,9 @@ PERL5LIB=$TOPDIR/${tooldir}:${PERL5LIB}; export PERL5LIB
 PYTHONPATH=$TOPDIR/${tooldir}:${PYTHONPATH}; export PYTHONPATH
 ```
 
-See also [format][maboss-format], and [paper][maboss-paper].
-
 [Google Drive]: https://drive.google.com/open?id=0B2Fh-6_aEya5MU9nTldLN2FIVW8
 [git-scm]: https://git-scm.com/download/win
 [git-cheat-sheet]: https://www.git-tower.com/blog/git-cheat-sheet
-[maboss-format]: https://maboss.curie.fr/pub/DescriptionOutputFile.pdf
 [maboss-paper]: http://bmcsystbiol.biomedcentral.com/articles/10.1186/1752-0509-6-116
-[MaBoSS-site]: https://maboss.curie.fr
+[maboss-format]: https://maboss.curie.fr/pub/DescriptionOutputFile.pdf
+[maboss-website]: https://maboss.curie.fr

@@ -1,4 +1,5 @@
 ### Table 2. Test aging model (Loic et al., 2016)
+
 This result is related to [#11](https://github.com/jehoons/sbie_aging/issues/11).
 
 #### (**A**) Test toy model
