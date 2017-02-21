@@ -1,4 +1,4 @@
-### Table 2. Test aging model (Loic et al., 2016)
+### Table 2. Test geroconversion model(Verlingue et al., 2016)
 
 This result is related to [#11](https://github.com/jehoons/sbie_aging/issues/11).
 
@@ -44,7 +44,7 @@ MBSS_TrajectoryFig.py toymodel
 
 If you run `MBSS_FormatTable.pl` instead of `MaBoSS`, you can change the format of the output file into a more understandable table format.
 
-#### (**B**) Test Loic2016 model
+#### (**B**) Reproduce Figure 2 of [(Verlingue et al., 2016)][(Verlingue et al., 2016)]
 
 [(Verlingue et al., 2016)][(Verlingue et al., 2016)] developed a boolean network model to describe type 2 diabetes. See also [supporting information][Verlingue et al., 2016-SI009].
 
