@@ -93,6 +93,6 @@ python postproc.py Loic2016-model_t2d
 By default, the output is given as the probability that the attractor will occur. The `postproc.py` converts this to the probability that each node value will be activated. The conversion result is stored in the  `_probtraj_table_processed.csv` file.
 
 
-[(Verlingue et al., 2016)]: ../../assets/paper/Verlingue%20et%20al.%20-%202016%20-%20A%20comprehensive%20approach%20to%20the%20molecular%20determin.pdf
+[(Verlingue et al., 2016)]: assets/paper/Verlingue%20et%20al.%20-%202016%20-%20A%20comprehensive%20approach%20to%20the%20molecular%20determin.pdf
 
-[Verlingue et al., 2016-SI009]: ../../assets/paper/Verlingue%20et%20al.%20-%202016%20-%20A%20comprehensive%20approach%20to%20the%20molecular%20determin-supInfo009.doc
+[Verlingue et al., 2016-SI009]: assets/paper/Verlingue%20et%20al.%20-%202016%20-%20A%20comprehensive%20approach%20to%20the%20molecular%20determin-supInfo009.doc
