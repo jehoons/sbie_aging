@@ -44,6 +44,8 @@ MBSS_TrajectoryFig.py toymodel
 
 If you run `MBSS_FormatTable.pl` instead of `MaBoSS`, you can change the format of the output file into a more understandable table format.
 
+The results for the two simulation configurations can be found in [toymodel_slow](a/toymodel_slow) and [toymodel_fast](a/toymodel_fast), respectively.
+
 #### (**B**) Reproduce Figure 2 of the paper
 
 Model network is shown as below.
