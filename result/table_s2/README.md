@@ -4,7 +4,7 @@ This table is related to [#11](https://github.com/jehoons/sbie_aging/issues/11).
 
 #### (**A**) Test toy model
 
-This model is a simple toy model provided by MaBoSS. The `.bnd` file defines the simulation model, and `.cfg` defines the configuration how the simulation model runs. One or more `.cfg` files may exist for a ` .bnd` file.
+This model is a simple toy model provided by MaBoSS(S2FIG1). The `.bnd` file defines the simulation model, and `.cfg` defines the configuration how the simulation model runs. One or more `.cfg` files may exist for a ` .bnd` file.
 
 <p align=center>
 <img src="../../assets/img/maboss-toymodel.png" width="300" /><br>
@@ -53,7 +53,8 @@ Model network is shown as below.
 S2FIG2. Model diagram from (Verlingue et al., 2016)
 </p>
 
-S2FIG2 shows the response of the normal and diabetic networks to insulin stimulation. Follow the steps below to perform the simulation. 
+**S2FIG2** shows the response of the normal and diabetic networks to insulin stimulation. Follow the steps below to perform the simulation. 
+
 **Step 1. Mutate original network**
 
 In order to create effects such as external stimulation or mutation, it is necessary to fix certain values from the original network. This is called mutation in MaBoSS. By doing this, you can, for example, add the effect of insulin into the model network.
