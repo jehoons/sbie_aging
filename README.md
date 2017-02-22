@@ -21,8 +21,10 @@ MaBoSS is a Markovian Boolean Stochastic Simulator, and is described in ([paper]
 ```bash
 cd usr
 wget https://maboss.curie.fr/pub/MaBoSS-env-2.0.tgz
+tar xvfz MaBoSS-env-2.0.tgz
 cd MaBoSS-env-2.0/
 ./check-requirements.sh
+# if there are missing dependencies, resolve them first before you continue to next step.
 cd engine/src
 make
 # or
