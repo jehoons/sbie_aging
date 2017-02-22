@@ -4,7 +4,7 @@ This table is related to [#11](https://github.com/jehoons/sbie_aging/issues/11).
 
 #### (**A**) Test toy model
 
-This model is a simple toy model provided by MaBoSS(**S2FIG1**). This model consists of [toymodel.bnd](https://github.com/jehoons/sbie_aging/blob/master/result/table_s2/a/toymodel.bnd), [toymodel_slow.cfg](https://github.com/jehoons/sbie_aging/blob/master/result/table_s2/a/toymodel_slow.cfg), and [toymodel_fast.cfg](https://github.com/jehoons/sbie_aging/blob/master/result/table_s2/a/toymodel_fast.cfg). The `.bnd` file defines the simulation model, and `.cfg` defines the configuration how the simulation model runs. One or more `.cfg` files may exist for a ` .bnd` file.
+This model is a simple toy model provided by MaBoSS paper, and its structure is shown in (**S2FIG1**). This model consists of [toymodel.bnd](https://github.com/jehoons/sbie_aging/blob/master/result/table_s2/a/toymodel.bnd), [toymodel_slow.cfg](https://github.com/jehoons/sbie_aging/blob/master/result/table_s2/a/toymodel_slow.cfg), and [toymodel_fast.cfg](https://github.com/jehoons/sbie_aging/blob/master/result/table_s2/a/toymodel_fast.cfg). The `.bnd` file defines the simulation model, and `.cfg` defines the configuration how the simulation model runs. One or more `.cfg` files may exist for a ` .bnd` file.
 
 <p align=center>
 <img src="../../assets/img/maboss-toymodel.png" width="300" /><br>
