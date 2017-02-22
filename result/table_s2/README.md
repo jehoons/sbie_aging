@@ -55,7 +55,7 @@ Model network is shown as below.
 S2FIG2. Model diagram from (Verlingue et al., 2016)
 </p>
 
-**S2FIG2** shows the response of the normal and diabetic networks to insulin stimulation. Follow the steps below to perform the simulation. 
+**S2FIG2** shows the response of the normal and diabetic networks to insulin stimulation. Follow the steps below to perform the simulation.
 
 **Step 1. Mutate original network**
 
@@ -79,19 +79,26 @@ For convenience, names `_mut.bnd` and` _mut.cfg` are `_mut_normal.bnd` and` _mut
 
 **Step 2. Run simulation**
 
+This step simulates a normal model and a diabetes model.
+
+The normal model consists of the `Loic2016-model_mut_normal.bnd` file that defines the model structure and the `Loic2016-model_mut_normal.cfg` file that defines the simulation method. Run the following command to simulate the normal model:
 ```
 MBSS_FormatTable.pl Loic2016-model_mut_normal.bnd Loic2016-model_mut_normal.cfg
+```
+
+The diabetes model consists of the `Loic2016-model_mut_t2d.bnd` file that defines the model structure and the `Loic2016-model_mut_t2d.cfg` file that defines the simulation method. Run the following command to simulate the diabetes model:
+```
 MBSS_FormatTable.pl Loic2016-model_mut_t2d.bnd Loic2016-model_mut_t2d.cfg
 ```
 
 **Step 3. Postprocess the output**
 
+By default, the output is given as the probability that the attractor will occur. The `postproc.py` module converts this to the probability that each node value will be activated. The conversion result is stored in the `_probtraj_table_processed.csv` file. In order to post-process the simulation result, the path where the result is stored should be input to the program as follows.
 ```
 python postproc.py Loic2016-model_normal
 python postproc.py Loic2016-model_t2d
 ```
 
-By default, the output is given as the probability that the attractor will occur. The `postproc.py` converts this to the probability that each node value will be activated. The conversion result is stored in the  `_probtraj_table_processed.csv` file.
 
 [(Verlingue et al., 2016)]: https://github.com/jehoons/sbie_aging/files/792007/Verlingue.et.al.-.2016.-.A.comprehensive.approach.pdf
 [Verlingue et al., 2016-SI009]: https://github.com/jehoons/sbie_aging/files/792011/Verlingue.et.al.-.2016.-.A.comprehensive.approach-supInfo009.docx
