@@ -8,7 +8,7 @@ This model is a simple toy model provided by MaBoSS. The `.bnd` file defines the
 
 <p align=center>
 <img src="../../assets/img/maboss-toymodel.png" width="300" /><br>
-Toy model with three nodes
+S2FIG1. Toy model with three nodes
 </p>
 
 The code that describes the toy model is as follows:
@@ -50,7 +50,7 @@ Model network is shown as below.
 
 <p align=center>
 <img src="../../assets/img/verlingue2016-2.png" width="600" /><br>
-Model diagram from (Verlingue et al., 2016)
+S2FIG2. Model diagram from (Verlingue et al., 2016)
 </p>
 
 [Verlingue et al., 2016:Fig.2][(Verlingue et al., 2016)] shows the response of the normal and diabetic networks to insulin stimulation. Follow the steps below to perform the simulation.
