@@ -53,8 +53,7 @@ Model network is shown as below.
 S2FIG2. Model diagram from (Verlingue et al., 2016)
 </p>
 
-[Verlingue et al., 2016:Fig.2][(Verlingue et al., 2016)] shows the response of the normal and diabetic networks to insulin stimulation. Follow the steps below to perform the simulation.
-
+S2FIG2 shows the response of the normal and diabetic networks to insulin stimulation. Follow the steps below to perform the simulation. 
 **Step 1. Mutate original network**
 
 In order to create effects such as external stimulation or mutation, it is necessary to fix certain values from the original network. This is called mutation in MaBoSS. By doing this, you can, for example, add the effect of insulin into the model network.
