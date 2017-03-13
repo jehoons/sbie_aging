@@ -4,7 +4,7 @@
 #
 # This file is part of {lab}.
 #*************************************************************************
-from sbie_aging import result 
+from sbie_aging import results
 
 def test():
-    result.update_toc() 
+    results.update_toc() 
