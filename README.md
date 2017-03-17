@@ -55,3 +55,15 @@ PYTHONPATH=$TOPDIR/${tooldir}:${PYTHONPATH}; export PYTHONPATH
 [maboss-paper]: http://bmcsystbiol.biomedcentral.com/articles/10.1186/1752-0509-6-116
 [maboss-outputformat]: assets/paper/maboss-outputformat.pdf
 [maboss-website]: https://maboss.curie.fr
+
+
+### Boolean network simulator 
+https://github.com/jehoons/BooleanSim
+
+```
+git clone git@github.com:jehoons/BooleanSim.git
+cd BooleanSim 
+python setup.py install 
+```
+
+
