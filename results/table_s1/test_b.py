@@ -116,8 +116,9 @@ def result_summary(keyword=None):
             attr_type = attrs[attr]['type']
             labels = d['labels']
 
-            if attr_type == 'point':                 
+            if attr_type == 'point':
                 binstr = d['state_key'][value]
+                print('keyvalue', value)
                 print(",".join(labels))
                 print (",".join([b for b in binstr]))
             elif attr_type == 'cyclic':
@@ -125,7 +126,7 @@ def result_summary(keyword=None):
                 for c0 in value: 
                     binstr = d['state_key'][c0]
                     print (",".join([b for b in binstr]))
-
+                    
             print()
             i+=1
 
@@ -133,32 +134,19 @@ def result_summary(keyword=None):
     df0.to_csv(summary_output)
 
     d['state_key']
-
-    # set_trace()
-
     import numpy as np 
-
     mat = np.zeros([])
-
     state_key = d['state_key']
-
     mat = np.zeros([len(state_key), len(state_key)])
-
     for i,s1 in enumerate(state_key):
         for j,s2 in enumerate(state_key):
             vec1 = state_key[s1]
             vec2 = state_key[s2]
-
             x1 = np.array([int(v) for v in vec1])
             x2 = np.array([int(v) for v in vec2])
             dist = sum( (x1 - x2)**2 ) 
             # print (dist)
             mat[i,j] = dist
-    
-
-    
 
     simmat = pd.DataFrame(mat, columns=state_key.keys(), index=state_key.keys())
     simmat.to_csv(file_b4%keyword)
-
-    # set_trace()
