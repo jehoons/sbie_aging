@@ -95,7 +95,7 @@ def result_summary(keyword=None):
     with open(datafile, 'r') as fobj_c:
         data = json.load(fobj_c)
 
-    df0 = pd.DataFrame([], columns=['IGF1','LowNuEx','attr_type','ratio','value'])
+    df0 = pd.DataFrame([], columns=['IGF1','LowNuEx','attr_type','ratio','value','size'])
 
     i = 0 
     for d in data: 
@@ -106,6 +106,7 @@ def result_summary(keyword=None):
             df0.loc[i, 'attr_type'] = attrs[attr]['type']
             df0.loc[i, 'ratio'] = attrs[attr]['ratio']
             df0.loc[i, 'value'] = attr
+
             df0.loc[i, 'IGF1'] = input_condition['IGF1']
             df0.loc[i, 'LowNuEx'] = input_condition['LowNuEx']
 
@@ -114,19 +115,25 @@ def result_summary(keyword=None):
 
             value = attrs[attr]['value']
             attr_type = attrs[attr]['type']
-            labels = d['labels']
+            labels = ['sign'] + d['labels']
+
+            # set_trace()
 
             if attr_type == 'point':
                 binstr = d['state_key'][value]
-                print('keyvalue', value)
                 print(",".join(labels))
-                print (",".join([b for b in binstr]))
+                print (",".join([value]+[b for b in binstr]))
             elif attr_type == 'cyclic':
                 print(",".join(labels))
-                for c0 in value: 
-                    binstr = d['state_key'][c0]
-                    print (",".join([b for b in binstr]))
-                    
+                for cyckey in value: 
+                    binstr = d['state_key'][cyckey]
+                    print (",".join([cyckey]+[b for b in binstr]))
+
+            if attrs[attr]['type'] == 'point':
+                df0.loc[i, 'size'] = 1
+            elif attrs[attr]['type'] == 'cyclic':
+                df0.loc[i, 'size'] = len(attrs[attr]['value'])
+
             print()
             i+=1
 
