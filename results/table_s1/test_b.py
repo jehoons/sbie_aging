@@ -110,24 +110,24 @@ p53 *= (AMPK or DNAdamage or p38MAPK) and not (MDM2 or SIRT1)
 pRB1 *=  not (CDK)
 '''
 
-file_c1 = dirname(table_s1.__file__)+'/c/c1_attractors.json'
-file_c2 = dirname(table_s1.__file__) + '/c/c2_point.csv'
-file_c3 = dirname(table_s1.__file__) + '/c/c3_point_short.csv'
+file_b1 = dirname(table_s1.__file__)+'/b/b1-attractors.json'
+file_b2 = dirname(table_s1.__file__) + '/b/b2-point.csv'
+file_b3 = dirname(table_s1.__file__) + '/b/b3-point-short.csv'
 
 def test_c_1():
-    if exists(file_c1):
+    if exists(file_b1):
         return 
 
     attr_cy.build(modeltext)
     import pyximport; pyximport.install()
-    res = attr_cy.run(samples=5000, steps=1000, 
-        debug=False, on_states=[], progress=True)
+    # res = attr_cy.run(samples=5000, steps=1000, debug=False, on_states=[], progress=True)
+    res = attr_cy.run(samples=1000, steps=100, debug=False, on_states=[], progress=True)
 
-    json.dump(res, open(file_c1, 'w'), indent=4)
+    json.dump(res, open(file_b1, 'w'), indent=4)
 
 
 def test_c_2_3(): 
-    with open(file_c1, 'r') as fobj_c:
+    with open(file_b1, 'r') as fobj_c:
         data = json.load(fobj_c)
 
     dfpoint = pd.DataFrame([], columns=data['labels']+['key','ratio'])
@@ -153,5 +153,5 @@ def test_c_2_3():
 
     dfpointshort = dfpoint[heteroprofile+['key','ratio']]
     
-    dfpoint.to_csv(file_c2)
-    dfpointshort.to_csv(file_c3)
+    dfpoint.to_csv(file_b2)
+    dfpointshort.to_csv(file_b3)
