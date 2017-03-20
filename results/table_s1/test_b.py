@@ -128,6 +128,29 @@ def result_summary(keyword=None):
             print()
             i+=1
 
-            # set_trace() ; break 
     summary_output = file_b3%keyword
     df0.to_csv(summary_output)
+
+    d['state_key']
+
+    import numpy as np 
+
+    mat = np.zeros([68,68])
+
+    state_key = d['state_key']
+
+    for i,s1 in enumerate(state_key):
+        for j,s2 in enumerate(state_key):
+            vec1 = state_key[s1]
+            vec2 = state_key[s2]
+
+            x1 = np.array([int(v) for v in vec1])
+            x2 = np.array([int(v) for v in vec2])
+            dist = sum( (x1 - x2)**2 ) 
+            # print (dist)
+            mat[i,j] = dist
+    
+
+    set_trace()
+
+
