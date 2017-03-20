@@ -76,9 +76,8 @@ def test_a3():
     nodes = set(df['source'].values.tolist() + df['target'].values.tolist())
     grp = df.groupby('target')
     with open(file_a3,'w') as fout: 
-        for node in nodes: 
-            fout.write('%s = Random\n' % node)
-
+        # for node in nodes: 
+        #     fout.write('%s = Random\n' % node)
         for target, df0 in grp: 
             plus = [] 
             minus = []

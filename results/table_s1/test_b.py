@@ -1,157 +1,133 @@
 import json
 from os.path import exists
-from boolean3_addon import attr_cy
+import os
 from sbie_aging.results import table_s1
-from os.path import dirname
+from os.path import dirname,basename
 from ipdb import set_trace
 import pandas as pd 
 import itertools 
 
-modeltext = '''
-RAS = Random
-Rheb = Random
-IRS = Random
-SIRT1 = Random
-ERK = Random
-G6pase = Random
-p38MAPK = Random
-ULK1 = Random
-FOUR_EBP1 = Random
-FOXO = Random
-IGF1R = Random
-ROS = Random
-S6K = Random
-PGC1a = Random
-ATG13 = Random
-PDK = Random
-PP2A = Random
-MKK = Random
-PTEN = Random
-AKT = Random
-LC = Random
-MnSOD = Random
-AXP = Random
-PI3K = Random
-p16 = Random
-Bcl2 = Random
-CDK = Random
-DNAdamage = Random
-LowNuEx = Random
-AMPK = Random
-IGF1 = Random
-BIM = Random
-BAX = Random
-ATG5 = Random
-TSC = Random
-pRB1 = Random
-caspase3 = Random
-p53 = Random
-mTOR = Random
-E2F = Random
-p21 = Random
-NAD = Random
-p27 = Random
-ATP = Random
-SGK = Random
-Glycolysis = Random
-BMI1 = Random
-TCAcyc = Random
-GLUT4 = Random
-MDM2 = Random
-Glucose = Random
-AKT *= (PDK) and not (PP2A)
-AMPK *= (AXP or p53)
-ATG13 *=  not (mTOR)
-ATG5 *= (FOXO)
-ATP *= (Glycolysis or TCAcyc)
-AXP *= (LowNuEx) and not (ATP)
-BAX *= (p53 or BIM) and not (AKT or Bcl2)
-BIM *= (FOXO) and not (AKT or ERK)
-BMI1 *= (AKT)
-Bcl2 *= (AKT) and not (p53)
-CDK *=  not (p16 or p21)
-DNAdamage *= (ROS)
-E2F *=  not (pRB1)
-ERK *= (RAS) and not (PP2A)
-FOUR_EBP1 *=  not (mTOR)
-FOXO *= (AMPK or PP2A or SIRT1) and not (AKT or ERK or MDM2 or SGK)
-G6pase *= (FOXO)
-GLUT4 *= (AMPK or PGC1a)
-Glucose *= (GLUT4)
-Glycolysis *= (G6pase or Glucose)
-IGF1R *= (IGF1)
-IRS *= (IGF1R) and not (S6K)
-LC *= (ATG13 or ATG5 or ULK1)
-MDM2 *= (AKT) and not (S6K)
-MKK *= (DNAdamage)
-MnSOD *= (FOXO)
-NAD *= (AMPK)
-PDK *= (PI3K)
-PGC1a *= (AMPK or mTOR or SIRT1)
-PI3K *= (IRS) and not (PTEN)
-PP2A *=  not (mTOR)
-PTEN *= (p53)
-RAS *= (IGF1R)
-ROS *= (TCAcyc) and not (MnSOD)
-Rheb *=  not (TSC)
-S6K *= (mTOR)
-SGK *= (p53 or PDK)
-SIRT1 *= (FOXO or NAD)
-TCAcyc *= (Glycolysis)
-TSC *= (AMPK or SIRT1) and not (AKT or ERK)
-ULK1 *=  not (AMPK or mTOR)
-caspase3 *= (BAX)
-mTOR *= (Rheb) and not (AMPK)
-p16 *= (p38MAPK) and not (BMI1)
-p21 *= (FOXO or p53) and not (AKT)
-p27 *= (FOXO) and not (AKT)
-p38MAPK *= (MKK) and not (PP2A)
-p53 *= (AMPK or DNAdamage or p38MAPK) and not (MDM2 or SIRT1)
-pRB1 *=  not (CDK)
-'''
 
-file_b1 = dirname(table_s1.__file__)+'/b/b1-attractors.json'
-file_b2 = dirname(table_s1.__file__) + '/b/b2-point.csv'
-file_b3 = dirname(table_s1.__file__) + '/b/b3-point-short.csv'
+# input 
+file_a3 = dirname(table_s1.__file__) + '/a/a3-logical-model-simple-rule.txt'
+file_a4 = dirname(table_s1.__file__) + '/a/a4-logical-model-updated-1.txt'
 
-def test_c_1():
-    if exists(file_b1):
-        return 
-
-    attr_cy.build(modeltext)
-    import pyximport; pyximport.install()
-    # res = attr_cy.run(samples=5000, steps=1000, debug=False, on_states=[], progress=True)
-    res = attr_cy.run(samples=1000, steps=100, debug=False, on_states=[], progress=True)
-
-    json.dump(res, open(file_b1, 'w'), indent=4)
+# output 
+file_b1 = dirname(table_s1.__file__) + '/b/b1-%s-boolsim-inputs.json'
+file_b2 = dirname(table_s1.__file__) + '/b/b2-%s-boolsim-results.json'
+file_b3 = dirname(table_s1.__file__) + '/b/b3-%s-boolsim-results-summary.csv'
 
 
-def test_c_2_3(): 
-    with open(file_b1, 'r') as fobj_c:
+def test_simul():
+
+    model_list = [(file_a3, 'initial'), (file_a4, 'updated1')]
+    for file, keyword in model_list: 
+        simulate(infile=file, keyword=keyword)
+        result_summary(keyword=keyword)
+
+
+def simulate(infile=None, keyword=None):
+    # if exists(file_b1):
+    #     return
+    with open(infile, 'r') as fin: 
+        lines = fin.readlines()
+
+    nodes = [] 
+    for l0 in lines: 
+        words = l0.split('*=')
+        nodes.append(words[0].strip())
+
+    modeltext = ''
+    for node in nodes: 
+        modeltext+= '%s = Random\n' % node
+
+    allnodes = "".join(lines).replace('and','').replace('or',''
+        ).replace('not','').replace('(',' ').replace(')',' '
+        ).replace('*=',' ').replace('\n','').split()
+
+    inputnodes = [ x for x in set(allnodes) - set(nodes)]
+
+    modeltext += "".join(lines)
+
+    # make input configurations
+
+    combi = [ {inputnodes[0]:i, inputnodes[1]:j}
+        for i,j in itertools.product( (False,True), 
+            repeat=len(inputnodes) )]
+    input_list = []
+    for combi0 in combi:     
+        # print(combi0)
+        reverse_dict = {False:[], True:[]} 
+        for k in combi0:
+            v = combi0[k]
+            reverse_dict[v].append(k)
+
+        # print(reverse_dict)    
+        input_list.append({
+            'model': modeltext.split('\n'),
+            'on_states': reverse_dict[True],
+            'off_states': reverse_dict[False],
+            'input_condition': combi0,
+            'samples': 1000, 
+            'steps': 500, 
+            'debug': False
+            })
+
+    simul_infile = file_b1%keyword
+    simul_outfile = file_b2%keyword
+
+    with open(simul_infile, 'w') as foutstring: 
+        json.dump(input_list, foutstring, indent=4)
+    
+    if not exists(simul_outfile): 
+        os.system('python myengine.py %s %s' % (
+            simul_infile, simul_outfile) )
+    else: 
+        # print('already exists: %s' % simul_outfile)
+        pass
+
+
+def result_summary(keyword=None):
+    datafile = file_b2%keyword
+    print('inputfile:', datafile)
+
+    with open(datafile, 'r') as fobj_c:
         data = json.load(fobj_c)
 
-    dfpoint = pd.DataFrame([], columns=data['labels']+['key','ratio'])
-    k = 0 
-    for attr in data['attractors']:
-        thisattr = data['attractors'][attr]
-        if thisattr['type'] == 'point': 
-            value = thisattr['value']
-            bitvec = data['state_key'][value]
-            # print(bitvec)
-            # set_trace(); break
-            dictdata = dict([(a,b) for a,b in zip(data['labels'], bitvec)])
-            dfpoint.loc[k, data['labels']] = dictdata
-            dfpoint.loc[k, 'key'] = value
-            dfpoint.loc[k, 'ratio'] = thisattr['ratio']
-            k += 1
+    df0 = pd.DataFrame([], columns=['IGF1','LowNuEx','attr_type','ratio','value'])
 
-    heteroprofile = [] 
-    for label in data['labels']: 
-        n = len(dfpoint.groupby(label).groups.keys())
-        if n > 1 : 
-            heteroprofile.append(label)
+    i = 0 
+    for d in data: 
+        input_condition = d['input_condition']
+        attrs = d['attractors']
+        print('input_condition:', input_condition)
+        for attr in attrs: 
+            df0.loc[i, 'attr_type'] = attrs[attr]['type']
+            df0.loc[i, 'ratio'] = attrs[attr]['ratio']
+            df0.loc[i, 'value'] = attr
+            df0.loc[i, 'IGF1'] = input_condition['IGF1']
+            df0.loc[i, 'LowNuEx'] = input_condition['LowNuEx']
 
-    dfpointshort = dfpoint[heteroprofile+['key','ratio']]
-    
-    dfpoint.to_csv(file_b2)
-    dfpointshort.to_csv(file_b3)
+            print('type',attrs[attr]['type'],'ratio',attrs[attr]['ratio'])
+            # print('value', attrs[attr]['value'])
+
+            value = attrs[attr]['value']
+            attr_type = attrs[attr]['type']
+
+            if attr_type == 'point': 
+                labels = d['labels']
+                binstr = d['state_key'][value]
+                print(",".join(labels))
+                print (",".join([b for b in binstr]))
+            elif attr_type == 'cyclic': 
+                print(",".join(labels))
+                for c0 in value: 
+                    binstr = d['state_key'][c0]
+                    print (",".join([b for b in binstr]))
+
+            print()
+            i+=1
+
+            # set_trace() ; break 
+    summary_output = file_b3%keyword
+    df0.to_csv(summary_output)
