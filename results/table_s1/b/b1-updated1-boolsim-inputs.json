@@ -1,17 +1,15 @@
 [
     {
         "on_states": [],
-        "input_condition": {
-            "LowNuEx": false,
-            "IGF1": false
-        },
-        "samples": 1000,
-        "steps": 500,
-        "debug": false,
         "off_states": [
             "LowNuEx",
             "IGF1"
         ],
+        "input_condition": {
+            "LowNuEx": false,
+            "IGF1": false
+        },
+        "steps": 500,
         "model": [
             "AKT = Random",
             "AMPK = Random",
@@ -111,22 +109,22 @@
             "p38MAPK *= (MKK) and not (PP2A)",
             "p53 *= (AMPK or DNAdamage or p38MAPK) and not (MDM2 or SIRT1)",
             "RB1 *=  not (CDK)"
-        ]
+        ],
+        "debug": false,
+        "samples": 1000
     },
     {
         "on_states": [
             "IGF1"
+        ],
+        "off_states": [
+            "LowNuEx"
         ],
         "input_condition": {
             "LowNuEx": false,
             "IGF1": true
         },
-        "samples": 1000,
         "steps": 500,
-        "debug": false,
-        "off_states": [
-            "LowNuEx"
-        ],
         "model": [
             "AKT = Random",
             "AMPK = Random",
@@ -226,22 +224,22 @@
             "p38MAPK *= (MKK) and not (PP2A)",
             "p53 *= (AMPK or DNAdamage or p38MAPK) and not (MDM2 or SIRT1)",
             "RB1 *=  not (CDK)"
-        ]
+        ],
+        "debug": false,
+        "samples": 1000
     },
     {
         "on_states": [
             "LowNuEx"
         ],
+        "off_states": [
+            "IGF1"
+        ],
         "input_condition": {
             "LowNuEx": true,
             "IGF1": false
         },
-        "samples": 1000,
         "steps": 500,
-        "debug": false,
-        "off_states": [
-            "IGF1"
-        ],
         "model": [
             "AKT = Random",
             "AMPK = Random",
@@ -341,21 +339,21 @@
             "p38MAPK *= (MKK) and not (PP2A)",
             "p53 *= (AMPK or DNAdamage or p38MAPK) and not (MDM2 or SIRT1)",
             "RB1 *=  not (CDK)"
-        ]
+        ],
+        "debug": false,
+        "samples": 1000
     },
     {
         "on_states": [
             "LowNuEx",
             "IGF1"
         ],
-        "input_condition": {
-            "LowNuEx": true,
-            "IGF1": true
-        },
-        "samples": 1000,
-        "steps": 500,
-        "debug": false,
         "off_states": [],
+        "input_condition": {
+            "LowNuEx": true,
+            "IGF1": true
+        },
+        "steps": 500,
         "model": [
             "AKT = Random",
             "AMPK = Random",
@@ -455,6 +453,8 @@
             "p38MAPK *= (MKK) and not (PP2A)",
             "p53 *= (AMPK or DNAdamage or p38MAPK) and not (MDM2 or SIRT1)",
             "RB1 *=  not (CDK)"
-        ]
+        ],
+        "debug": false,
+        "samples": 1000
     }
 ]

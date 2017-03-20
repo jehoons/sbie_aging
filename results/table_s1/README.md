@@ -28,4 +28,8 @@ Simulation is performed using the input combinations shwon in B1. The result is 
 
 **B3. Summarized results of B2**
 
-**B4. Summarized results with detailed information about attractors of B2**
+**B4. Similarity matrix of state vectors**
+
+**B5. Summarized results with detailed information about attractors of B2**
+
+

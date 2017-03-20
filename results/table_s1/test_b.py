@@ -16,6 +16,7 @@ file_a4 = dirname(table_s1.__file__) + '/a/a4-logical-model-updated-1.txt'
 file_b1 = dirname(table_s1.__file__) + '/b/b1-%s-boolsim-inputs.json'
 file_b2 = dirname(table_s1.__file__) + '/b/b2-%s-boolsim-results.json'
 file_b3 = dirname(table_s1.__file__) + '/b/b3-%s-boolsim-results-summary.csv'
+file_b4 = dirname(table_s1.__file__) + '/b/b4-%s-state-simmat.csv'
 
 
 def test_simul():
@@ -113,13 +114,13 @@ def result_summary(keyword=None):
 
             value = attrs[attr]['value']
             attr_type = attrs[attr]['type']
+            labels = d['labels']
 
-            if attr_type == 'point': 
-                labels = d['labels']
+            if attr_type == 'point':                 
                 binstr = d['state_key'][value]
                 print(",".join(labels))
                 print (",".join([b for b in binstr]))
-            elif attr_type == 'cyclic': 
+            elif attr_type == 'cyclic':
                 print(",".join(labels))
                 for c0 in value: 
                     binstr = d['state_key'][c0]
@@ -133,11 +134,15 @@ def result_summary(keyword=None):
 
     d['state_key']
 
+    # set_trace()
+
     import numpy as np 
 
-    mat = np.zeros([68,68])
+    mat = np.zeros([])
 
     state_key = d['state_key']
+
+    mat = np.zeros([len(state_key), len(state_key)])
 
     for i,s1 in enumerate(state_key):
         for j,s2 in enumerate(state_key):
@@ -151,6 +156,9 @@ def result_summary(keyword=None):
             mat[i,j] = dist
     
 
+    
+
+    simmat = pd.DataFrame(mat, columns=state_key.keys(), index=state_key.keys())
+    simmat.to_csv(file_b4%keyword)
+
     set_trace()
-
-

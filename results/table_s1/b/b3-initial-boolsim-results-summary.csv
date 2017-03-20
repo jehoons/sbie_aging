@@ -1,10 +1,10 @@
 ,IGF1,LowNuEx,attr_type,ratio,value
 0,False,False,point,1.0,b48f536d31
-1,True,False,cyclic,0.015,f89f1917ef
+1,True,False,cyclic,0.167,8c139dc930
 2,True,False,cyclic,0.818,b98c55ffa7
-3,True,False,cyclic,0.167,8c139dc930
+3,True,False,cyclic,0.015,f89f1917ef
 4,False,True,point,1.0,fd090d58c2
-5,True,True,cyclic,0.607,987cb0a7df
-6,True,True,cyclic,0.232,f6a5874a8e
-7,True,True,cyclic,0.155,bc0cf3203d
-8,True,True,cyclic,0.006,d232dcc33e
+5,True,True,cyclic,0.006,d232dcc33e
+6,True,True,cyclic,0.607,987cb0a7df
+7,True,True,cyclic,0.232,f6a5874a8e
+8,True,True,cyclic,0.155,bc0cf3203d
