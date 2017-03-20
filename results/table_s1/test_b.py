@@ -69,8 +69,8 @@ def simulate(infile=None, keyword=None):
             'on_states': reverse_dict[True],
             'off_states': reverse_dict[False],
             'input_condition': combi0,
-            'samples': 1000, 
-            'steps': 500, 
+            'samples': 10000, 
+            'steps': 150, 
             'debug': False
             })
 
@@ -161,4 +161,4 @@ def result_summary(keyword=None):
     simmat = pd.DataFrame(mat, columns=state_key.keys(), index=state_key.keys())
     simmat.to_csv(file_b4%keyword)
 
-    set_trace()
+    # set_trace()
