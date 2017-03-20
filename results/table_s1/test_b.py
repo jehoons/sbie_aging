@@ -1,3 +1,13 @@
+import json
+from os.path import exists
+from boolean3_addon import attr_cy
+from sbie_aging.results import table_s1
+from os.path import dirname
+from ipdb import set_trace
+import pandas as pd 
+import itertools 
+
+modeltext = '''
 RAS = Random
 Rheb = Random
 IRS = Random
@@ -98,3 +108,50 @@ p27 *= (FOXO) and not (AKT)
 p38MAPK *= (MKK) and not (PP2A)
 p53 *= (AMPK or DNAdamage or p38MAPK) and not (MDM2 or SIRT1)
 pRB1 *=  not (CDK)
+'''
+
+file_c1 = dirname(table_s1.__file__)+'/c/c1_attractors.json'
+file_c2 = dirname(table_s1.__file__) + '/c/c2_point.csv'
+file_c3 = dirname(table_s1.__file__) + '/c/c3_point_short.csv'
+
+def test_c_1():
+    if exists(file_c1):
+        return 
+
+    attr_cy.build(modeltext)
+    import pyximport; pyximport.install()
+    res = attr_cy.run(samples=5000, steps=1000, 
+        debug=False, on_states=[], progress=True)
+
+    json.dump(res, open(file_c1, 'w'), indent=4)
+
+
+def test_c_2_3(): 
+    with open(file_c1, 'r') as fobj_c:
+        data = json.load(fobj_c)
+
+    dfpoint = pd.DataFrame([], columns=data['labels']+['key','ratio'])
+    k = 0 
+    for attr in data['attractors']:
+        thisattr = data['attractors'][attr]
+        if thisattr['type'] == 'point': 
+            value = thisattr['value']
+            bitvec = data['state_key'][value]
+            # print(bitvec)
+            # set_trace(); break
+            dictdata = dict([(a,b) for a,b in zip(data['labels'], bitvec)])
+            dfpoint.loc[k, data['labels']] = dictdata
+            dfpoint.loc[k, 'key'] = value
+            dfpoint.loc[k, 'ratio'] = thisattr['ratio']
+            k += 1
+
+    heteroprofile = [] 
+    for label in data['labels']: 
+        n = len(dfpoint.groupby(label).groups.keys())
+        if n > 1 : 
+            heteroprofile.append(label)
+
+    dfpointshort = dfpoint[heteroprofile+['key','ratio']]
+    
+    dfpoint.to_csv(file_c2)
+    dfpointshort.to_csv(file_c3)

@@ -3,12 +3,13 @@ import pandas as pd
 from sbie_aging.results import table_s1
 from os.path import dirname
 
-a_netdata = dirname(table_s1.__file__)+'/a/network-updated.csv' 
-a_processed = dirname(table_s1.__file__)+'/a/network-processed.csv' 
-b_logic = dirname(table_s1.__file__)+'/b/logical-network-generated.txt'
+file_a1_source = dirname(table_s1.__file__)+'/a/a1-sif-model.csv'
+file_a2 = dirname(table_s1.__file__)+'/a/a2-sif-model-processed.csv' 
+file_a3 = dirname(table_s1.__file__)+'/a/a3-logical-model-simple-rule.txt'
 
-def test_a():
-    df = pd.read_csv(a_netdata, names=['source','interaction','target'])
+def test_a2():
+    df = pd.read_csv(file_a1_source, 
+        names=['source','interaction','target'])
     nodes = df['source'].values.tolist() + df['target'].values.tolist()
     nodes_set = set(nodes)
     dictdata = dict([(node, node) for node in nodes_set])
@@ -67,15 +68,14 @@ def test_a():
     df['source'] = df['source'].apply(lambda x: dictdata[x])
     df['target'] = df['target'].apply(lambda x: dictdata[x])
 
-    # save network with short nodes names 
-    df.to_csv(a_processed, index=False)
+    df.to_csv(file_a2, index=False)
 
-def test_b():
-    df = pd.read_csv(a_processed)
+
+def test_a3():
+    df = pd.read_csv(file_a2)
     nodes = set(df['source'].values.tolist() + df['target'].values.tolist())
-    # set_trace()
     grp = df.groupby('target')
-    with open(b_logic,'w') as fout: 
+    with open(file_a3,'w') as fout: 
         for node in nodes: 
             fout.write('%s = Random\n' % node)
 
