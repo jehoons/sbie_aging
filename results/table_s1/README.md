@@ -18,3 +18,13 @@ In the regulation network (A), the regulatory relation between two nodes is desc
 
 With python module `boolean3` I simulated the generated logical network (B) and then identified attractors and its basin sizes from the network. 
 
+**B1. Input combination generation**
+
+**B2. Results for the input combinations shown in B1**
+
+**B3. Summarized results of B2**
+
+**B4. Summarized results with detailed information about attractors of B2**
+
+
+
