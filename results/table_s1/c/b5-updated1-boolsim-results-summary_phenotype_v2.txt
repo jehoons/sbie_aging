@@ -1,0 +1,75 @@
+LowNuEx    IGF1    type    ratio   attractor   phenotyppe
+False	False	point	0.0004	00101	Pro	
+False	False	cyclic	0.6051	11000	Apop	
+False	False	cyclic	0.6051	01000	Qui	
+False	False	cyclic	0.6051	00000	
+False	False	cyclic	0.6051	00100	
+False	False	cyclic	0.6051	00100	
+False	False	cyclic	0.6051	10100	Apop	
+False	False	cyclic	0.6051	11100	Apop	
+False	False	cyclic	0.6051	11000	Apop	
+False	False	cyclic	0.3945	10000	Apop	
+False	False	cyclic	0.3945	01100	
+False	False	cyclic	0.3945	00000	
+False	False	cyclic	0.3945	10100	Apop	
+False	False	cyclic	0.3945	01100	
+False	False	cyclic	0.3945	10000	Apop	
+False	False	cyclic	0.3945	11100	Apop	
+False	False	cyclic	0.3945	01000	Qui	
+True	False	point	0.0004	00101	Pro	
+True	False	cyclic	0.4231	10000	Apop	
+True	False	cyclic	0.4231	01100	
+True	False	cyclic	0.4231	00000	
+True	False	cyclic	0.4231	10100	Apop	
+True	False	cyclic	0.4231	01100	
+True	False	cyclic	0.4231	10000	Apop	
+True	False	cyclic	0.4231	11100	Apop	
+True	False	cyclic	0.4231	01000	Qui	
+True	False	cyclic	0.5765	11000	Apop	
+True	False	cyclic	0.5765	01000	Qui	
+True	False	cyclic	0.5765	00000	
+True	False	cyclic	0.5765	00100	
+True	False	cyclic	0.5765	00100	
+True	False	cyclic	0.5765	10100	Apop	
+True	False	cyclic	0.5765	11100	Apop	
+True	False	cyclic	0.5765	11000	Apop	
+False	True	cyclic	0.6461	11000	Apop	
+False	True	cyclic	0.6461	00000	
+False	True	cyclic	0.6461	00101	Pro	
+False	True	cyclic	0.6461	00101	Pro	
+False	True	cyclic	0.6461	10100	Apop	
+False	True	cyclic	0.6461	11100	Apop	
+False	True	cyclic	0.6461	11000	Apop	
+False	True	cyclic	0.6461	11000	Apop	
+False	True	cyclic	0.6461	01000	Qui	
+False	True	cyclic	0.6461	00000	
+False	True	cyclic	0.6461	00100	
+False	True	cyclic	0.6461	11110	Apop	
+False	True	cyclic	0.3539	10000	Apop	
+False	True	cyclic	0.3539	01100	
+False	True	cyclic	0.3539	00000	
+False	True	cyclic	0.3539	10100	Apop	
+False	True	cyclic	0.3539	01100	
+False	True	cyclic	0.3539	10000	Apop	
+False	True	cyclic	0.3539	11100	Apop	
+False	True	cyclic	0.3539	01000	Qui	
+True	True	cyclic	0.3593	10000	Apop	
+True	True	cyclic	0.3593	01100	
+True	True	cyclic	0.3593	00000	
+True	True	cyclic	0.3593	10100	Apop	
+True	True	cyclic	0.3593	01100	
+True	True	cyclic	0.3593	10000	Apop	
+True	True	cyclic	0.3593	11100	Apop	
+True	True	cyclic	0.3593	01000	Qui	
+True	True	cyclic	0.6407	11000	Apop	
+True	True	cyclic	0.6407	00000	
+True	True	cyclic	0.6407	00101	Pro	
+True	True	cyclic	0.6407	00101	Pro	
+True	True	cyclic	0.6407	10100	Apop	
+True	True	cyclic	0.6407	11100	Apop	
+True	True	cyclic	0.6407	01000	Qui	
+True	True	cyclic	0.6407	01000	Qui	
+True	True	cyclic	0.6407	00000	
+True	True	cyclic	0.6407	00100	
+True	True	cyclic	0.6407	00100	
+True	True	cyclic	0.6407	11110	Apop	
