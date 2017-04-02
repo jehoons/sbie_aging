@@ -47,6 +47,6 @@ input:
 
 output:
 
-`c/5-updated1-boolsim-results-summary_phenotype_v2.txt`
+`c/b5-updated1-boolsim-results-summary_phenotype_v2.txt`
 
 
