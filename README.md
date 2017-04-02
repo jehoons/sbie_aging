@@ -61,7 +61,7 @@ PYTHONPATH=$TOPDIR/${tooldir}:${PYTHONPATH}; export PYTHONPATH
 https://github.com/jehoons/BooleanSim
 
 ```
-git clone git@github.com:jehoons/BooleanSim.git
+git clone https://github.com/jehoons/BooleanSim.git
 cd BooleanSim 
 python setup.py install 
 ```
