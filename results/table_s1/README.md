@@ -14,13 +14,13 @@ In the regulation network (A1), the regulatory relation between two nodes is des
 
 *A4. Logical model*
 
-updated version 1 - initial version 
+* updated version 1 - initial version 
 
-updated version 2 - PP2A node 삭제
+* updated version 2 - Delete PP2A node
 
-updated version 3 - PTEN node 삭제
+* updated version 3 - Delete PTEN node 
 
-updated version 4 - S6K -IRS link 삭제
+* updated version 4 - Delete S6K -IRS link
 
 #### (**B**) Analysis the network
 
