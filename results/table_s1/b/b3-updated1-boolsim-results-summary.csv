@@ -2,10 +2,10 @@
 0,False,False,cyclic,0.3945,76ba1c7012,8
 1,False,False,cyclic,0.6051,5471bbb34a,8
 2,False,False,point,0.0004,3542e84e38,1
-3,True,False,cyclic,0.5765,90bfcb566d,8
-4,True,False,point,0.0004,344537b9ee,1
-5,True,False,cyclic,0.4231,de69ad7bed,8
-6,False,True,cyclic,0.3539,ea8de93c94,8
-7,False,True,cyclic,0.6461,4249608f09,12
-8,True,True,cyclic,0.6407,535942a906,12
-9,True,True,cyclic,0.3593,69c420cf4e,8
+3,True,False,cyclic,0.4231,de69ad7bed,8
+4,True,False,cyclic,0.5765,90bfcb566d,8
+5,True,False,point,0.0004,344537b9ee,1
+6,False,True,cyclic,0.6461,4249608f09,12
+7,False,True,cyclic,0.3539,ea8de93c94,8
+8,True,True,cyclic,0.3593,69c420cf4e,8
+9,True,True,cyclic,0.6407,535942a906,12
