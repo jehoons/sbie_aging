@@ -16,11 +16,11 @@ In the regulation network (A1), the regulatory relation between two nodes is des
 
 * updated version 1 - initial version 
 
-* updated version 2 - Delete PP2A node
+* updated version 2 - Delete PP2A node, DNA damage as input 
 
-* updated version 3 - Delete PTEN node 
+* updated version 3 - Delete PTEN node, DNA damage as input 
 
-* updated version 4 - Delete S6K -IRS link
+* updated version 4 - Delete S6K -IRS link, DNA damage as input
 
 #### (**B**) Analysis the network
 
