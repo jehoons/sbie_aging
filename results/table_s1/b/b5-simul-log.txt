@@ -1,11 +1,25 @@
-]0;IPython: results/table_s1inputfile: /home/pbs/git/sbie_aging/results/table_s1/b/b2-initial-boolsim-results.json
-input_condition: {'LowNuEx': False, 'IGF1': False}
-type point ratio 1.0
+]0;IPython: results/table_s1#inputfile: /home/pbs/git/sbie_aging/results/table_s1/b/b2-initial-boolsim-results.json
+#input_condition: {'IGF1': False, 'LowNuEx': False}
+#type point ratio 1.0
 sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,PTEN,RAS,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53,pRB1
 b48f536d31,0,0,1,1,1,0,1,1,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,1,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,1,1,1,1,1,0,0,1,1,0,0,1
 
-input_condition: {'LowNuEx': False, 'IGF1': True}
-type cyclic ratio 0.0128
+#input_condition: {'IGF1': True, 'LowNuEx': False}
+#type cyclic ratio 0.1527
+sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,PTEN,RAS,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53,pRB1
+c14c2b910f,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1,1,1,1,1,1,1,0,0,0,0,1,1,1,0,1,0,1,1,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0
+a9fd92204e,0,0,1,0,1,0,0,0,0,0,1,1,1,0,1,1,0,1,1,1,1,1,1,1,0,0,1,0,0,0,0,1,1,0,1,1,0,0,1,1,1,0,1,0,0,0,0,0,0,1,1
+4abdddb9aa,0,1,1,1,1,0,1,1,0,0,1,1,0,0,1,0,1,0,1,1,1,1,1,1,0,0,1,1,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1,0,0,0,1,1,0,0,0
+d6f53e29a6,0,0,1,0,1,0,1,0,0,0,0,1,1,0,1,0,0,1,0,1,1,1,1,1,0,0,1,0,1,1,1,0,1,0,1,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0,0
+9f1ef2886f,0,0,1,0,1,0,0,0,0,0,1,0,1,0,1,0,0,1,1,0,1,1,1,1,0,0,1,0,0,0,0,1,1,0,1,1,0,0,1,1,1,0,1,1,0,0,0,0,0,1,1
+314c7e9a06,0,1,1,0,1,0,1,0,0,0,1,1,0,0,1,0,0,0,1,1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1,1,0,1,0,0,1,1,0,0,0,1,0,0,0,0
+5e1d330f84,0,0,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,1,1,1,1,1,0,0,1,0,1,1,1,0,1,0,1,0,0,0,1,0,1,1,0,1,0,0,0,0,0,1,0
+690b4c3b20,0,1,1,0,1,0,1,0,0,0,1,0,1,0,1,0,0,1,1,0,1,1,1,1,0,0,1,0,0,0,0,1,1,1,1,1,0,0,1,1,1,0,1,0,0,0,1,0,0,1,1
+722d951c68,0,1,1,0,1,0,1,0,0,0,0,1,0,0,1,0,0,1,1,1,1,1,1,1,0,0,0,0,1,1,1,0,1,1,1,1,1,0,1,0,0,1,0,1,0,0,1,0,0,0,0
+757165d9c1,0,0,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,1,1,1,1,1,1,0,0,1,0,1,0,1,0,1,0,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,1,1
+6b66e9e1fc,0,1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,0,1,1,1,1,1,1,1,0,0,1,0,0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,0,0,0,1,0,0,0,1
+
+#type cyclic ratio 0.0128
 sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,PTEN,RAS,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53,pRB1
 70347c438c,0,0,0,1,1,0,0,1,0,0,1,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,1,1,0,1,1,1,0,0,1,1,0,1,0,1,1,1,0,1,0,0,1,1,0,0,1
 f216df6d52,1,0,1,0,1,0,1,0,0,0,0,1,0,1,1,1,0,1,1,1,1,1,0,1,0,0,0,0,0,1,1,1,1,0,1,0,0,0,1,0,1,1,1,0,0,0,0,0,1,0,0
@@ -16,7 +30,7 @@ f216df6d52,1,0,1,0,1,0,1,0,0,0,0,1,0,1,1,1,0,1,1,1,1,1,0,1,0,0,0,0,0,1,1,1,1,0,1
 a7743945ef,0,0,1,1,1,0,0,1,0,0,0,1,0,0,1,0,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,0,1,0,1,1,1,0,0,1,0,1,0,1,0,0,1,1,0,0,0
 a8b565d377,0,0,1,0,1,0,1,0,0,0,0,1,1,0,1,1,0,1,1,1,1,1,1,1,0,0,1,0,0,0,1,1,1,0,1,0,0,0,1,1,1,1,1,0,1,0,0,0,0,0,1
 
-type cyclic ratio 0.8345
+#type cyclic ratio 0.8345
 sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,PTEN,RAS,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53,pRB1
 cef1010f64,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,1,1,1,1,0,0,1,0,0,0,1,1,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,0,0,0
 23f4d425ab,0,0,0,0,1,0,0,0,0,0,1,1,1,1,0,0,0,1,1,0,1,1,0,0,0,0,1,0,0,1,1,1,0,0,1,1,1,1,0,0,1,0,0,0,1,0,0,0,1,1,1
@@ -55,41 +69,13 @@ a6cfa30a39,0,0,0,0,1,0,0,0,1,1,0,0,1,0,0,0,0,1,1,1,1,1,1,1,0,1,1,0,1,1,1,0,0,0,1
 527fa7b99e,1,0,1,0,1,0,0,0,0,0,0,0,0,1,1,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,1,1,0,1,1,1,0,1,1,1,0,1,0,0,0,0,0,1,0,1
 8cd9383577,0,0,1,0,1,0,0,0,1,1,1,1,0,0,1,0,0,0,1,1,1,1,1,1,0,1,0,0,0,1,1,0,1,0,1,1,1,0,0,0,1,0,1,0,1,1,0,0,0,0,1
 
-type cyclic ratio 0.1527
-sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,PTEN,RAS,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53,pRB1
-c14c2b910f,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1,1,1,1,1,1,1,0,0,0,0,1,1,1,0,1,0,1,1,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0
-a9fd92204e,0,0,1,0,1,0,0,0,0,0,1,1,1,0,1,1,0,1,1,1,1,1,1,1,0,0,1,0,0,0,0,1,1,0,1,1,0,0,1,1,1,0,1,0,0,0,0,0,0,1,1
-4abdddb9aa,0,1,1,1,1,0,1,1,0,0,1,1,0,0,1,0,1,0,1,1,1,1,1,1,0,0,1,1,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1,0,0,0,1,1,0,0,0
-d6f53e29a6,0,0,1,0,1,0,1,0,0,0,0,1,1,0,1,0,0,1,0,1,1,1,1,1,0,0,1,0,1,1,1,0,1,0,1,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0,0
-9f1ef2886f,0,0,1,0,1,0,0,0,0,0,1,0,1,0,1,0,0,1,1,0,1,1,1,1,0,0,1,0,0,0,0,1,1,0,1,1,0,0,1,1,1,0,1,1,0,0,0,0,0,1,1
-314c7e9a06,0,1,1,0,1,0,1,0,0,0,1,1,0,0,1,0,0,0,1,1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1,1,0,1,0,0,1,1,0,0,0,1,0,0,0,0
-5e1d330f84,0,0,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,1,1,1,1,1,0,0,1,0,1,1,1,0,1,0,1,0,0,0,1,0,1,1,0,1,0,0,0,0,0,1,0
-690b4c3b20,0,1,1,0,1,0,1,0,0,0,1,0,1,0,1,0,0,1,1,0,1,1,1,1,0,0,1,0,0,0,0,1,1,1,1,1,0,0,1,1,1,0,1,0,0,0,1,0,0,1,1
-722d951c68,0,1,1,0,1,0,1,0,0,0,0,1,0,0,1,0,0,1,1,1,1,1,1,1,0,0,0,0,1,1,1,0,1,1,1,1,1,0,1,0,0,1,0,1,0,0,1,0,0,0,0
-757165d9c1,0,0,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,1,1,1,1,1,1,0,0,1,0,1,0,1,0,1,0,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,1,1
-6b66e9e1fc,0,1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,0,1,1,1,1,1,1,1,0,0,1,0,0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,0,0,0,1,0,0,0,1
-
-input_condition: {'LowNuEx': True, 'IGF1': False}
-type point ratio 1.0
+#input_condition: {'IGF1': False, 'LowNuEx': True}
+#type point ratio 1.0
 sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,PTEN,RAS,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53,pRB1
 fd090d58c2,0,0,1,1,1,0,1,1,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,1,1,0,0,1,0,0,1,0,1,0,0,0,0,0,0,1,1,1,1,1,0,0,1,1,0,0,1
 
-input_condition: {'LowNuEx': True, 'IGF1': True}
-type cyclic ratio 0.2308
-sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,PTEN,RAS,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53,pRB1
-8b9e9e4d2a,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1,1,1,1,1,1,1,1,0,0,0,1,1,1,0,1,0,1,1,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0
-c1dfd5f346,0,0,1,0,1,0,0,0,0,0,1,1,1,0,1,1,0,1,1,1,1,1,1,1,1,0,1,0,0,0,0,1,1,0,1,1,0,0,1,1,1,0,1,0,0,0,0,0,0,1,1
-48bb2ef5b6,0,1,1,1,1,0,1,1,0,0,1,1,0,0,1,0,1,0,1,1,1,1,1,1,1,0,1,1,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1,0,0,0,1,1,0,0,0
-b9b3d57f6e,0,0,1,0,1,0,1,0,0,0,0,1,1,0,1,0,0,1,0,1,1,1,1,1,1,0,1,0,1,1,1,0,1,0,1,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0,0
-5ddda7cd8e,0,0,1,0,1,0,0,0,0,0,1,0,1,0,1,0,0,1,1,0,1,1,1,1,1,0,1,0,0,0,0,1,1,0,1,1,0,0,1,1,1,0,1,1,0,0,0,0,0,1,1
-89665d80cc,0,1,1,0,1,0,1,0,0,0,1,1,0,0,1,0,0,0,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,0,1,0,0,1,1,0,0,0,1,0,0,0,0
-7d66b93a43,0,0,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,1,1,1,1,1,1,0,1,0,1,1,1,0,1,0,1,0,0,0,1,0,1,1,0,1,0,0,0,0,0,1,0
-c4fdb574ed,0,1,1,0,1,0,1,0,0,0,1,0,1,0,1,0,0,1,1,0,1,1,1,1,1,0,1,0,0,0,0,1,1,1,1,1,0,0,1,1,1,0,1,0,0,0,1,0,0,1,1
-6d2d84320f,0,1,1,0,1,0,1,0,0,0,0,1,0,0,1,0,0,1,1,1,1,1,1,1,1,0,0,0,1,1,1,0,1,1,1,1,1,0,1,0,0,1,0,1,0,0,1,0,0,0,0
-8f6a05514d,0,0,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,1,1,1,1,1,1,1,0,1,0,1,0,1,0,1,0,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,1,1
-2305760bf3,0,1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,0,1,1,1,1,1,1,1,1,0,1,0,0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,0,0,0,1,0,0,0,1
-
-type cyclic ratio 0.1616
+#input_condition: {'IGF1': True, 'LowNuEx': True}
+#type cyclic ratio 0.1616
 sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,PTEN,RAS,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53,pRB1
 fe6a630bc7,0,0,1,0,1,0,0,0,0,0,1,0,0,0,1,0,0,1,1,1,1,1,1,1,1,0,0,0,0,1,0,1,1,0,1,1,0,0,1,0,1,0,1,1,0,0,0,0,0,0,1
 c2b523623b,0,0,1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,1,1,1,1,1,1,1,0,0,0,0,1,0,1,1,0,1,1,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0
@@ -105,7 +91,21 @@ f45d861a9c,0,0,1,1,1,0,1,1,0,0,0,1,1,0,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,1,1,1,1,0,1
 9373de5924,0,0,1,1,1,0,1,1,0,0,0,0,1,0,1,0,1,1,1,1,1,1,1,1,1,0,1,1,0,1,1,1,1,0,1,0,0,0,1,1,1,1,1,1,0,0,1,1,0,0,1
 d5d95eb988,0,0,1,0,1,0,1,0,0,0,0,0,0,0,1,0,0,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,0,1,0,0,0,1,0,1,1,1,1,0,0,0,0,0,0,1
 
-type cyclic ratio 0.0056
+#type cyclic ratio 0.2308
+sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,PTEN,RAS,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53,pRB1
+8b9e9e4d2a,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1,1,1,1,1,1,1,1,0,0,0,1,1,1,0,1,0,1,1,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0
+c1dfd5f346,0,0,1,0,1,0,0,0,0,0,1,1,1,0,1,1,0,1,1,1,1,1,1,1,1,0,1,0,0,0,0,1,1,0,1,1,0,0,1,1,1,0,1,0,0,0,0,0,0,1,1
+48bb2ef5b6,0,1,1,1,1,0,1,1,0,0,1,1,0,0,1,0,1,0,1,1,1,1,1,1,1,0,1,1,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1,0,0,0,1,1,0,0,0
+b9b3d57f6e,0,0,1,0,1,0,1,0,0,0,0,1,1,0,1,0,0,1,0,1,1,1,1,1,1,0,1,0,1,1,1,0,1,0,1,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0,0
+5ddda7cd8e,0,0,1,0,1,0,0,0,0,0,1,0,1,0,1,0,0,1,1,0,1,1,1,1,1,0,1,0,0,0,0,1,1,0,1,1,0,0,1,1,1,0,1,1,0,0,0,0,0,1,1
+89665d80cc,0,1,1,0,1,0,1,0,0,0,1,1,0,0,1,0,0,0,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,0,1,0,0,1,1,0,0,0,1,0,0,0,0
+7d66b93a43,0,0,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,1,1,1,1,1,1,0,1,0,1,1,1,0,1,0,1,0,0,0,1,0,1,1,0,1,0,0,0,0,0,1,0
+c4fdb574ed,0,1,1,0,1,0,1,0,0,0,1,0,1,0,1,0,0,1,1,0,1,1,1,1,1,0,1,0,0,0,0,1,1,1,1,1,0,0,1,1,1,0,1,0,0,0,1,0,0,1,1
+6d2d84320f,0,1,1,0,1,0,1,0,0,0,0,1,0,0,1,0,0,1,1,1,1,1,1,1,1,0,0,0,1,1,1,0,1,1,1,1,1,0,1,0,0,1,0,1,0,0,1,0,0,0,0
+8f6a05514d,0,0,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,1,1,1,1,1,1,1,0,1,0,1,0,1,0,1,0,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,1,1
+2305760bf3,0,1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,0,1,1,1,1,1,1,1,1,0,1,0,0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,0,0,0,1,0,0,0,1
+
+#type cyclic ratio 0.0056
 sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,PTEN,RAS,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53,pRB1
 6b3a0c51e8,0,0,0,1,1,0,0,1,0,0,1,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,1,1,0,1,1,1,0,0,1,1,0,1,0,1,1,1,0,1,0,0,1,1,0,0,1
 24d20d6f2d,1,0,1,0,1,0,1,0,0,0,0,1,0,1,1,1,0,1,1,1,1,1,0,1,1,0,0,0,0,1,1,1,1,0,1,0,0,0,1,0,1,1,1,0,0,0,0,0,1,0,0
@@ -116,7 +116,7 @@ c30fbe4143,0,0,1,0,1,0,0,0,0,0,0,0,1,0,1,0,0,1,0,1,1,1,1,1,1,0,1,0,1,1,1,0,1,0,1
 6c73aa8cd1,0,0,1,1,1,0,0,1,0,0,0,1,0,0,1,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,0,1,0,1,1,1,0,0,1,0,1,0,1,0,0,1,1,0,0,0
 6b1a263470,0,0,1,0,1,0,1,0,0,0,0,1,1,0,1,1,0,1,1,1,1,1,1,1,1,0,1,0,0,0,1,1,1,0,1,0,0,0,1,1,1,1,1,0,1,0,0,0,0,0,1
 
-type cyclic ratio 0.602
+#type cyclic ratio 0.602
 sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,PTEN,RAS,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53,pRB1
 7ba8280a7b,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,1,1,1,1,1,0,1,0,0,0,1,1,0,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,0,0,0
 3f4303f463,0,0,0,0,1,0,0,0,0,0,1,1,1,1,0,0,0,1,1,0,1,1,0,0,1,0,1,0,0,1,1,1,0,0,1,1,1,1,0,0,1,0,0,0,1,0,0,0,1,1,1
@@ -155,9 +155,9 @@ f273b90621,0,0,0,0,1,0,0,0,1,1,0,0,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,1,1,1,0,0,0,1
 b257d2afaa,1,0,1,0,1,0,0,0,0,0,0,0,0,1,1,0,0,1,1,1,1,1,0,0,1,0,0,0,0,0,0,1,1,0,1,1,1,0,1,1,1,0,1,0,0,0,0,0,1,0,1
 f5ea789306,0,0,1,0,1,0,0,0,1,1,1,1,0,0,1,0,0,0,1,1,1,1,1,1,1,1,0,0,0,1,1,0,1,0,1,1,1,0,0,0,1,0,1,0,1,1,0,0,0,0,1
 
-inputfile: /home/pbs/git/sbie_aging/results/table_s1/b/b2-updated1-boolsim-results.json
-input_condition: {'IGF1': False, 'LowNuEx': False}
-type cyclic ratio 0.3945
+#inputfile: /home/pbs/git/sbie_aging/results/table_s1/b/b2-updated1-boolsim-results.json
+#input_condition: {'IGF1': False, 'LowNuEx': False}
+#type cyclic ratio 0.3945
 sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,PTEN,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
 3bc0b8dcab,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0
 75f1f8c230,0,0,1,0,1,0,0,0,0,0,1,0,1,0,1,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,1,0,0,0,1,1,0,1,0,0,0,0,0,0,1
@@ -168,7 +168,11 @@ sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EB
 421d983a3d,0,0,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,1,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,1,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1
 e517c7c184,0,1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,1,1,0,1,1,0,0,1,1,0,1,1,0,0,0,1,0,0,0
 
-type cyclic ratio 0.6051
+#type point ratio 0.0004
+sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,PTEN,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
+3542e84e38,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0
+
+#type cyclic ratio 0.6051
 sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,PTEN,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
 f0dd0e4a5d,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,1,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0
 6850c7381e,0,0,1,0,1,0,0,0,0,0,1,0,0,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,1,1,1,1,0,0,0,0,0,0,0
@@ -179,12 +183,8 @@ e102b13370,0,1,1,0,1,0,1,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,1,0
 bd6c126ed4,0,1,1,0,0,0,1,0,0,0,0,1,1,0,1,0,0,1,1,0,0,0,0,0,0,0,1,0,1,0,0,0,1,1,0,1,0,0,0,1,1,0,1,0,1,0,0,1,0,0,1
 8e3112a5ba,0,1,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0,0,1,0,1,0,1,0,1,1,0,1,0,0,0,1,1,0,1,0,1,0,0,1,0,0,0
 
-type point ratio 0.0004
-sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,PTEN,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
-3542e84e38,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0
-
-input_condition: {'IGF1': True, 'LowNuEx': False}
-type cyclic ratio 0.4231
+#input_condition: {'IGF1': True, 'LowNuEx': False}
+#type cyclic ratio 0.4231
 sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,PTEN,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
 e5e74d10b3,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1,0,1,1,1,1,0,0,0,0,0,1,1,1,0,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0
 6b344a8b3c,0,0,1,0,1,0,0,0,0,0,1,0,1,0,1,0,0,1,1,0,1,1,1,0,0,0,1,0,0,0,0,1,1,0,1,1,1,0,0,1,1,1,0,1,0,0,0,0,0,0,1
@@ -195,7 +195,11 @@ e5e74d10b3,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1,0,1,1,1,1,0,0,0,0,0,1,1,1,0,1,0,1
 e49f5434c7,0,0,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,1,0,1,1,1,0,0,0,1,0,1,0,0,0,1,0,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,1
 927dcb3950,0,1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,0,0,1,1,1,1,1,0,0,0,1,0,0,0,0,1,1,1,1,1,1,0,0,1,1,0,1,1,0,0,0,1,0,0,0
 
-type cyclic ratio 0.5765
+#type point ratio 0.0004
+sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,PTEN,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
+344537b9ee,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0
+
+#type cyclic ratio 0.5765
 sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,PTEN,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
 1cdb6f530e,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,1,1,1,0,0,0,0,0,1,0,1,0,1,0,1,1,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0
 287fb2a999,0,0,1,0,1,0,0,0,0,0,1,0,0,0,1,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,1,1,0,1,1,1,0,0,0,1,1,1,1,0,0,0,0,0,0,0
@@ -206,12 +210,19 @@ d94a03dcb4,0,1,1,0,1,0,1,0,0,0,1,1,1,0,1,0,0,0,0,0,1,1,1,0,0,0,1,0,0,1,0,1,1,1,1
 80263525e7,0,1,1,0,0,0,1,0,0,0,0,1,1,0,1,0,0,1,1,0,1,1,1,0,0,0,1,0,1,0,0,0,1,1,1,1,0,0,0,1,1,0,1,0,1,0,0,1,0,0,1
 4916a6ed92,0,1,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,1,1,1,1,1,0,0,0,1,0,1,0,1,0,1,1,1,1,0,0,0,1,1,0,1,0,1,0,0,1,0,0,0
 
-type point ratio 0.0004
+#input_condition: {'IGF1': False, 'LowNuEx': True}
+#type cyclic ratio 0.3539
 sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,PTEN,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
-344537b9ee,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0
+a461a59c38,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0
+1d98d93c8a,0,0,1,0,1,0,0,0,0,0,1,0,1,0,1,0,0,1,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,1,1,0,0,0,1,1,0,1,0,0,0,0,0,0,1
+71f536cba5,0,1,1,0,1,0,1,0,0,0,1,1,0,0,1,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,1,1,0,1,0,0,1,1,0,0,0,1,0,0,0
+b52213134e,0,0,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,1,0,0,0,0,1,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1
+50b95fa016,0,1,1,0,1,0,1,0,0,0,1,0,1,0,1,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,1,0,1,1,0,0,1,1,1,0,1,0,0,0,1,0,0,1
+36a1c5afde,0,1,1,0,1,0,1,0,0,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0,1,0,1,1,0,0,1,1,0,1,0,0,1,0,1,0,0,1,0,0,0
+7556e37a5a,0,0,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,1,0,0,0,0,0,1,0,1,0,1,0,0,0,1,0,0,1,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1
+619cc11264,0,1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,1,1,0,1,1,0,0,1,1,0,1,1,0,0,0,1,0,0,0
 
-input_condition: {'IGF1': False, 'LowNuEx': True}
-type cyclic ratio 0.6461
+#type cyclic ratio 0.6461
 sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,PTEN,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
 bd5bd0c7da,0,0,1,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,1,0,1,1,0,0,0,0,0,0
 058dc2ebf8,0,0,1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,1,0,1,0,0,0,0,0,0,0
@@ -226,30 +237,8 @@ dc985613e3,0,1,1,0,0,1,1,0,0,0,0,0,1,0,1,0,0,1,1,0,0,0,0,0,1,0,0,0,1,0,0,0,1,1,0
 3ee0ae23eb,0,0,1,1,1,0,1,1,0,0,0,1,1,0,1,0,1,1,1,1,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,1,1,0,0
 629c34eecd,0,0,1,0,1,0,1,0,0,0,0,0,1,0,1,0,0,0,1,1,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0
 
-type cyclic ratio 0.3539
-sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,PTEN,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
-a461a59c38,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0
-1d98d93c8a,0,0,1,0,1,0,0,0,0,0,1,0,1,0,1,0,0,1,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,1,1,0,0,0,1,1,0,1,0,0,0,0,0,0,1
-71f536cba5,0,1,1,0,1,0,1,0,0,0,1,1,0,0,1,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,1,1,0,1,0,0,1,1,0,0,0,1,0,0,0
-b52213134e,0,0,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,1,0,0,0,0,1,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1
-50b95fa016,0,1,1,0,1,0,1,0,0,0,1,0,1,0,1,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,1,0,1,1,0,0,1,1,1,0,1,0,0,0,1,0,0,1
-36a1c5afde,0,1,1,0,1,0,1,0,0,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0,1,0,1,1,0,0,1,1,0,1,0,0,1,0,1,0,0,1,0,0,0
-7556e37a5a,0,0,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,1,0,0,0,0,0,1,0,1,0,1,0,0,0,1,0,0,1,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1
-619cc11264,0,1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,1,1,0,1,1,0,0,1,1,0,1,1,0,0,0,1,0,0,0
-
-input_condition: {'IGF1': True, 'LowNuEx': True}
-type cyclic ratio 0.3593
-sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,PTEN,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
-fef6830df8,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1,0,1,1,1,1,0,1,0,0,0,1,1,1,0,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0
-ffe4b34c5b,0,0,1,0,1,0,0,0,0,0,1,0,1,0,1,0,0,1,1,0,1,1,1,0,1,0,1,0,0,0,0,1,1,0,1,1,1,0,0,1,1,1,0,1,0,0,0,0,0,0,1
-c06f004699,0,1,1,0,1,0,1,0,0,0,1,1,0,0,1,0,0,0,1,1,1,1,1,0,1,0,0,0,0,1,0,1,1,1,1,0,1,1,0,1,0,0,1,1,0,0,0,1,0,0,0
-61502a0e25,0,0,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,1,1,1,1,0,1,0,1,0,1,1,0,0,1,0,1,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,1
-772a8d2495,0,1,1,0,1,0,1,0,0,0,1,0,1,0,1,0,0,0,1,0,1,1,1,0,1,0,1,0,0,0,0,1,1,1,1,1,1,0,0,1,1,1,0,1,0,0,0,1,0,0,1
-e2965d7e9e,0,1,1,0,1,0,1,0,0,0,0,1,0,0,1,0,0,1,0,1,1,1,1,0,1,0,0,0,1,1,1,0,1,1,1,0,1,1,0,1,0,0,1,0,1,0,0,1,0,0,0
-68342ebb2b,0,0,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,1,0,1,1,1,0,1,0,1,0,1,0,0,0,1,0,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,1
-4604088942,0,1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,0,0,1,1,1,1,1,0,1,0,1,0,0,0,0,1,1,1,1,1,1,0,0,1,1,0,1,1,0,0,0,1,0,0,0
-
-type cyclic ratio 0.6407
+#input_condition: {'IGF1': True, 'LowNuEx': True}
+#type cyclic ratio 0.6407
 sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,PTEN,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
 0ef2d9bb67,0,0,1,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,1,1,1,0,1,0,0,0,0,1,0,1,1,0,1,1,1,0,0,1,0,1,0,1,1,0,0,0,0,0,0
 d3e723cabe,0,0,1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,1,1,1,0,1,0,0,0,0,1,0,1,1,0,1,0,1,1,0,1,0,1,0,1,0,0,0,0,0,0,0
@@ -264,19 +253,30 @@ fb2bbb43d6,0,1,1,0,1,1,0,0,0,0,1,0,0,0,1,0,0,1,1,1,1,1,1,0,1,0,0,0,1,0,1,0,1,0,1
 d1c4771f74,0,0,1,1,1,0,1,1,0,0,0,1,1,0,1,0,1,1,1,1,1,1,1,0,1,0,1,1,0,1,0,1,1,0,1,0,0,0,0,1,1,1,1,1,0,0,0,1,1,0,0
 2172522179,0,0,1,0,1,0,1,0,0,0,0,0,1,0,1,0,0,0,1,1,1,1,1,1,1,0,1,0,0,1,0,1,1,0,1,1,0,0,0,1,0,1,1,1,1,0,0,0,0,0,0
 
-inputfile: /home/pbs/git/sbie_aging/results/table_s1/b/b2-updated2-boolsim-results.json
-input_condition: {'LowNuEx': False, 'DNAdamage': False, 'IGF1': False}
-type point ratio 1.0
+#type cyclic ratio 0.3593
+sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,PTEN,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
+fef6830df8,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1,0,1,1,1,1,0,1,0,0,0,1,1,1,0,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0
+ffe4b34c5b,0,0,1,0,1,0,0,0,0,0,1,0,1,0,1,0,0,1,1,0,1,1,1,0,1,0,1,0,0,0,0,1,1,0,1,1,1,0,0,1,1,1,0,1,0,0,0,0,0,0,1
+c06f004699,0,1,1,0,1,0,1,0,0,0,1,1,0,0,1,0,0,0,1,1,1,1,1,0,1,0,0,0,0,1,0,1,1,1,1,0,1,1,0,1,0,0,1,1,0,0,0,1,0,0,0
+61502a0e25,0,0,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,1,1,1,1,0,1,0,1,0,1,1,0,0,1,0,1,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,1
+772a8d2495,0,1,1,0,1,0,1,0,0,0,1,0,1,0,1,0,0,0,1,0,1,1,1,0,1,0,1,0,0,0,0,1,1,1,1,1,1,0,0,1,1,1,0,1,0,0,0,1,0,0,1
+e2965d7e9e,0,1,1,0,1,0,1,0,0,0,0,1,0,0,1,0,0,1,0,1,1,1,1,0,1,0,0,0,1,1,1,0,1,1,1,0,1,1,0,1,0,0,1,0,1,0,0,1,0,0,0
+68342ebb2b,0,0,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,1,0,1,1,1,0,1,0,1,0,1,0,0,0,1,0,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,1
+4604088942,0,1,1,0,1,0,1,0,0,0,1,0,0,0,1,0,0,0,1,1,1,1,1,0,1,0,1,0,0,0,0,1,1,1,1,1,1,0,0,1,1,0,1,1,0,0,0,1,0,0,0
+
+#inputfile: /home/pbs/git/sbie_aging/results/table_s1/b/b2-updated2-boolsim-results.json
+#input_condition: {'IGF1': False, 'LowNuEx': False, 'DNAdamage': False}
+#type point ratio 1.0
 sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PTEN,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
 57b9eb28e3,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0
 
-input_condition: {'LowNuEx': False, 'DNAdamage': False, 'IGF1': True}
-type point ratio 1.0
+#input_condition: {'IGF1': True, 'LowNuEx': False, 'DNAdamage': False}
+#type point ratio 1.0
 sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PTEN,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
 3c487b0a3a,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0
 
-input_condition: {'LowNuEx': False, 'DNAdamage': True, 'IGF1': False}
-type cyclic ratio 0.398
+#input_condition: {'IGF1': False, 'LowNuEx': False, 'DNAdamage': True}
+#type cyclic ratio 0.398
 sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PTEN,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
 4195a2fe55,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,1,0,1,0,0,1,1
 dd8d2c07b1,0,1,1,0,1,0,1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,1,0,0,1,1,1,0,1,0,0,1,1,0,1,1
@@ -287,7 +287,7 @@ ccc9d333f3,0,1,1,0,1,0,1,0,0,0,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1
 5227276200,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,1,1,0,1,0,0,1,0,0,1,1
 e6122f56d2,0,1,1,0,1,0,1,0,0,0,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,1,1,0,1,0,0,1,1,0,0,1,1,0,1,0
 
-type cyclic ratio 0.602
+#type cyclic ratio 0.602
 sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PTEN,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
 e25d987acb,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0,1,0,0,1,1
 7dd68a5b31,0,1,1,0,1,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,1,1,0,1,0,1,0,1,0,0,1,1,0,1,1
@@ -298,8 +298,8 @@ ed6e0d7a6c,0,1,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,1,0,1,0,1,0,1,0,1
 f033446e9c,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,1,1,1,1,0,0,1,0,0,1,0
 309d702ed8,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,1,0,0,1,0,0,1,0
 
-input_condition: {'LowNuEx': False, 'DNAdamage': True, 'IGF1': True}
-type cyclic ratio 0.6731
+#input_condition: {'IGF1': True, 'LowNuEx': False, 'DNAdamage': True}
+#type cyclic ratio 0.6731
 sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PTEN,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
 c9fa39a647,0,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,1,1,1,1,1,0,0,0,1,0,0,1,0,1,0,1,1,1,1,1,0,0,1,0,0,0,1,1,0,0,1,0
 ece50f91bb,1,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,1,0,1,0,1,1,1,1,1,1,0,1,0,0,0,1,1,0,0,1,1
@@ -310,7 +310,7 @@ f6a1d7a55e,1,1,0,0,1,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,1,0,0,1,1,1
 45cb2579b4,0,0,1,0,1,0,0,0,0,0,0,1,1,1,1,0,0,1,1,1,1,1,1,0,0,0,1,0,1,0,1,0,0,1,0,0,1,0,0,1,1,0,0,1,0,1,0,0,1,0
 69f68b2b4c,0,0,1,0,1,0,0,0,0,0,0,1,1,1,1,0,0,1,1,1,1,1,1,0,0,0,1,0,0,0,0,1,0,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,1,0
 
-type cyclic ratio 0.3269
+#type cyclic ratio 0.3269
 sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PTEN,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
 c24ce93be3,0,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,1,0,1,1,1,1,0,0,0,1,0,1,0,1,0,0,1,1,0,1,1,0,0,1,0,0,1,0,1,0,0,1,0
 a99781f3dc,0,0,1,0,1,0,0,0,0,0,0,1,0,1,1,0,0,1,1,0,1,1,0,0,0,0,1,0,0,0,0,1,0,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,1,1
@@ -321,8 +321,8 @@ a24c00912b,0,1,1,0,1,0,0,0,1,0,0,1,0,1,1,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,1,1
 f6cac6fb66,0,0,1,0,1,0,0,0,0,0,0,1,0,1,1,0,0,1,1,0,1,1,0,0,0,0,1,0,1,0,0,0,0,1,1,0,1,0,0,1,1,0,0,1,0,1,0,0,1,1
 7a63d31213,0,1,1,0,1,0,1,0,0,0,0,1,0,1,1,0,0,0,1,1,1,1,1,0,0,0,1,0,0,0,0,0,1,1,1,1,1,0,1,1,0,0,1,0,1,1,1,0,1,0
 
-input_condition: {'LowNuEx': True, 'DNAdamage': False, 'IGF1': False}
-type cyclic ratio 1.0
+#input_condition: {'IGF1': False, 'LowNuEx': True, 'DNAdamage': False}
+#type cyclic ratio 1.0
 sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PTEN,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
 02a4ef79f5,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0
 dcb9d3bd45,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0
@@ -339,8 +339,8 @@ ea6ccec97a,0,0,1,0,1,0,1,0,0,0,0,0,1,0,1,0,0,0,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1
 ad48e00fa1,0,0,1,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,1,0,0,0,0,0,0,0
 fe347201df,0,0,1,0,1,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0,1,0,0,0,0,0
 
-input_condition: {'LowNuEx': True, 'DNAdamage': False, 'IGF1': True}
-type cyclic ratio 1.0
+#input_condition: {'IGF1': True, 'LowNuEx': True, 'DNAdamage': False}
+#type cyclic ratio 1.0
 sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PTEN,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
 d4c1dcdf69,0,0,0,0,0,0,0,0,1,1,1,0,1,1,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0
 b5f4c75113,0,0,0,0,0,1,0,0,0,0,1,0,1,1,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0
@@ -357,8 +357,19 @@ a14d525069,1,0,0,0,1,0,0,0,1,1,1,0,1,1,0,0,0,0,1,1,1,1,1,0,1,1,0,0,0,1,0,1,0,1,0
 1d0065dab2,1,0,0,0,1,0,0,0,1,1,1,0,1,1,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,0,0,0,1,0,1,1,1,1,0,1,0,0,0,1,0,0,0,0,0
 9caa7011c7,1,0,0,0,1,0,0,0,1,1,1,0,1,1,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,1,0,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0
 
-input_condition: {'LowNuEx': True, 'DNAdamage': True, 'IGF1': False}
-type cyclic ratio 0.6061
+#input_condition: {'IGF1': False, 'LowNuEx': True, 'DNAdamage': True}
+#type cyclic ratio 0.3939
+sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PTEN,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
+9095b359c3,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,1,0,1,0,0,1,1
+396ea51761,0,1,1,0,1,0,1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,1,1,0,0,1,1,1,0,1,0,0,1,1,0,1,1
+93e55114e8,0,1,1,0,1,0,1,0,0,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,1,0,1,0,1,0,1,0,1,1,1,0,1,0,0,1,0,1,0,1,1,0,1,0
+a836307cb7,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1,1,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,1,0,0,0,0,1,1,1,0,1,0,1,0,0,1,1
+7f31acbc53,0,1,1,0,1,0,1,0,0,0,0,1,0,0,1,0,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,1,1,0,0,1,1,0,1,1,0,0,1,1,0,1,0
+f7949007a0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,1,0,1,0,1,0,0,0,1,0,0,0,0,0,1,1,0,1,0,1,0,0,1,0
+56951faa14,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,1,1,0,1,0,0,1,0,0,1,1
+46f7142462,0,1,1,0,1,0,1,0,0,0,0,1,0,0,1,0,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,1,1,1,0,1,0,0,1,1,0,0,1,1,0,1,0
+
+#type cyclic ratio 0.6061
 sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PTEN,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
 6ab4261d1a,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,1,0,1,0,0,1,1
 b56cec068b,0,1,1,0,1,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,1,1,1,0,1,0,1,0,1,0,0,1,1,0,1,1
@@ -371,30 +382,8 @@ d4604ac9d9,0,1,1,0,1,0,0,0,0,0,0,1,0,0,1,1,0,1,1,1,0,0,0,0,1,0,1,0,1,0,1,0,0,0,1
 4f5d1a2a5b,0,0,1,1,1,0,1,1,0,0,0,1,0,0,1,0,1,1,1,1,0,0,0,0,1,0,1,1,0,0,0,0,0,0,1,0,0,0,0,1,1,1,1,0,0,1,1,1,1,0
 b3afff3dca,0,0,1,0,1,0,1,0,0,0,0,1,0,0,1,0,0,0,1,1,0,0,0,1,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,0,1,0,0,1,0
 
-type cyclic ratio 0.3939
-sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PTEN,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
-9095b359c3,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,1,0,1,0,0,1,1
-396ea51761,0,1,1,0,1,0,1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,1,1,0,0,1,1,1,0,1,0,0,1,1,0,1,1
-93e55114e8,0,1,1,0,1,0,1,0,0,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,1,0,1,0,1,0,1,0,1,1,1,0,1,0,0,1,0,1,0,1,1,0,1,0
-a836307cb7,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1,1,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,1,0,0,0,0,1,1,1,0,1,0,1,0,0,1,1
-7f31acbc53,0,1,1,0,1,0,1,0,0,0,0,1,0,0,1,0,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,1,1,0,0,1,1,0,1,1,0,0,1,1,0,1,0
-f7949007a0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,1,0,1,0,1,0,0,0,1,0,0,0,0,0,1,1,0,1,0,1,0,0,1,0
-56951faa14,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,1,1,0,1,0,0,1,0,0,1,1
-46f7142462,0,1,1,0,1,0,1,0,0,0,0,1,0,0,1,0,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,1,1,1,0,1,0,0,1,1,0,0,1,1,0,1,0
-
-input_condition: {'LowNuEx': True, 'DNAdamage': True, 'IGF1': True}
-type cyclic ratio 0.2976
-sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PTEN,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
-e7f6f32c08,0,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,1,0,1,1,1,1,0,1,0,1,0,1,0,1,0,0,1,1,0,1,1,0,0,1,0,0,1,0,1,0,0,1,0
-12c7537153,0,0,1,0,1,0,0,0,0,0,0,1,0,1,1,0,0,1,1,0,1,1,0,0,1,0,1,0,0,0,0,1,0,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,1,1
-065c1e9077,0,1,0,0,1,0,1,0,0,0,0,1,0,1,0,0,0,0,1,1,1,1,1,0,1,0,1,0,0,1,0,0,1,1,1,1,1,1,1,0,0,0,0,0,1,1,1,0,1,0
-d0e4fc21de,1,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,1,0,1,1,1,0,0,1,0,1,0,1,0,0,0,0,1,1,0,1,1,1,0,1,0,0,1,0,1,0,0,1,1
-a70cef9717,0,1,1,0,1,0,0,0,1,0,0,1,0,1,1,0,0,0,1,0,1,1,0,0,1,0,1,0,0,0,0,0,1,1,1,1,1,0,1,1,1,0,1,0,1,1,0,0,1,1
-11056daba9,0,1,0,0,1,0,1,0,0,0,0,1,0,1,0,0,0,1,0,1,1,1,1,0,1,0,1,0,1,0,1,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,1,0,1,0
-13412c36db,0,0,1,0,1,0,0,0,0,0,0,1,0,1,1,0,0,1,1,0,1,1,0,0,1,0,1,0,1,0,0,0,0,1,1,0,1,0,0,1,1,0,0,1,0,1,0,0,1,1
-13779c8c5d,0,1,1,0,1,0,1,0,0,0,0,1,0,1,1,0,0,0,1,1,1,1,1,0,1,0,1,0,0,0,0,0,1,1,1,1,1,0,1,1,0,0,1,0,1,1,1,0,1,0
-
-type cyclic ratio 0.7024
+#input_condition: {'IGF1': True, 'LowNuEx': True, 'DNAdamage': True}
+#type cyclic ratio 0.7024
 sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PTEN,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
 75c7d73eb1,0,0,1,0,1,0,0,0,0,0,0,1,0,1,1,0,0,1,1,1,1,1,1,0,1,0,1,0,1,1,1,1,0,1,1,1,1,0,0,1,1,0,0,0,0,1,0,0,1,0
 4122af52a3,1,0,1,0,1,0,0,0,0,0,0,1,0,1,1,0,0,1,1,1,1,1,1,0,1,0,1,0,0,1,0,1,0,1,1,1,1,0,1,1,1,0,1,0,1,1,0,0,1,0
@@ -408,30 +397,30 @@ a55c3c49de,0,1,0,0,0,0,0,0,1,0,1,1,1,1,0,0,0,1,0,0,1,1,0,0,1,0,1,0,1,0,0,0,1,1,0
 ea75d98991,0,1,1,0,1,1,0,0,0,0,0,1,1,1,1,0,0,1,1,1,1,1,1,0,1,0,1,0,1,0,1,0,0,1,1,0,1,0,0,1,1,0,0,1,0,1,0,0,1,0
 ab71b10c34,0,1,1,0,1,0,0,0,0,0,0,1,0,1,1,0,0,1,1,1,1,1,1,0,1,0,1,0,1,0,1,1,0,1,1,1,1,0,0,1,1,0,0,0,0,1,0,0,1,0
 
-inputfile: /home/pbs/git/sbie_aging/results/table_s1/b/b2-updated3-boolsim-results.json
-input_condition: {'LowNuEx': False, 'DNAdamage': False, 'IGF1': False}
-type point ratio 1.0
+#type cyclic ratio 0.2976
+sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PTEN,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
+e7f6f32c08,0,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,1,0,1,1,1,1,0,1,0,1,0,1,0,1,0,0,1,1,0,1,1,0,0,1,0,0,1,0,1,0,0,1,0
+12c7537153,0,0,1,0,1,0,0,0,0,0,0,1,0,1,1,0,0,1,1,0,1,1,0,0,1,0,1,0,0,0,0,1,0,1,1,1,1,0,0,1,1,0,1,0,1,1,0,0,1,1
+065c1e9077,0,1,0,0,1,0,1,0,0,0,0,1,0,1,0,0,0,0,1,1,1,1,1,0,1,0,1,0,0,1,0,0,1,1,1,1,1,1,1,0,0,0,0,0,1,1,1,0,1,0
+d0e4fc21de,1,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,1,0,1,1,1,0,0,1,0,1,0,1,0,0,0,0,1,1,0,1,1,1,0,1,0,0,1,0,1,0,0,1,1
+a70cef9717,0,1,1,0,1,0,0,0,1,0,0,1,0,1,1,0,0,0,1,0,1,1,0,0,1,0,1,0,0,0,0,0,1,1,1,1,1,0,1,1,1,0,1,0,1,1,0,0,1,1
+11056daba9,0,1,0,0,1,0,1,0,0,0,0,1,0,1,0,0,0,1,0,1,1,1,1,0,1,0,1,0,1,0,1,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,1,0,1,0
+13412c36db,0,0,1,0,1,0,0,0,0,0,0,1,0,1,1,0,0,1,1,0,1,1,0,0,1,0,1,0,1,0,0,0,0,1,1,0,1,0,0,1,1,0,0,1,0,1,0,0,1,1
+13779c8c5d,0,1,1,0,1,0,1,0,0,0,0,1,0,1,1,0,0,0,1,1,1,1,1,0,1,0,1,0,0,0,0,0,1,1,1,1,1,0,1,1,0,0,1,0,1,1,1,0,1,0
+
+#inputfile: /home/pbs/git/sbie_aging/results/table_s1/b/b2-updated3-boolsim-results.json
+#input_condition: {'IGF1': False, 'LowNuEx': False, 'DNAdamage': False}
+#type point ratio 1.0
 sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
 57b9eb28e3,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0
 
-input_condition: {'LowNuEx': False, 'DNAdamage': False, 'IGF1': True}
-type point ratio 1.0
+#input_condition: {'IGF1': True, 'LowNuEx': False, 'DNAdamage': False}
+#type point ratio 1.0
 sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
 3c487b0a3a,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0
 
-input_condition: {'LowNuEx': False, 'DNAdamage': True, 'IGF1': False}
-type cyclic ratio 0.5527
-sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
-4484609a5c,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,1,0,1,0,1,0,1,0,1,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0
-180ef2ec1d,0,0,1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,1,0,0,0,1,1,1,1,0,0,0,0,0,0,0
-3616cade95,0,0,1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,1,1,1,0,0,0,0,0,0,0
-5971b0c3fd,0,0,1,0,1,0,0,0,0,0,1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,1
-6a01a2fcee,0,1,1,0,1,0,1,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,1,0,1,0,1,0,1,0,0,0,1,0,0,1
-903ee0aa10,0,1,1,0,1,0,1,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,1,1,0,1,0,0,1,0,1,0,0,1,0,0,1
-912afd6517,0,1,1,0,0,0,1,0,0,0,0,1,1,0,1,0,0,1,1,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,1,0,0,0,1,1,0,1,0,1,0,0,1,0,0,1
-c0e53d0c83,0,1,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,1,0,1,0,1,0,1,0,1,0,0,0,1,1,0,1,0,1,0,0,1,0,0,0
-
-type cyclic ratio 0.4473
+#input_condition: {'IGF1': False, 'LowNuEx': False, 'DNAdamage': True}
+#type cyclic ratio 0.4473
 sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
 12c9ca94c6,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,0,0,1,0,1,0,1,0,1,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0
 0077d7ebd4,0,0,1,0,1,0,0,0,0,0,1,1,1,0,1,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,1,0,0,0,1,1,0,1,0,0,0,0,0,0,1
@@ -442,8 +431,19 @@ e98700e1eb,0,1,1,0,1,0,1,0,0,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,0,0,1,0,1,0,1,0,1,0,0
 6a585471c1,0,0,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,1,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,1,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1
 f2ca085eee,0,1,1,0,1,0,1,0,0,0,1,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,1,0,0,1,1,0,1,1,0,0,0,1,0,0,0
 
-input_condition: {'LowNuEx': False, 'DNAdamage': True, 'IGF1': True}
-type cyclic ratio 0.6147
+#type cyclic ratio 0.5527
+sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
+4484609a5c,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,1,0,1,0,1,0,1,0,1,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0
+180ef2ec1d,0,0,1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,1,0,0,0,1,1,1,1,0,0,0,0,0,0,0
+3616cade95,0,0,1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,1,1,1,0,0,0,0,0,0,0
+5971b0c3fd,0,0,1,0,1,0,0,0,0,0,1,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,1
+6a01a2fcee,0,1,1,0,1,0,1,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,1,0,1,0,1,0,1,0,0,0,1,0,0,1
+903ee0aa10,0,1,1,0,1,0,1,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,1,1,0,1,0,0,1,0,1,0,0,1,0,0,1
+912afd6517,0,1,1,0,0,0,1,0,0,0,0,1,1,0,1,0,0,1,1,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,1,0,0,0,1,1,0,1,0,1,0,0,1,0,0,1
+c0e53d0c83,0,1,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,1,0,1,0,1,0,1,0,1,0,0,0,1,1,0,1,0,1,0,0,1,0,0,0
+
+#input_condition: {'IGF1': True, 'LowNuEx': False, 'DNAdamage': True}
+#type cyclic ratio 0.6147
 sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
 0cd52028fc,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1,0,1,1,1,1,0,0,0,1,0,1,1,1,1,1,1,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0
 27504d3a7d,0,0,1,0,1,0,0,0,0,0,1,1,1,0,1,0,0,1,1,0,1,1,1,0,0,0,1,0,0,1,0,1,1,1,1,1,0,0,1,1,1,0,1,0,0,0,0,0,0,1
@@ -454,7 +454,7 @@ a76eda8134,0,1,1,0,1,0,1,0,0,0,1,1,1,0,1,0,0,0,1,0,1,1,1,0,0,0,1,0,0,1,0,1,1,1,1
 06936a2949,0,0,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,1,0,1,1,1,0,0,0,1,0,1,1,0,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,1
 95d3d50ab8,0,1,1,0,1,0,1,0,0,0,1,1,0,0,1,0,0,0,1,1,1,1,1,0,0,0,1,0,0,1,0,1,1,1,1,1,0,0,1,1,0,1,1,0,0,0,1,0,0,0
 
-type cyclic ratio 0.3853
+#type cyclic ratio 0.3853
 sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
 883949a99c,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1,1,1,1,1,1,0,0,0,1,0,1,1,1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0
 ab5c48575d,0,0,1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,1,1,1,1,1,1,0,0,0,1,0,0,1,0,1,1,1,1,1,0,0,1,1,1,1,1,0,0,0,0,0,0,0
@@ -465,8 +465,8 @@ ff8209092f,0,1,1,0,1,0,1,0,0,0,1,1,1,0,1,0,0,0,0,0,1,1,1,0,0,0,1,0,0,1,0,1,1,1,0
 be571add67,0,1,1,0,0,0,1,0,0,0,0,1,1,0,1,0,0,1,1,0,1,1,1,0,0,0,1,0,1,1,0,1,1,1,1,0,0,0,1,1,0,1,0,1,0,0,1,0,0,1
 95cb42a5b3,0,1,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0,1,1,1,1,1,1,0,0,0,1,0,1,1,1,1,1,1,1,0,0,0,1,1,0,1,0,1,0,0,1,0,0,0
 
-input_condition: {'LowNuEx': True, 'DNAdamage': False, 'IGF1': False}
-type cyclic ratio 1.0
+#input_condition: {'IGF1': False, 'LowNuEx': True, 'DNAdamage': False}
+#type cyclic ratio 1.0
 sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
 02a4ef79f5,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0
 dcb9d3bd45,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0
@@ -483,8 +483,8 @@ f9d0a56e98,0,1,1,0,1,1,0,0,0,0,0,0,1,0,1,0,0,1,1,1,0,0,0,0,1,0,0,0,1,0,1,0,1,0,1
 e27a4f7f2f,0,0,1,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,1,0,1,0,0,0,0,0,0,0
 506e40f2ba,0,0,1,0,1,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,1,0,1,0,0,0,0,0
 
-input_condition: {'LowNuEx': True, 'DNAdamage': False, 'IGF1': True}
-type cyclic ratio 1.0
+#input_condition: {'IGF1': True, 'LowNuEx': True, 'DNAdamage': False}
+#type cyclic ratio 1.0
 sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
 f9552070f9,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,1,0,1,0,1,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0
 112492727c,1,0,0,0,0,1,0,0,0,0,1,0,1,1,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,0,1,0,1,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0
@@ -501,19 +501,8 @@ de157a0056,0,0,1,1,1,0,1,1,0,0,0,0,1,0,1,0,1,1,1,1,1,1,1,0,1,0,0,1,0,1,0,1,1,1,0
 96be884ed9,0,0,1,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,0,1,0,0,0,0,1,0,1,1,1,0,1,1,0,1,0,1,0,1,0,0,0,0,0,0,0
 bee2c44560,0,0,1,0,1,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,1,1,1,0,1,0,0,0,0,1,0,1,1,1,0,1,1,0,1,0,0,0,1,0,1,0,0,0,0,0
 
-input_condition: {'LowNuEx': True, 'DNAdamage': True, 'IGF1': False}
-type cyclic ratio 0.4603
-sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
-fe9b185677,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,1,0,1,0,1,0,1,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0
-f3454260ca,0,0,1,0,1,0,0,0,0,0,1,1,1,0,1,0,0,1,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,1,1,0,0,0,1,1,0,1,0,0,0,0,0,0,1
-ebe7fab453,0,1,1,0,1,0,1,0,0,0,1,1,0,0,1,0,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,1,1,0,1,0,0,1,1,0,0,0,1,0,0,0
-6a1dd0a304,0,0,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,1,0,0,0,0,1,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1
-3ca2ce9d85,0,1,1,0,1,0,1,0,0,0,1,1,1,0,1,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,1,1,0,0,1,1,1,0,1,0,0,0,1,0,0,1
-ac77f9364a,0,1,1,0,1,0,1,0,0,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,1,0,1,0,1,0,1,0,0,1,1,0,1,0,0,1,0,1,0,0,1,0,0,0
-407e15a9e4,0,0,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,1,0,0,0,0,0,1,0,1,0,1,0,0,0,1,0,1,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1
-4c088eece7,0,1,1,0,1,0,1,0,0,0,1,1,0,0,1,0,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,1,1,0,0,1,1,0,1,1,0,0,0,1,0,0,0
-
-type cyclic ratio 0.5397
+#input_condition: {'IGF1': False, 'LowNuEx': True, 'DNAdamage': True}
+#type cyclic ratio 0.5397
 sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
 25d55f3363,0,0,1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,1,1,0,0,0,0,0,1
 bd9aecf307,0,1,1,0,1,0,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,1,1,0,1,0,1,0,1,0,0,0,1,0,0,1
@@ -526,8 +515,30 @@ b977740837,0,1,1,0,1,0,0,0,0,0,1,1,0,0,1,1,0,1,1,1,0,0,0,0,1,0,1,0,1,0,1,0,1,0,1
 e146a4e446,0,0,1,1,1,0,1,1,0,0,0,1,1,0,1,0,1,1,1,1,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,1,1,0,0
 88b824d7d0,0,0,1,0,1,0,1,0,0,0,0,1,1,0,1,0,0,0,1,1,0,0,0,1,1,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0
 
-input_condition: {'LowNuEx': True, 'DNAdamage': True, 'IGF1': True}
-type cyclic ratio 0.4881
+#type cyclic ratio 0.4603
+sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
+fe9b185677,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,1,0,1,0,1,0,1,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0
+f3454260ca,0,0,1,0,1,0,0,0,0,0,1,1,1,0,1,0,0,1,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,1,1,0,0,0,1,1,0,1,0,0,0,0,0,0,1
+ebe7fab453,0,1,1,0,1,0,1,0,0,0,1,1,0,0,1,0,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,1,1,0,1,0,0,1,1,0,0,0,1,0,0,0
+6a1dd0a304,0,0,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,1,0,0,0,0,1,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1
+3ca2ce9d85,0,1,1,0,1,0,1,0,0,0,1,1,1,0,1,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,1,1,0,0,1,1,1,0,1,0,0,0,1,0,0,1
+ac77f9364a,0,1,1,0,1,0,1,0,0,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,1,0,1,0,1,0,1,0,0,1,1,0,1,0,0,1,0,1,0,0,1,0,0,0
+407e15a9e4,0,0,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,1,0,0,0,0,0,1,0,1,0,1,0,0,0,1,0,1,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1
+4c088eece7,0,1,1,0,1,0,1,0,0,0,1,1,0,0,1,0,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,1,1,0,0,1,1,0,1,1,0,0,0,1,0,0,0
+
+#input_condition: {'IGF1': True, 'LowNuEx': True, 'DNAdamage': True}
+#type cyclic ratio 0.5119
+sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
+4a6731a4ca,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1,0,1,1,1,1,0,1,0,1,0,1,1,1,1,1,1,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0
+2b0635ab1d,0,0,1,0,1,0,0,0,0,0,1,1,1,0,1,0,0,1,1,0,1,1,1,0,1,0,1,0,0,1,0,1,1,1,1,1,0,0,1,1,1,0,1,0,0,0,0,0,0,1
+82a1f8a033,0,1,1,0,1,0,1,0,0,0,1,1,0,0,1,0,0,0,1,1,1,1,1,0,1,0,1,0,0,1,0,1,1,1,0,1,1,0,1,0,0,1,1,0,0,0,1,0,0,0
+794f36bc73,0,0,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,1,1,1,1,0,1,0,1,0,1,1,0,1,1,1,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,1
+6c2ecc40bd,0,1,1,0,1,0,1,0,0,0,1,1,1,0,1,0,0,0,1,0,1,1,1,0,1,0,1,0,0,1,0,1,1,1,1,1,0,0,1,1,1,0,1,0,0,0,1,0,0,1
+14da5ee236,0,1,1,0,1,0,1,0,0,0,0,1,0,0,1,0,0,1,0,1,1,1,1,0,1,0,1,0,1,1,1,1,1,1,0,1,1,0,1,0,0,1,0,1,0,0,1,0,0,0
+fd118810b0,0,0,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,1,0,1,1,1,0,1,0,1,0,1,1,0,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,1
+a2d1e4e7f2,0,1,1,0,1,0,1,0,0,0,1,1,0,0,1,0,0,0,1,1,1,1,1,0,1,0,1,0,0,1,0,1,1,1,1,1,0,0,1,1,0,1,1,0,0,0,1,0,0,0
+
+#type cyclic ratio 0.4881
 sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
 f20a54f4ed,0,0,1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,1,1,1,1,1,1,0,1,0,1,0,1,1,1,1,1,1,0,1,0,0,1,1,1,1,0,0,0,0,0,0,0,0
 a134f3270c,0,0,1,0,1,0,0,0,0,0,1,1,1,0,1,0,0,1,1,1,1,1,1,0,1,0,1,0,0,1,0,1,1,1,0,1,0,0,1,1,1,1,1,0,0,0,0,0,0,0
@@ -540,41 +551,19 @@ c67a5a15c9,0,1,1,0,0,1,1,0,0,0,0,1,0,0,1,0,0,1,1,1,1,1,1,0,1,0,1,0,1,1,1,1,1,1,1
 9fda2e2ee0,0,1,1,0,1,1,0,0,0,0,0,1,0,0,1,0,0,1,1,1,1,1,1,0,1,0,1,0,1,1,1,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0
 05688abbe1,0,1,1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,1,1,1,1,1,1,0,1,0,1,0,1,1,1,1,1,1,1,1,0,0,1,1,1,1,0,0,0,0,0,0,0,0
 
-type cyclic ratio 0.5119
-sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
-4a6731a4ca,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1,0,1,1,1,1,0,1,0,1,0,1,1,1,1,1,1,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0
-2b0635ab1d,0,0,1,0,1,0,0,0,0,0,1,1,1,0,1,0,0,1,1,0,1,1,1,0,1,0,1,0,0,1,0,1,1,1,1,1,0,0,1,1,1,0,1,0,0,0,0,0,0,1
-82a1f8a033,0,1,1,0,1,0,1,0,0,0,1,1,0,0,1,0,0,0,1,1,1,1,1,0,1,0,1,0,0,1,0,1,1,1,0,1,1,0,1,0,0,1,1,0,0,0,1,0,0,0
-794f36bc73,0,0,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,1,1,1,1,0,1,0,1,0,1,1,0,1,1,1,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,1
-6c2ecc40bd,0,1,1,0,1,0,1,0,0,0,1,1,1,0,1,0,0,0,1,0,1,1,1,0,1,0,1,0,0,1,0,1,1,1,1,1,0,0,1,1,1,0,1,0,0,0,1,0,0,1
-14da5ee236,0,1,1,0,1,0,1,0,0,0,0,1,0,0,1,0,0,1,0,1,1,1,1,0,1,0,1,0,1,1,1,1,1,1,0,1,1,0,1,0,0,1,0,1,0,0,1,0,0,0
-fd118810b0,0,0,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,1,0,1,1,1,0,1,0,1,0,1,1,0,1,1,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,1
-a2d1e4e7f2,0,1,1,0,1,0,1,0,0,0,1,1,0,0,1,0,0,0,1,1,1,1,1,0,1,0,1,0,0,1,0,1,1,1,1,1,0,0,1,1,0,1,1,0,0,0,1,0,0,0
-
-inputfile: /home/pbs/git/sbie_aging/results/table_s1/b/b2-updated4-boolsim-results.json
-input_condition: {'IGF1': False, 'DNAdamage': False, 'LowNuEx': False}
-type point ratio 1.0
+#inputfile: /home/pbs/git/sbie_aging/results/table_s1/b/b2-updated4-boolsim-results.json
+#input_condition: {'IGF1': False, 'LowNuEx': False, 'DNAdamage': False}
+#type point ratio 1.0
 sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,PTEN,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
 3542e84e38,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0
 
-input_condition: {'IGF1': True, 'DNAdamage': False, 'LowNuEx': False}
-type point ratio 1.0
+#input_condition: {'IGF1': True, 'LowNuEx': False, 'DNAdamage': False}
+#type point ratio 1.0
 sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,PTEN,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
 68bbecdc08,1,0,0,0,0,0,0,0,1,1,1,0,1,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,1,0,1,0,0,1,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0
 
-input_condition: {'IGF1': False, 'DNAdamage': True, 'LowNuEx': False}
-type cyclic ratio 0.4548
-sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,PTEN,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
-ba2dd42615,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,0,0,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0
-0a28bdfcc7,0,0,1,0,1,0,0,0,0,0,1,1,1,0,1,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,1,0,0,0,1,1,0,1,0,0,0,0,0,0,1
-4038f8c3da,0,1,1,0,1,0,1,0,0,0,1,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,1,1,0,1,0,0,1,1,0,0,0,1,0,0,0
-9b7c6abdc0,0,0,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,1,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1
-0257c61236,0,1,1,0,1,0,1,0,0,0,1,1,1,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,0,1,1,0,0,1,1,1,0,1,0,0,0,1,0,0,1
-bc248d160a,0,1,1,0,1,0,1,0,0,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,0,0,1,0,1,0,1,0,1,1,0,0,1,1,0,1,0,0,1,0,1,0,0,1,0,0,0
-421d983a3d,0,0,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,1,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,1,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1
-dfb5c2eadd,0,1,1,0,1,0,1,0,0,0,1,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,1,1,0,1,1,0,0,1,1,0,1,1,0,0,0,1,0,0,0
-
-type cyclic ratio 0.5452
+#input_condition: {'IGF1': False, 'LowNuEx': False, 'DNAdamage': True}
+#type cyclic ratio 0.5452
 sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,PTEN,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
 e1351e1a6f,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,1,0,1,0,1,0,1,0,0,1,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0
 a4adf8f2f0,0,0,1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,1,0,0,0,1,1,1,1,0,0,0,0,0,0,0
@@ -585,8 +574,19 @@ e102b13370,0,1,1,0,1,0,1,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,1,0
 bd6c126ed4,0,1,1,0,0,0,1,0,0,0,0,1,1,0,1,0,0,1,1,0,0,0,0,0,0,0,1,0,1,0,0,0,1,1,0,1,0,0,0,1,1,0,1,0,1,0,0,1,0,0,1
 184a89e7a5,0,1,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,1,0,1,0,1,0,1,1,0,1,0,0,0,1,1,0,1,0,1,0,0,1,0,0,0
 
-input_condition: {'IGF1': True, 'DNAdamage': True, 'LowNuEx': False}
-type cyclic ratio 0.3063
+#type cyclic ratio 0.4548
+sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,PTEN,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
+ba2dd42615,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,0,0,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0
+0a28bdfcc7,0,0,1,0,1,0,0,0,0,0,1,1,1,0,1,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,1,0,0,0,1,1,0,1,0,0,0,0,0,0,1
+4038f8c3da,0,1,1,0,1,0,1,0,0,0,1,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,1,1,0,1,0,0,1,1,0,0,0,1,0,0,0
+9b7c6abdc0,0,0,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,1,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1
+0257c61236,0,1,1,0,1,0,1,0,0,0,1,1,1,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,0,1,1,0,0,1,1,1,0,1,0,0,0,1,0,0,1
+bc248d160a,0,1,1,0,1,0,1,0,0,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,0,0,1,0,1,0,1,0,1,1,0,0,1,1,0,1,0,0,1,0,1,0,0,1,0,0,0
+421d983a3d,0,0,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,1,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,1,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1
+dfb5c2eadd,0,1,1,0,1,0,1,0,0,0,1,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,1,1,0,1,1,0,0,1,1,0,1,1,0,0,0,1,0,0,0
+
+#input_condition: {'IGF1': True, 'LowNuEx': False, 'DNAdamage': True}
+#type cyclic ratio 0.3063
 sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,PTEN,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
 f62a2c89c4,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1,1,1,1,1,1,0,0,0,1,0,1,0,1,0,1,0,1,1,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0
 014dec7d95,0,0,1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,1,1,1,1,1,1,0,0,0,1,0,0,0,0,1,1,0,1,1,1,0,0,0,1,1,1,1,0,0,0,0,0,0,0
@@ -597,7 +597,7 @@ d94a03dcb4,0,1,1,0,1,0,1,0,0,0,1,1,1,0,1,0,0,0,0,0,1,1,1,0,0,0,1,0,0,1,0,1,1,1,1
 80263525e7,0,1,1,0,0,0,1,0,0,0,0,1,1,0,1,0,0,1,1,0,1,1,1,0,0,0,1,0,1,0,0,0,1,1,1,1,0,0,0,1,1,0,1,0,1,0,0,1,0,0,1
 a6eb02ba74,0,1,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0,1,1,1,1,1,1,0,0,0,1,0,1,0,1,0,1,1,1,1,0,0,0,1,1,0,1,0,1,0,0,1,0,0,0
 
-type cyclic ratio 0.6937
+#type cyclic ratio 0.6937
 sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,PTEN,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
 4f265d1bb7,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1,0,1,1,1,1,0,0,0,1,0,1,1,1,0,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0
 00e44af620,0,0,1,0,1,0,0,0,0,0,1,1,1,0,1,0,0,1,1,0,1,1,1,0,0,0,1,0,0,0,0,1,1,0,1,1,1,0,0,1,1,1,0,1,0,0,0,0,0,0,1
@@ -608,8 +608,8 @@ edf27b1fe2,0,1,1,0,1,0,1,0,0,0,1,1,1,0,1,0,0,0,1,0,1,1,1,0,0,0,1,0,0,0,0,1,1,1,1
 e49f5434c7,0,0,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,1,0,1,1,1,0,0,0,1,0,1,0,0,0,1,0,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,1
 e7b79d8e1a,0,1,1,0,1,0,1,0,0,0,1,1,0,0,1,0,0,0,1,1,1,1,1,0,0,0,1,0,0,0,0,1,1,1,1,1,1,0,0,1,1,0,1,1,0,0,0,1,0,0,0
 
-input_condition: {'IGF1': False, 'DNAdamage': False, 'LowNuEx': True}
-type cyclic ratio 1.0
+#input_condition: {'IGF1': False, 'LowNuEx': True, 'DNAdamage': False}
+#type cyclic ratio 1.0
 sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,PTEN,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
 f132eefc0c,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0
 e067223646,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0
@@ -626,8 +626,8 @@ bd5bd0c7da,0,0,1,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0
 6d6fbd513e,0,0,1,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,1,0,1,0,0,0,0,0,0,0
 56a79504bb,0,0,1,0,1,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,1,0,1,0,0,0,0,0
 
-input_condition: {'IGF1': True, 'DNAdamage': False, 'LowNuEx': True}
-type cyclic ratio 1.0
+#input_condition: {'IGF1': True, 'LowNuEx': True, 'DNAdamage': False}
+#type cyclic ratio 1.0
 sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,PTEN,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
 7bc8242910,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,1,0,1,0,0,1,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0
 da1f23f32b,1,0,0,0,0,1,0,0,0,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,1,0,1,0,0,1,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0
@@ -644,8 +644,8 @@ da1f23f32b,1,0,0,0,0,1,0,0,0,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,1,0,1,0,0,1
 3c0c39268f,0,0,1,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,1,0,1,0,0,0,0,1,0,1,1,0,1,0,1,1,0,1,0,1,0,1,0,0,0,0,0,0,0
 c0f6d4ac9a,0,0,1,0,1,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,1,1,1,0,1,0,0,0,0,1,0,1,1,0,1,0,1,1,0,1,0,0,0,1,0,1,0,0,0,0,0
 
-input_condition: {'IGF1': False, 'DNAdamage': True, 'LowNuEx': True}
-type cyclic ratio 0.5256
+#input_condition: {'IGF1': False, 'LowNuEx': True, 'DNAdamage': True}
+#type cyclic ratio 0.5256
 sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,PTEN,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
 0ea533fab1,0,0,1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,1,1,0,0,0,0,1,0,1,1,0,0,0,0,0,1
 0d6f4a59ed,0,1,1,0,1,0,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,1,0,0,1,1,0,1,0,1,0,1,0,0,0,1,0,0,1
@@ -658,7 +658,7 @@ fc22d61ffc,0,1,1,0,1,1,0,0,0,0,0,1,0,0,1,0,0,1,1,1,0,0,0,0,1,0,1,0,1,0,1,0,1,0,0
 3ee0ae23eb,0,0,1,1,1,0,1,1,0,0,0,1,1,0,1,0,1,1,1,1,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,1,1,0,0
 3bc967a73c,0,0,1,0,1,0,1,0,0,0,0,1,1,0,1,0,0,0,1,1,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0
 
-type cyclic ratio 0.4744
+#type cyclic ratio 0.4744
 sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,PTEN,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
 49ce161669,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,0,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0
 02a0f2a008,0,0,1,0,1,0,0,0,0,0,1,1,1,0,1,0,0,1,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,1,1,0,0,0,1,1,0,1,0,0,0,0,0,0,1
@@ -669,8 +669,8 @@ dc011473fd,0,1,1,0,1,0,1,0,0,0,1,1,1,0,1,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,1,0
 7556e37a5a,0,0,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,1,0,0,0,0,0,1,0,1,0,1,0,0,0,1,0,0,1,0,0,0,0,1,1,1,0,1,0,0,0,0,0,1
 344e18f868,0,1,1,0,1,0,1,0,0,0,1,1,0,0,1,0,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,1,1,0,1,1,0,0,1,1,0,1,1,0,0,0,1,0,0,0
 
-input_condition: {'IGF1': True, 'DNAdamage': True, 'LowNuEx': True}
-type cyclic ratio 0.5115
+#input_condition: {'IGF1': True, 'LowNuEx': True, 'DNAdamage': True}
+#type cyclic ratio 0.5115
 sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,PTEN,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
 daa5adcb41,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1,0,1,1,1,1,0,1,0,1,0,1,1,1,0,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0
 5573fb9e45,0,0,1,0,1,0,0,0,0,0,1,1,1,0,1,0,0,1,1,0,1,1,1,0,1,0,1,0,0,0,0,1,1,0,1,1,1,0,0,1,1,1,0,1,0,0,0,0,0,0,1
@@ -681,7 +681,7 @@ daa5adcb41,0,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1,0,1,1,1,1,0,1,0,1,0,1,1,1,0,1,0,1
 68342ebb2b,0,0,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,1,0,1,1,1,0,1,0,1,0,1,0,0,0,1,0,1,1,0,0,0,1,1,1,1,0,1,0,0,0,0,0,1
 acf6ac5558,0,1,1,0,1,0,1,0,0,0,1,1,0,0,1,0,0,0,1,1,1,1,1,0,1,0,1,0,0,0,0,1,1,1,1,1,1,0,0,1,1,0,1,1,0,0,0,1,0,0,0
 
-type cyclic ratio 0.4885
+#type cyclic ratio 0.4885
 sign,AKT,AMPK,ATG13,ATG5,ATP,AXP,BAX,BIM,BMI1,Bcl2,CDK,DNAdamage,E2F,ERK,FOUR_EBP1,FOXO,G6pase,GLUT4,Glucose,Glycolysis,IGF1,IGF1R,IRS,LC,LowNuEx,MDM2,MKK,MnSOD,NAD,PDK,PGC1a,PI3K,PP2A,PTEN,RAS,RB1,ROS,Rheb,S6K,SGK,SIRT1,TCAcyc,TSC,ULK1,caspase3,mTOR,p16,p21,p27,p38MAPK,p53
 6d6ea0d9e1,0,0,1,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,1,1,1,0,1,0,1,0,0,1,0,1,1,0,1,1,1,0,0,1,0,1,0,1,1,0,0,0,0,0,1
 45a976526f,0,1,1,0,1,0,1,0,0,0,1,1,0,0,1,0,0,0,0,0,1,1,1,0,1,0,1,0,0,1,0,1,1,1,1,0,1,1,0,1,0,1,0,1,0,0,0,1,0,0,1
@@ -695,4 +695,4 @@ d1c4771f74,0,0,1,1,1,0,1,1,0,0,0,1,1,0,1,0,1,1,1,1,1,1,1,0,1,0,1,1,0,1,0,1,1,0,1
 61dc361904,0,0,1,0,1,0,1,0,0,0,0,1,1,0,1,0,0,0,1,1,1,1,1,1,1,0,1,0,0,1,0,1,1,0,1,1,0,0,0,1,0,1,1,1,1,0,0,0,0,0,0
 
 .
-1 passed in 1.16 seconds
+1 passed in 1.08 seconds

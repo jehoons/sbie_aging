@@ -1,8 +1,8 @@
 ,IGF1,LowNuEx,DNAdamage,attr_type,ratio,value,size
 0,False,False,False,point,1.0,3542e84e38,1
 1,True,False,False,point,1.0,68bbecdc08,1
-2,False,False,True,cyclic,0.4548,abbd5a0538,8
-3,False,False,True,cyclic,0.5452,70d22247af,8
+2,False,False,True,cyclic,0.5452,70d22247af,8
+3,False,False,True,cyclic,0.4548,abbd5a0538,8
 4,True,False,True,cyclic,0.3063,64f77cf4a7,8
 5,True,False,True,cyclic,0.6937,93dbb040e9,8
 6,False,True,False,cyclic,1.0,f1161ff6c1,14
