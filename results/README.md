@@ -2,6 +2,6 @@
 
 ### Results
 #### [Table 1. Network for aging study](table_s1)
-(**A**) Regulation network (**B**) Logical network generation (**C**) Hello attractor analysis
+(**A**) Network (**B**) Analysis the network (**C**) Analysis the network - Phenotype
 #### [Table 2. Test geroconversion model](table_s2)
 (**A**) Test toy model (**B**) Reproduce Figure 2 of the paper

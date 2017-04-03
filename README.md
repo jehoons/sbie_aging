@@ -56,7 +56,6 @@ PYTHONPATH=$TOPDIR/${tooldir}:${PYTHONPATH}; export PYTHONPATH
 [maboss-outputformat]: assets/paper/maboss-outputformat.pdf
 [maboss-website]: https://maboss.curie.fr
 
-
 ### Boolean network simulator 
 https://github.com/jehoons/BooleanSim
 
@@ -65,5 +64,10 @@ git clone https://github.com/jehoons/BooleanSim.git
 cd BooleanSim 
 python setup.py install 
 ```
+
+### Boolean network simulator 
+To render equations in this page, install [github-with-mathjax](https://chrome.google.com/webstore/detail/github-with-mathjax/ioemnmodlmafdkllaclgeombjnmnbima). 
+
+
 
 
