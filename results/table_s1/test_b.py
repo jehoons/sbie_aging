@@ -113,7 +113,7 @@ def simulate(infile=None, keyword=None):
 
 def result_summary(keyword=None, inputcols=None):
     datafile = file_b2 % keyword
-    print('inputfile:', datafile)
+    print('#inputfile:', datafile)
 
     with open(datafile, 'r') as fobj_c:
         data = json.load(fobj_c)
@@ -125,7 +125,7 @@ def result_summary(keyword=None, inputcols=None):
     for d in data: 
         input_condition = d['input_condition']
         attrs = d['attractors']
-        print('input_condition:', input_condition)
+        print('#input_condition:', input_condition)
         for attr in attrs: 
             df0.loc[i, 'attr_type'] = attrs[attr]['type']
             df0.loc[i, 'ratio'] = attrs[attr]['ratio']
@@ -134,7 +134,7 @@ def result_summary(keyword=None, inputcols=None):
             for inputcols0 in inputcols:
                 df0.loc[i, inputcols0] = input_condition[inputcols0]
 
-            print('type',attrs[attr]['type'],'ratio',attrs[attr]['ratio'])
+            print('#type',attrs[attr]['type'],'ratio',attrs[attr]['ratio'])
             # print('value', attrs[attr]['value'])
 
             value = attrs[attr]['value']
