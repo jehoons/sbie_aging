@@ -12,7 +12,15 @@ A regulation network is a network that contains information about activation and
 
 In the regulation network (A1), the regulatory relation between two nodes is described, but when the target node is controlled by two or more source nodes, its logical function has not yet been defined. Therefore, I created a logical network through simple assumptions. The rules are as follows: When two or more source nodes activate, they are assumed to be joined with OR operation. When two or more source nodes inhibit, they are assumed to be joined with OR operation. Activation group and inhibition group are joined with AND operation .
 
-*A4. Logical model, updated version 1*
+*A4. Logical model*
+
+updated version 1 - initial version 
+
+updated version 2 - PP2A node 삭제
+
+updated version 3 - PTEN node 삭제
+
+updated version 4 - S6K -IRS link 삭제
 
 #### (**B**) Analysis the network
 
