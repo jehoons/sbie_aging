@@ -65,9 +65,6 @@ cd BooleanSim
 python setup.py install 
 ```
 
-### Boolean network simulator 
+### Mathematical equation 
 To render equations in this page, install [github-with-mathjax](https://chrome.google.com/webstore/detail/github-with-mathjax/ioemnmodlmafdkllaclgeombjnmnbima). 
-
-
-
 
