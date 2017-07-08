@@ -1,0 +1,13 @@
+x1 ((inhibit)) x7
+x4 ((activate)) x5
+x8 ((activate)) x9
+x1 ((activate)) x4
+x6 ((inhibit)) x3
+x7 ((activate)) x5
+x7 ((activate)) x8
+x9 ((activate)) x8
+x2 ((activate)) x7
+x5 ((activate)) x11
+x3 ((activate)) x4
+x9 ((activate)) x10
+x5 ((activate)) x6
