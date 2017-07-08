@@ -1,0 +1,5 @@
+x4 ((inhibit)) x1
+x1 ((inhibit)) x2
+x2 ((activate)) x3
+x3 ((inhibit)) x4
+x1 ((activate)) x3
