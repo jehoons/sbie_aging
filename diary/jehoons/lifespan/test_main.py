@@ -29,16 +29,21 @@ def test():
     df_network3.to_csv(network_updated)
 
 
+# INPUTS
+
 # database 
-lifespan = 'lifespanofmice_v3.csv'
+lifespan = 'dataset-lifespanofmice_v3.csv'
 
 # id mapping 
-fromto = 'fromto.txt' 
+fromto = 'dataset-fromto.txt' 
 
 # string-db 
-network = 'network.txt'
+network = 'dataset-network.txt'
+
+# OUTPUTS 
 
 # lifespan +, - ?
-propfile = 'node-prop.csv'
+propfile = 'chk-node-property.csv'
 
-network_updated = 'network-updated.txt'
+network_updated = 'chk-network-with-edgeinfo.txt'
+
