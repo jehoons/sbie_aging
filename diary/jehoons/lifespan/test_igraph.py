@@ -1,7 +1,6 @@
 import igraph 
 from igraph import *
 import pandas as pd 
-# import matplotlib.pyplot as plt
 networkfile = 'network_2.txt'
 
 df0 = pd.read_csv(networkfile)
@@ -17,6 +16,7 @@ for row in df0.iterrows():
     score = row[1]['combined_score']
     g.add_edge(node1, node2, score=score)
 
+plot(g,"output.png", layout=g.layout("kk"))
 
 xxx
 # nodepairs = df0[['#node1','node2']].values.tolist() 
