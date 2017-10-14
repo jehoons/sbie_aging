@@ -1,0 +1,4 @@
+1. MI.py는 raw_data.csv를 입력받아 MI_raw.csv 생성
+2. MI_sandq.py는 raw_data.csv를 입력받아 senescence와 quiescence 상태에 대한 MI를 계산한 MI_q.csv와 MI_s.csv를 생성
+3. MI_diff.py는 MI_q.csv와 MI_s.csv를 입력받아 S와 Q를 비교한 MI_diff.csv와 MI_ratio.csv를 생성
+4. MI_target.py는 MI_ratio.csv를 입력으로 받아 log2를 적용하고 senescence에서 MI가 올라간 행렬 MI_ratio_up.csv, MI가 내려간 행렬 MI_ratio_down.csv, 그리고 그 둘을 합쳐 절대값을 취한 MI_ratio_total_뮨.csv를 생성함
