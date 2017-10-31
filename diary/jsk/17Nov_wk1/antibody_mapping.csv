@@ -1,0 +1,1319 @@
+Antibody Name,Gene ID,symbol,include network
+c-Jun (Phospho-Ser63),3725,JUN,x
+GSK3 beta (Phospho-Ser9),2932,GSK3B,x
+c-Jun (Phospho-Ser73),3725,JUN,x
+Elk1 (Phospho-Ser383),2002,ELK1,x
+PDK1 (Phospho-Ser241),5170,PDPK1,x
+Raf1 (Phospho-Ser259),5894,RAF1,x
+GSK3 alpha (Phospho-Ser21),2931,GSK3A,x
+MEK2 (Phospho-Thr394),5605,MAP2K2,x
+PTEN (Phospho-Ser380),5728,PTEN,o
+NFkB-p65 (Phospho-Thr254),5970,RELA,x
+NFkB-p65 (Phospho-Ser276),5970,RELA,x
+NFkB-p65 (Phospho-Thr435),5970,RELA,x
+NFkB-p65 (Phospho-Ser468),5970,RELA,x
+NFkB-p65 (Phospho-Ser536),5970,RELA,x
+NFkB-p100/p52 (Phospho-Ser865),4791,NFKB2,x
+NFkB-p100/p52 (Phospho-Ser869),4791,NFKB2,x
+MKK4/SEK1 (Phospho-Ser80),6416,MAP2K4,x
+ASK1 (Phospho-Ser966),4217,MAP3K5,x
+HDAC4 (Phospho-Ser632),9759,HDAC4,x
+HDAC5 (Phospho-Ser498),10014,HDAC5,x
+HDAC8 (Phospho-Ser39),55869,HDAC8,x
+HSP27 (Phospho-Ser15),3315,HSPB1,x
+SMC1 (Phospho-Ser957),8243,SMC1A,x
+BCR (Phospho-Tyr177),613,BCR,x
+MSK1 (Phospho-Ser376),9252,RPS6KA5,o
+Paxillin (Phospho-Tyr31),5829,PXN,x
+Ezrin (Phospho-Thr566),7430,EZR,x
+Rac1/cdc42 (Phospho-Ser71),5879,RAC1,x
+Raf1 (Phospho-Ser338),5894,RAF1,x
+MEK1 (Phospho-Ser217),5604,MAP2K1,o
+p21Cip1 (Phospho-Thr145),1026,CDKN1A,o
+p27Kip1 (Phospho-Ser10),1027,CDKN1B,o
+p27Kip1 (Phospho-Thr187),1027,CDKN1B,o
+Histone H3.1 (Phospho-Ser10),8350?/?8351?/?8352?/?8353?/?8354?/?8355/?8356?/?8357?/?8358?/?8968,HIST1H3A HIST1H3D HIST1H3C HIST1H3E HIST1H3I HIST1H3G HIST1H3J HIST1H3H HIST1H3B HIST1H3F,x
+ASK1 (Phospho-Ser83),4217,MAP3K5,x
+NFkB-p105/p50 (Ab-893),4790,NFKB1,o
+NFkB-p105/p50 (Ab-907),4790,NFKB1,o
+Rel (Ab-503),5966,REL,x
+c-Jun (Ab-91),3725,JUN,x
+c-Jun (Ab-93),3725,JUN,x
+c-Jun (Ab-170),3725,JUN,x
+c-Jun (Ab-239),3725,JUN,x
+c-Jun (Ab-243),3725,JUN,x
+JunB (Ab-79),3726,JUNB,x
+JunB (Ab-259),3726,JUNB,x
+JunD (Ab-255),3726,JUNB,x
+ATF2 (Ab-62/44),1386,ATF2,x
+ATF2 (Ab-69/51),1386,ATF2,x
+ATF2 (Ab-71/53),1386,ATF2,x
+ATF2 (Ab-73/55),1386,ATF2,x
+ATF2 (Ab-112/94),1386,ATF2,x
+Myc (Ab-58),4609,MYC,x
+Myc (Ab-358),4609,MYC,x
+Myc (Ab-373),4609,MYC,x
+FAK (Ab-397),5747,PTK2,x
+Pyk2 (Ab-402),2185,PTK2B,x
+NFkB-p65 (Ab-529),5970,RELA,x
+Catenin beta (Ab-37),1499,CTNNB1,x
+EGFR (Ab-1172),1956,EGFR,x
+mTOR (Ab-2448),2475,MTOR,o
+4E-BP1 (Ab-36),1978,EIF4EBP1,o
+4E-BP1 (Ab-45),1978,EIF4EBP1,o
+Stathmin 1 (Ab-24),3925,STMN1,x
+Stathmin 1 (Ab-37),3925,STMN1,x
+PDGFR beta (Ab-751),5159,PDGFRB,x
+Met (Ab-1234),4233,MET,x
+EGFR (Ab-1197),1956,EGFR,x
+EGFR (Ab-869),1956,EGFR,x
+IRS-1 (Ab-636),3667,IRS1,o
+IRS-1 (Ab-639),3667,IRS1,o
+S6 Ribosomal Protein (Ab-235),6194,RPS6,x
+eIF4E (Ab-209),1977,EIF4E,x
+Stathmin 1 (Ab-15),3925,STMN1,x
+DYN1 (Phospho-Ser774),1759,DNM1,x
+E2F1 (Phospho-Thr433),1869,E2F1,x
+FAK (Phospho-Tyr576),5747,PTK2,x
+Fos (Phospho-Ser362),2353,FOS,x
+GRF-1 (Phospho-Tyr1105),2909,ARHGAP35,x
+HDAC5 (Phospho-Ser259),10014,HDAC5,x
+HSL (Phospho-Ser552/563),3991,LIPE,x
+IkB-beta (Phospho-Thr19),4793,NFKBIB,x
+IKK-alpha/beta (Phospho-Ser180/181),1147/3551,CHUK IKBKB,x
+IKK-beta (Phospho-Tyr188),3551,IKBKB,o
+IKK-gamma (Phospho-Ser31),8517,IKBKG,x
+IRS-1 (Phospho-Ser1101),3667,IRS1,o
+IRS-1 (Phospho-Ser612),3667,IRS1,o
+AKT1S1 (Phospho-Thr246),84335,AKT1S1,x
+Arrestin-1 (Phospho-Ser412),408,ARRB1,x
+BCL-2 (Phospho-Ser87),596,BCL2,o
+BID (Phospho-Ser78),637,BID,x
+CD3Z (Phospho-Tyr142),919,CD247,x
+CDK1/CDC2 (Phospho-Thr14),983,CDK1,x
+FAK (Phospho-Ser910),5747,PTK2,x
+FosB (Phospho-Ser27),2354,FOSB,x
+GRK1 (Phospho-Ser21),6011,GRK1,x
+HDAC3 (Phospho-Ser424),8841,HDAC3,x
+HDAC6 (Phospho-Ser22),10013,HDAC6,x
+HER3/ErbB3 (Phospho-Tyr1222),2065,ERBB3,x
+HER3/ErbB3 (Phospho-Tyr1289),2065,ERBB3,x
+HER4/ErbB4 (Phospho-Tyr1284),2066,ERBB4,x
+PKA-R2B (Phospho-Ser113),5577,PRKAR2B,x
+Smad1 (Phospho-Ser187),4086,SMAD1,x
+Smad2 (Phospho-Ser250),4087,SMAD2,x
+Smad2 (Phospho-Thr220),4087,SMAD2,x
+Smad2/3 (Phospho-Thr8),4088/4087,SMAD3 SMAD2,x
+Smad3 (Phospho-Thr179),4088,SMAD3,x
+Smad3 (Phospho-Ser204),4088,SMAD3,x
+Smad3 (Phospho-Ser208),4088,SMAD3,x
+Smad3 (Phospho-Ser213),4088,SMAD3,x
+STAT5A (Phospho-Ser725),6776,STAT5A,x
+Calsenilin/KCNIP3 (Phospho-Ser63),30818,KCNIP3,x
+NMDAR2B (Phospho-Tyr1472),2904,GRIN2B,x
+PECAM-1 (Phospho-Tyr713),5175,PECAM1,x
+PTPRA (Phospho-Tyr798),5796,PTPRK,x
+TFII-I (Phospho-Tyr248),2969,GTF2I,x
+ACK1 (Phospho-Tyr284),10188,TNK2,x
+ALK (Phospho-Tyr1507),238,ALK,x
+ALK (Phospho-Tyr1604),238,ALK,x
+BLNK (Phospho-Tyr96),29760,BLNK,x
+ETK (Phospho-Tyr40),660,BMX,x
+Pim-1 (Phospho-Tyr309),18712,Pim1,x
+PLD1 (Phospho-Ser561),5337,PLD1,x
+BCR (Phospho-Tyr360),613,BCR,x
+Breast tumor kinase (Phospho-Tyr447),5753,PTK6,x
+ADD1 (Phospho-Ser726),118,ADD1,x
+CD5 (Phospho-Tyr453),921,CD5,x
+M-CSF Receptor (Phospho-Tyr561),1436,CSF1R,x
+DAPP1 (Phospho-Tyr139),27071,DAPP1,x
+DDX5/DEAD-box protein 5 (Phospho-Tyr593),1655,DDX5,x
+HCK (Phospho-Tyr410),3055,HCK,x
+Raf1 (Ab-296),5894,RAF1,x
+Cyclin B1 (Ab-147),891,CCNB1,x
+Cyclin E1 (Ab-77),898,CCNE1,x
+eIF4G (Ab-1108),1981,EIF4G1,x
+IRS-1 (Ab-794),3667,IRS1,o
+LAT (Ab-171),27040,LAT,x
+LKB1 (Ab-428),6794,STK11,x
+LKB1 (Ab-189),6794,STK11,x
+MEK1 (Ab-298),5604,MAP2K1,o
+MEK1 (Ab-286),5604,MAP2K1,o
+MSK1 (Ab-360),9252,RPS6KA5,o
+MSK1 (Ab-581),9252,RPS6KA5,o
+mTOR (Ab-2481),2475,MTOR,o
+PAK4 (Ab-474),10298,PAK4,x
+PKC alpha/beta II (Ab-638),5578,PRKCA,x
+PKC delta (Ab-505),5580,PRKCD,x
+Cyclin E2 (Phospho-Thr392),9134,CCNE2,x
+PKD1/PKC mu (Ab-744/748),5587,PRKD1,x
+PKD1/PKC mu (Ab-910),5587,PRKD1,x
+NFkB-p105/p50 (Phospho-Ser337),4790,NFKB1,o
+NFkB-p105/p50 (Phospho-Ser893),4790,NFKB1,o
+NFkB-p105/p50 (Phospho-Ser907),4790,NFKB1,o
+Rel (Phospho-Ser503),5966,REL,x
+c-Jun (Phospho-Thr91),3725,JUN,x
+c-Jun (Phospho-Thr93),3725,JUN,x
+c-Jun (Phospho-Tyr170),3725,JUN,x
+c-Jun (Phospho-Thr239),3725,JUN,x
+c-Jun (Phospho-Ser243),3725,JUN,x
+JunB (Phospho-Ser79),3726,JUNB,x
+JunB (Phospho-Ser259),3726,JUNB,x
+JunD (Phospho-Ser255),3726,JUNB,x
+ATF2 (Phospho-Ser62/44),1386,ATF2,x
+ATF2 (Phospho-Thr69/51),1386,ATF2,x
+ATF2 (Phospho-Thr71/53),1386,ATF2,x
+ATF2 (Phospho-Thr73/55),1386,ATF2,x
+ATF2 (Phospho-Ser112/94),1386,ATF2,x
+Myc (Phospho-Thr58),4609,MYC,x
+Myc (Phospho-Thr358),4609,MYC,x
+VASP (Phospho-Ser157),7408,VASP,x
+Pyk2 (Phospho-Tyr402),2185,PTK2B,x
+NFkB-p65 (Phospho-Ser529),5970,RELA,x
+Catenin beta (Phospho-Ser33),1499,CTNNB1,x
+Catenin beta (Phospho-Ser37),1499,CTNNB1,x
+EGFR (Phospho-Tyr1172),1956,EGFR,x
+mTOR (Phospho-Ser2448),2475,MTOR,o
+4E-BP1 (Phospho-Thr36),1978,EIF4EBP1,o
+4E-BP1 (Phospho-Thr45),1978,EIF4EBP1,o
+Stathmin 1 (Phospho-Ser24),3925,STMN1,x
+Stathmin 1 (Phospho-Ser37),3925,STMN1,x
+PDGFR beta (Phospho-Tyr751),5159,PDGFRB,x
+Met (Phospho-Tyr1234),4233,MET,x
+EGFR (Phospho-Tyr1197),1956,EGFR,x
+EGFR (Phospho-Tyr869),1956,EGFR,x
+IRS-1 (Phospho-Ser636),3667,IRS1,o
+IRS-1 (Phospho-Ser639),3667,IRS1,o
+S6 Ribosomal Protein (Phospho-Ser235),6194,RPS6,x
+eIF4E (Phospho-Ser209),1977,EIF4E,x
+Elk1 (Ab-389),2002,ELK1,x
+Elk1 (Ab-417),2002,ELK1,x
+MEF2A (Ab-312),4205,MEF2A,x
+MEF2A (Ab-319),4205,MEF2A,x
+GATA1 (Ab-142),2623,GATA1,x
+GATA1 (Ab-310),2623,GATA1,x
+HNF4 alpha (Ab-313),3172,HNF4A,x
+STAT1 (Ab-701),6772,STAT1,x
+STAT3 (Ab-705),6774,STAT3,x
+STAT3 (Ab-727),6774,STAT3,x
+STAT4 (Ab-693),6775,STAT4,x
+STAT5A (Ab-694),6776,STAT5A,x
+STAT5A (Ab-780),6776,STAT5A,x
+STAT6 (Ab-641),6778,STAT6,x
+STAT6 (Ab-645),6778,STAT6,x
+CREB (Ab-133),1385,CREB1,x
+ATF4 (Ab-245),468,ATF4,x
+AKT1 (Ab-473),207,AKT1,o
+AKT1 (Ab-308),207,AKT1,o
+IRS-1 (Ab-307),3667,IRS1,o
+Met (Ab-1349),4233,MET,x
+FGFR1 (Ab-154),2260,FGFR1,x
+KIT (Ab-721),3815,KIT,x
+SP1 (Ab-739),6667,SP1,x
+BAX (Phospho-Thr167),581,BAX,o
+eNOS (Ab-495),4846,NOS3,x
+CDK1/CDC2 (Ab-15),983,CDK1,x
+p44/42MAPK (Ab-202),5595/5594,MAPK3 MAPK1,o
+p44/42 MAPK (Ab-204),5595/5594,MAPK3 MAPK1,o
+HSP27 (Ab-78),3315,HSPB1,x
+HSP27 (Ab-82),3315,HSPB1,x
+SAPK/JNK (Ab-183),5599?/?5601?/?5602,MAPK8 MAPK9 MAPK10,x
+SAPK/JNK (Ab-185),5599?/?5601?/?5602,MAPK8 MAPK9 MAPK10,x
+NFkB-p105/p50 (Ab-932),4790,NFKB1,o
+p38 MAPK (Ab-182),1432,MAPK14,o
+RelB (Ab-552),5971,RELB,x
+Synuclein alpha (Ab-125),6622,SNCA,x
+Tau (Ab-212),4137,MAPT,x
+CREB (Phospho-Ser121),1385,CREB1,x
+EGFR (Phospho-Tyr1016),1956,EGFR,x
+FAK (Phospho-Tyr407),5747,PTK2,x
+FOXO1/3/4-pan (Phospho-Thr24/32),2308/4303,FOXO1 FOXO4,x
+FKHR/FOXO1A (Phospho-Ser329),2308,FOXO1,x
+FOXO1A/3A (Phospho-Ser322/325),2308,FOXO1,x
+GRK2 (Phospho-Ser29),156,GRK2,x
+IKK-beta (Phospho-Tyr199),3551,IKBKB,o
+IRS-1 (Phospho-Ser323),3667,IRS1,o
+JNK1/2/3 (Phospho-Thr183/Tyr185),5599?/?5601?/?5602,MAPK8 MAPK9 MAPK10,x
+LAT (Phospho-Tyr191),27040,LAT,x
+LCK (Phospho-Tyr504),3932,LCK,x
+LCK (Phospho-Tyr192),3932,LCK,x
+MDM2 (Phospho-Ser166),4193,MDM2,o
+MEF2D (Phospho-Ser444),4209,MEF2D,x
+NFAT4 (Phospho-Ser165),4775,NFATC3,x
+p53 (Phospho-Ser20),7157,TP53,o
+p53 (Phospho-Ser392),7157,TP53,o
+P70S6K (Phospho-Thr229),6198,RPS6KB1,x
+Caspase 1 (Phospho-Ser376),834,CASP1,x
+Caspase 2 (Phospho-Ser157),835,CASP2,x
+GRB10/Growth factor receptor-bound protein 10 (Phospho-Tyr67),2887,GRB10,x
+GTPase activating protein (Phospho-Ser387),29127,RACGAP1,x
+HSP90 co-chaperone Cdc37 (Phospho-Ser13),11140,CDC37,x
+IkB-alpha (Phospho-Tyr305),4792,NFKBIA,x
+MKP-1 (Phospho-Ser359),1843,DUSP1,x
+NFkB-p100/p52 (Phospho-Ser872),4791,NFKB2,x
+PAK1/2 (Phospho-Ser199),5058,PAK1,x
+RapGEF1 (Phospho-Tyr504),2889,RAPGEF1,x
+MAP3K7/TAK1 (Phospho-Thr184),6885,MAP3K7,x
+eNOS (Phospho-Ser615),4846,NOS3,x
+IKK-gamma (Phospho-Ser85),8517,IKBKG,x
+mTOR (Phospho-Thr2446),2475,MTOR,o
+IGF2R (Phospho-Ser2409),3482,IGF2R,x
+PI3-kinase p85-subunit alpha/gamma (Phospho-Tyr467/Tyr199),5295/8503,PIK3R1 PIK3R3,x
+PI3-kinase p85-alpha (Phospho-Tyr607),5295,PIK3R1,x
+RGS16 (Phospho-Tyr168),6004,RGS16,x
+Rho/Rac guanine nucleotide exchange factor 2 (Phospho-Ser885),9181,ARHGEF2,x
+NMDAR2A/B (Phospho-Tyr1246/1252),2903/2904,GRIN2A GRIN2B,x
+VEGFR2 (Phospho-Tyr1054),3791,KDR,x
+Vinculin (Phospho-Tyr821),7414,VCL,x
+HRS (Phospho-Tyr334),9146,HGS,x
+IL-10R-alpha (Phospho-Tyr496),3587,IL10RA,x
+IL-13R/CD213a1 (Phospho-Tyr405),3597,IL13RA1,x
+IL-4R/CD124 (Phospho-Tyr497),3566,IL4R,x
+IL7R/CD127 (Phospho-Tyr449),3575,IL7R,x
+Integrin beta-4 (Phospho-Tyr1510),3691,ITGB4,x
+Kv1.3/KCNA3 (Phospho-Tyr135),3738,KCNA3,x
+Kv2.1/Kcnb1 (Phospho-Tyr128),3745,KCNB1,x
+CDK5 (Phospho-Tyr15),1020,CDK5,x
+STAM2 (Phospho-Tyr192),10254,STAM2,x
+AXL (Phospho-Tyr691),558,AXL,x
+FER (Phospho-Tyr402),2241,FER,x
+FLT3 (Phospho-Tyr842),2322,FLT3,x
+FLT3 (Phospho-Tyr969),2322,FLT3,x
+ICK (Phospho-Tyr159),22858,ICK,x
+BLNK (Phospho-Tyr84),29760,BLNK,x
+PLC beta3 (Ab-537),5331,PLCB3,x
+Ras-GRF1 (Ab-916),5923,RASGRF1,x
+14-3-3 theta/tau (Ab-232),10971,YWHAQ,x
+14-3-3 zeta/delta (Ab-232),7534,YWHAZ,x
+"6-phosphofructo-2-kinase/fructose-2,6-biphosphatase 2 (PFKFB2)(Ab-483)",5208,PFKFB2,x
+Actin Pan (a/b/g)(Ab-55/53),58?/70/71/72,ACTA1 ACTC1 ACTG1 ACTG2,x
+A-RAF (Ab-301/302),369,ARAF,x
+ATRIP (Ab-68/72),84126,ATRIP,x
+BAX (Ab-167),581,BAX,o
+BCL-2 (Ab-69),596,BCL2,o
+BCL-XL (Ab-47),598,BCL2L1,x
+B-RAF (Ab-598),673,BRAF,x
+B-RAF (Ab-601),673,BRAF,x
+Chk2 (Ab-383),11200,CHEK2,x
+Gab1 (Ab-659),2549,GAB1,x
+HDAC1 (Ab-421),3065,HDAC1,x
+p38 MAPK (Ab-322),1432,MAPK14,o
+PKC alpha (Ab-657),5578,PRKCA,x
+PKC epsilon (Ab-729),5581,PRKCE,x
+Myc (Phospho-Ser373),4609,MYC,x
+Elk1 (Phospho-Ser389),2002,ELK1,x
+Elk1 (Phospho-Thr417),2002,ELK1,x
+MEF2A (Phospho-Thr312),4205,MEF2A,x
+MEF2A (Phospho-Thr319),4205,MEF2A,x
+GATA1 (Phospho-Ser142),2623,GATA1,x
+GATA1 (Phospho-Ser310),2623,GATA1,x
+HNF4 alpha (Phospho-Ser313),3172,HNF4A,x
+STAT1 (Phospho-Tyr701),6772,STAT1,x
+STAT3 (Phospho-Tyr705),6774,STAT3,x
+STAT3 (Phospho-Ser727),6774,STAT3,x
+STAT4 (Phospho-Tyr693),6775,STAT4,x
+STAT5A (Phospho-Tyr694),6776,STAT5A,x
+STAT5A (Phospho-Ser780),6776,STAT5A,x
+STAT6 (Phospho-Tyr641),6778,STAT6,x
+STAT6 (Phospho-Thr645),6778,STAT6,x
+CREB (Phospho-Ser133),1385,CREB1,x
+ATF4 (Phospho-Ser245),468,ATF4,x
+AKT1 (Phospho-Ser473),207,AKT1,o
+Stathmin 1 (Phospho-Ser15),3925,STMN1,x
+IRS-1 (Phospho-Ser307),3667,IRS1,o
+Met (Phospho-Tyr1349),4233,MET,x
+FGFR1 (Phospho-Tyr154),2260,FGFR1,x
+KIT (Phospho-Tyr721),3815,KIT,x
+SP1 (Phospho-Thr739),6667,SP1,x
+BRCA1 (Phospho-Ser1423),672,BRCA1,x
+eNOS (Phospho-Thr495),4846,NOS3,x
+CDK1/CDC2 (Phospho-Tyr15),983,CDK1,x
+p44/42 MAPK (Phospho-Thr202),5595/5594,MAPK3 MAPK1,o
+p44/42 MAPK (Phospho-Tyr204),5595/5594,MAPK3 MAPK1,o
+HSP27 (Phospho-Ser78),3315,HSPB1,x
+HSP27 (Phospho-Ser82),3315,HSPB1,x
+SAPK/JNK (Phospho-Thr183),5599?/?5601?/?5602,MAPK8 MAPK9 MAPK10,x
+SAPK/JNK (Phospho-Tyr185),5599?/?5601?/?5602,MAPK8 MAPK9 MAPK10,x
+NFkB-p105/p50 (Phospho-Ser932),4790,NFKB1,o
+p38 MAPK (Phospho-Thr180),1432,MAPK14,o
+p38 MAPK (Phospho-Tyr182),1432,MAPK14,o
+RelB (Phospho-Ser552),5971,RELB,x
+PTEN (Ab-380/382/383),5728,PTEN,o
+PTEN (Ab-370),5728,PTEN,o
+P95/NBS1 (Ab-343),4683,NBN,x
+BCL-2 (Ab-56),596,BCL2,o
+BCL-2 (Ab-70),596,BCL2,o
+NFkB-p65 (Phospho-Thr505),5970,RELA,x
+BAD (Ab-112),572,BAD,x
+BAD (Ab-136),572,BAD,x
+BAD (Ab-155),572,BAD,x
+Estrogen Receptor-alpha (Ab-104),2099,ESR1,x
+Estrogen Receptor-alpha (Ab-106),2099,ESR1,x
+Estrogen Receptor-alpha (Ab-118),2099,ESR1,x
+Estrogen Receptor-alpha (Ab-167),2099,ESR1,x
+Progesterone Receptor (Ab-190),5241,PGR,x
+HER2 (Ab-877),2064,ERBB2,x
+HER2 (Ab-1221/1222),2064,ERBB2,x
+HER2 (Ab-1248),2064,ERBB2,x
+EGFR (Ab-1070),1956,EGFR,x
+EGFR (Ab-1092),1956,EGFR,x
+Connexin 43 (Ab-367),2697,GJA1,x
+DAB1 (Ab-232),1600,DAB1,x
+NFkB-p65 (Ab-311),5970,RELA,x
+GluR1 (Ab-849),2890,GRIA1,x
+GluR1 (Ab-863),2890,GRIA1,x
+HSF1 (Ab-303),3297,HSF1,x
+EGFR (Ab-1110),1956,EGFR,x
+MARCKS (Ab-163),4082,MARCKS,x
+Merlin (Ab-518),4771,NF2,x
+Synapsin (Ab-9),6853,SYN1,x
+Histone H2A.X (Ab-139),3014,H2AFX,x
+P70S6K (Ab-411),6198,RPS6KB1,x
+Tau (Ab-422),4137,MAPT,x
+Cortactin (Ab-421),2017,CTTN,x
+Cortactin (Ab-466),2017,CTTN,x
+CREB (Ab-129),1385,CREB1,x
+DAB1 (Ab-220),1600,DAB1,x
+DARPP-32 (Ab-34),84152,PPP1R1B,x
+Dok-1 (Ab-362),1796,DOK1,x
+P70S6K (Phospho-Ser371),6198,RPS6KB1,x
+P70S6K (Phospho-Thr389),6198,RPS6KB1,x
+P70S6K (Phospho-Ser418),6198,RPS6KB1,x
+P90RSK (Phospho-Thr359/Ser363),6195,RPS6KA1,x
+P90RSK (Phospho-Ser380),6195,RPS6KA1,x
+P90RSK (Phospho-Thr573),6195,RPS6KA1,x
+PAK1 (Phospho-Thr212),5058,PAK1,x
+PAK1/2/3 (Phospho-Thr423/402/421),5058/5062/5063,PAK1 PAK2 PAK3,x
+PAK1/2/3 (Phospho-Ser141),5058/5062/5063,PAK1 PAK2 PAK3,x
+PEA-15 (Phospho-Ser116),8682,PEA15,x
+PKA CAT (Phospho-Thr197),5566,PRKACA,x
+PP2A-alpha (Phospho-Tyr307),5515,PPP2CA,x
+Raf1 (Phospho-Tyr341),5894,RAF1,x
+Raf1 (Phospho-Ser621),5894,RAF1,x
+RyR2 (Phospho-Ser2808),6262,RYR2,x
+SYK (Phospho-Tyr323),6850,SYK,x
+Synapsin (Phospho-Ser62),6853,SYN1,x
+Tuberin/TSC2 (Phospho-Ser939),7249,TSC2,o
+Tuberin/TSC2 (Phospho-Thr1462),7249,TSC2,o
+VAV2 (Phospho-Tyr142),7410,VAV2,x
+Catenin beta (Phospho-Tyr489),1499,CTNNB1,x
+CREB (Phospho-Thr100),1385,CREB1,x
+Ezrin (Phospho-Tyr478),7430,EZR,x
+p53 (Phospho-Ser366),7157,TP53,o
+p53 (Phospho-Ser378),7157,TP53,o
+Rb (Phospho-Ser608),5925,RB1,o
+SRF (Phospho-Ser77),6722,SRF,x
+Trk A (Phospho-Tyr701),4914,NTRK1,x
+Trk A (Phospho-Tyr680/681),4914,NTRK1,x
+Abl1 (Phospho-Thr754/735),25,ABL1,x
+B-RAF (Phospho-Ser446),673,BRAF,x
+CaMK2-beta/gamma/delta (Phospho-Thr287),816/818/817,CAMK2B CAMK2G CAMK2D,x
+MAP3K1/MEKK1 (Phospho-Thr1381),4214,MAP3K1,x
+MKK3/MAP2K3 (Phospho-Thr222),5606,MAP2K3,x
+MKK7/MAP2K7 (Phospho-Ser271),5609,MAP2K7,x
+MKK7/MAP2K7 (Phospho-Thr275),5609,MAP2K7,x
+MSK1 (Phospho-Ser212),9252,RPS6KA5,o
+MSK2 (Phospho-Thr568),8986,RPS6KA4,x
+VE-Cadherin (Phospho-Tyr731),1003,CDH5,x
+WWOX (Phospho-Tyr33),51741,WWOX,x
+Claudin 3 (Phospho-Tyr219),1365,CLDN3,x
+Claudin 6 (Phospho-Tyr219),9074,CLDN6,x
+Claudin 7 (Phospho-Tyr210),1366,CLDN7,x
+PLD2 (Phospho-Tyr169),5338,PLD2,x
+AMPK1/AMPK2 (Ab-485/491),5562/5563,PRKAA1 PRKAA2,x
+MKK6/MAP2K6 (Ab-207),5608,MAP2K6,x
+p38 MAPK (Ab-180),1432,MAPK14,o
+Catenin beta (Ab-33),1499,CTNNB1,x
+P70S6K (Ab-421),6198,RPS6KB1,x
+GSK3 alpha/beta (Ab-216/279),2931,GSK3A,x
+Caspase 8 (Ab-347),841,CASP8,x
+CDC25B (Ab-323),994,CDC25B,x
+Cyclin B1 (Ab-126),891,CCNB1,x
+Cyclin E1 (Ab-395),898,CCNE1,x
+KSR (Ab-392),8844,KSR1,x
+PLC beta3 (Ab-1105),5331,PLCB3,x
+STAT5B (Ab-731),6777,STAT5B,x
+PKC pan activation site,5578?/?5579?/?5580?/?5581?/? 5582?/?5583/?5588?/?5590,PRKCA PRKCB PRKCD PRKCE PRKCG PRKCH PRKCQ PRKCZ,x
+PKC zeta (Ab-560),5590,PRKCZ,x
+PKD1/PKC mu (Ab-205),5587,PRKD1,x
+PKD1/PKC mu (Ab-463),5587,PRKD1,x
+PKD2 (Ab-876),25865,PRKD2,x
+Rb (Ab-811),5925,RB1,o
+Rb-like-2 (RBL2)(Ab-952),5934,RBL2,x
+AKT1 (Ab-326),207,AKT1,o
+BAD (Ab-91/128),572,BAD,x
+BAD (Ab-134),572,BAD,x
+Calmodulin (Ab-79/81),801/805/808,CALM1 CALM2 CALM3,x
+CaMK1-alpha (Ab-177),8536,CAMK1,x
+CaMK4 (Ab-196/200),814,CAMK4,x
+Caspase 9 (Ab-153),842,CASP9,x
+Caspase 9 (Ab-144),842,CASP9,x
+Caspase 9 (Ab-196),842,CASP9,x
+Caspase 3 (Ab-150),836,CASP3,o
+Catalase (Ab-385),847,CAT,x
+Catenin beta (Ab-654),1499,CTNNB1,x
+Fos (Ab-374),2353,FOS,x
+Gab2 (Ab-623),9846,GAB2,x
+MAPKAPK2 (Ab-272),9261,MAPKAPK2,x
+MEF2C (Ab-396),4208,MEF2C,x
+MKP-1/2 (Ab-296/318),1843/1846,DUSP1 DUSP4,x
+NFAT3 (Ab-168/170),4776,NFATC4,x
+SREBP-1 (Ab-439),6720,SREBF1,x
+Tuberin/TSC2 (Ab-981),7249,TSC2,o
+MKK4/SEK1 (Ab-80),6416,MAP2K4,x
+Ephrin B2 (Ab-330),1947/1948,EFNB1 EFNB2,x
+p130Cas (Ab-410),9564,BCAR1,x
+PLCG1 (Ab-771),5335,PLCG1,x
+PLCG1 (Ab-783),5335,PLCG1,x
+LYN (Ab-507),4067,LYN,x
+PLCG2 (Ab-753),5336,PLCG2,x
+ATF1 (Ab-63),466,ATF1,x
+CD19 (Ab-531),930,CD19,x
+ATPase (Ab-16),476,ATP1A1,x
+FGFR1 (Ab-766),2260,FGFR1,x
+AKT1 (Phospho-Thr308),207,AKT1,o
+PTEN (Phospho-Ser380/Thr382/Thr383),5728,PTEN,o
+P95/NBS1 (Phospho-Ser343),4683,NBN,x
+P73 (Phospho-Tyr99),7161,TP73,x
+FAK (Phospho-Tyr861),5747,PTK2,x
+Integrin beta-3 (Phospho-Tyr773),3690,ITGB3,x
+Chk2 (Phospho-Thr68),11200,CHEK2,x
+PTEN (Phospho-Ser370),5728,PTEN,o
+Ezrin (Phospho-Tyr353),7430,EZR,x
+BCL-2 (Phospho-Thr56),596,BCL2,o
+BCL-2 (Phospho-Ser70),596,BCL2,o
+BCL-XL (Phospho-Ser62),598,BCL2L1,x
+BAD (Phospho-Ser112),572,BAD,x
+BAD (Phospho-Ser136),572,BAD,x
+BAD (Phospho-Ser155),572,BAD,x
+Estrogen Receptor-alpha (Phospho-Ser104),2099,ESR1,x
+Estrogen Receptor-alpha (Phospho-Ser106),2099,ESR1,x
+Estrogen Receptor-alpha (Phospho-Ser118),2099,ESR1,x
+Estrogen Receptor-alpha (Phospho-Ser167),2099,ESR1,x
+Synuclein alpha (Phospho-Tyr125),6622,SNCA,x
+Tau (Phospho-Thr212),4137,MAPT,x
+Connexin 43 (Phospho-Ser367),2697,GJA1,x
+DAB1 (Phospho-Tyr232),1600,DAB1,x
+NFkB-p65 (Phospho-Ser311),5970,RELA,x
+GluR1 (Phospho-Ser849),2890,GRIA1,x
+GluR1 (Phospho-Ser863),2890,GRIA1,x
+HSF1 (Phospho-Ser303),3297,HSF1,x
+EGFR (Phospho-Tyr1110),1956,EGFR,x
+MARCKS (Phospho-Ser163),4082,MARCKS,x
+Merlin (Phospho-Ser518),4771,NF2,x
+Synapsin (Phospho-Ser9),6853,SYN1,x
+Histone H2A.X (Phospho-Ser139),3014,H2AFX,x
+P70S6K (Phospho-Ser411),6198,RPS6KB1,x
+Tau (Phospho-Ser422),4137,MAPT,x
+Cortactin (Phospho-Tyr421),2017,CTTN,x
+Cortactin (Phospho-Tyr466),2017,CTTN,x
+CREB (Phospho-Ser129),1385,CREB1,x
+DAB1 (Phospho-Tyr220),1600,DAB1,x
+P73 (Ab-99),7161,TP73,x
+FAK (Ab-861),5747,PTK2,x
+VEGFR2 (Ab-1175),3791,KDR,x
+VEGFR2 (Ab-1214),3791,KDR,x
+VEGFR2 (Ab-951),3791,KDR,x
+IGF1R (Ab-1161),3480,IGF1R,o
+IGF1R (Ab-1165/1166),3480,IGF1R,o
+Integrin beta-3 (Ab-773),3690,ITGB3,x
+p53 (Ab-6),7157,TP53,o
+p53 (Ab-9),7157,TP53,o
+p53 (Ab-15),7157,TP53,o
+p53 (Ab-18),7157,TP53,o
+Chk2 (Ab-68),11200,CHEK2,x
+p53 (Ab-33),7157,TP53,o
+p53 (Ab-37),7157,TP53,o
+p53 (Ab-46),7157,TP53,o
+p53 (Ab-315),7157,TP53,o
+Tau (Ab-356),4137,MAPT,x
+Tau (Ab-396),4137,MAPT,x
+Dok-1 (Ab-398),1796,DOK1,x
+Dok-2 (Ab-299),9046,DOK2,x
+eIF2A (Ab-51),1965,EIF2S1,x
+PKR (Ab-446),5610,EIF2AK2,x
+GAP43 (Ab-41),2596,GAP43,x
+Integrin beta-3 (Ab-785),3690,ITGB3,x
+Ret (Ab-905),5979,RET,x
+P70S6K (Ab-424),6198,RPS6KB1,x
+Synuclein alpha (Ab-133),6622,SNCA,x
+CaMK2A (Ab-286),815,CAMK2A,x
+BIM (Ab-69/65),10018,BCL2L11,o
+CPI17 alpha (Ab-38),94274,PPP1R14A,x
+PKR (Ab-451),5610,EIF2AK2,x
+Gab1 (Ab-627),2549,GAB1,x
+GluR2 (Ab-880),2891,GRIA2,x
+MARCKS (Ab-158),4082,MARCKS,x
+MEK1 (Ab-291),5604,MAP2K1,o
+NMDAR1 (Ab-897),2902,GRIN1,x
+PKC delta (Ab-645),5580,PRKCD,x
+Tyrosine Hydroxylase (Phospho-Ser8),7054,TH,x
+VEGFR1 (Phospho-Tyr1333),2321,FLT1,x
+VEGFR2 (Phospho-Tyr1059),3791,KDR,x
+WASP (Phospho-Tyr290),7454,WAS,x
+Zap-70 (Phospho-Tyr292),7535,ZAP70,x
+Zap-70 (Phospho-Tyr315),7535,ZAP70,x
+AKT1 (Phospho-Tyr474),207,AKT1,o
+AKT1 (Phospho-Ser246),207,AKT1,o
+AKT1 (Phospho-Thr72),207,AKT1,o
+c-Abl (Phospho-Tyr245),25,ABL1,x
+CDC25C (Phospho-Thr48),995,CDC25C,x
+Chk1 (Phospho-Ser296),1111,CHEK1,x
+Raf1 (Phospho-Ser296),5894,RAF1,x
+Cyclin B1 (Phospho-Ser147),891,CCNB1,x
+Cyclin E1 (Phospho-Thr77),898,CCNE1,x
+eIF4B (Phospho-Ser422),1975,EIF4B,x
+eIF4G (Phospho-Ser1108),1981,EIF4G1,x
+IRS-1 (Phospho-Ser794),3667,IRS1,o
+LAT (Phospho-Tyr171),27040,LAT,x
+P70S6K-beta (Phospho-Ser423),6199,RPS6KB2,x
+PAK1 (Phospho-Ser204),5058,PAK1,x
+PAK2 (Phospho-Ser192),5062,PAK2,x
+PAK3 (Phospho-Ser154),5063,PAK3,x
+PKC beta/PKCB (Phospho-Ser661),5579,PRKCB,x
+PKC delta (Phospho-Tyr64),5580,PRKCD,x
+RSK1/2/3/4 (Phospho-Ser221/227/218/232),6195?/?6197?/?6196?/?27330,RPS6KA1 RPS6KA3 RPS6KA2 RPS6KA6,x
+Src (Phospho-Ser75),6714,SRC,x
+SLP-76 (Phospho-Tyr128),3937,LCP2,x
+LCK (Phospho-Ser59),3932,LCK,x
+Fos (Phospho-Thr232),2353,FOS,x
+Src (Phospho-Tyr216),6714,SRC,x
+Gab2 (Phospho-Ser159),9846,GAB2,x
+Pyk2 (Phospho-Tyr579),2185,PTK2B,x
+GRK2 (Phospho-Ser685),156,GRK2,x
+BRCA1 (Phospho-Ser1457),672,BRCA1,x
+Cyclin C (Phospho-Ser275),892,CCNC,x
+Gab2 (Phospho-Tyr643),9846,GAB2,x
+MAPKAPK2 (Phospho-Ser272),9261,MAPKAPK2,x
+HER2 (Phospho-Thr686),2064,ERBB2,x
+NFkB-p105/p50 (Ab-927),4790,NFKB1,o
+Shc (Ab-427),6464,SHC1,x
+Smad1 (Ab-465),4086,SMAD1,x
+Smad2 (Ab-467),4087,SMAD2,x
+Smad3 (Ab-425),4088,SMAD3,x
+FAS (Phospho-Tyr291),355,FAS,x
+ACC1 (Ab-80),31,ACACA,x
+Caspase 6 (Ab-Ser257),839,CASP6,x
+Caspase 9 (Ab-125),842,CASP9,x
+c-PLA2 (Ab-505),5321,PLA2G4A,x
+EEF2 (Ab-56),1938,EEF2,x
+HSL (Ab-554),3991,LIPE,x
+Pyk2 (Ab-881),2185,PTK2B,x
+Pyk2 (Ab-580),2185,PTK2B,x
+SRF (Ab-99),6722,SRF,x
+STAT2 (Ab-690),6773,STAT2,x
+SYK (Ab-348),6850,SYK,x
+SYK (Ab-525),6850,SYK,x
+CD227/mucin 1 (Ab-1243),4582,MUC1,x
+CD4 (Ab-433),920,CD4,x
+CDC25A (Ab-124),993,CDC25A,x
+CDC25B (Ab-353),994,CDC25B,x
+CDK7 (Ab-170),1022,CDK7,x
+Chk1 (Ab-286),1111,CHEK1,x
+Met (Ab-1003),4233,MET,x
+Cyclin D1 (Ab-90),595,CCND1,x
+Cyclin E2 (Ab-392),9134,CCNE2,x
+Keratin 18 (Ab-52),3875,KRT18,x
+Keratin 8 (Ab-431),3856,KRT8,x
+Catenin delta-1 (Ab-228),1500,CTNND1,x
+Raf1 (Ab-43),5894,RAF1,x
+DNA-PK (Ab-2647),5591,PRKDC,x
+DNA-PK (Ab-2638),5591,PRKDC,x
+DNA-PK (Ab-2056),5591,PRKDC,x
+EGFR (Ab-1069),1956,EGFR,x
+ERK3 (Ab-189),5597,MAPK6,x
+FAK (Ab-910),5747,PTK2,x
+AurA (Phospho-Ser342),6790,AURKA,x
+Lamin A/C (Ab-392),4000,LMNA,x
+MITF (Ab-73),4286,MITF,x
+PLCG2 (Ab-1217),5336,PLCG2,x
+PLK1 (Ab-210),5347,PLK1,x
+PPAR-BP (Ab-1457),5469,MED1,x
+PPAR-gamma (Ab-112),5468,PPARG,x
+WAVE1 (Ab-125),8936,WASF1,x
+XIAP (Ab-87),331,XIAP,x
+ATP-Citrate Lyase (Ab-454),47,ACLY,x
+Mst1/Mst2 (Ab-183),6789,STK4,x
+Myosin regulatory light chain 2 (Ab-18),10398,MYL9,x
+p130Cas (Ab-165),9564,BCAR1,x
+PP1 alpha (Ab-320),5499,PPP1CA,x
+TLK1 (Ab-764),9874,TLK1,x
+CK2-b (Ab-209),1460,CSNK2B,x
+EPHA2/3/4 (Ab-588/596),1969/2042/2043,EPHA2 EPHA3 EPHA4,x
+EPHB1/2 (Ab-594/604),2047/1969,EPHB1 EPHA2,x
+Ephrin B1 (Ab-317),1947,EFNB1,x
+Progesterone Receptor (Phospho-Ser190),5241,PGR,x
+HER2 (Phospho-Tyr877),2064,ERBB2,x
+HER2 (Phospho-Tyr1221/Tyr1222),2064,ERBB2,x
+HER2 (Phospho-Tyr1248),2064,ERBB2,x
+EGFR (Phospho-Ser1070),1956,EGFR,x
+EGFR (Phospho-Tyr1092),1956,EGFR,x
+G3BP-1 (Phospho-Ser232),10146,G3BP1,x
+ICAM-1 (Phospho-Tyr512),3383,ICAM1,x
+VEGFR2 (Phospho-Tyr1175),3791,KDR,x
+VEGFR2 (Phospho-Tyr1214),3791,KDR,x
+VEGFR2 (Phospho-Tyr951),3791,KDR,x
+IGF1R (Phospho-Tyr1161),3480,IGF1R,o
+IGF1R (Phospho-Tyr1165/1166),3480,IGF1R,o
+Paxillin (Phospho-Tyr118),5829,PXN,x
+Caveolin-1 (Phospho-Tyr14),857,CAV1,x
+Src (Phospho-Tyr418),6714,SRC,x
+p53 (Phospho-Ser6),7157,TP53,o
+p53 (Phospho-Ser9),7157,TP53,o
+p53 (Phospho-Ser15),7157,TP53,o
+DARPP-32 (Phospho-Thr34),84152,PPP1R1B,x
+Dok-1 (Phospho-Tyr362),1796,DOK1,x
+Dok-1 (Phospho-Tyr398),1796,DOK1,x
+Dok-2 (Phospho-Tyr299),9046,DOK2,x
+eIF2A (Phospho-Ser51),1965,EIF2S1,x
+PKR (Phospho-Thr446),5610,EIF2AK2,x
+GAP43 (Phospho-Ser41),2596,GAP43,x
+Integrin beta-3 (Phospho-Tyr785),3690,ITGB3,x
+Ret (Phospho-Tyr905),5979,RET,x
+P70S6K (Phospho-Ser424),6198,RPS6KB1,x
+Synuclein alpha (Phospho-Tyr133),6622,SNCA,x
+Synuclein alpha (Phospho-Tyr136),6622,SNCA,x
+CaMK2A (Phospho-Thr286),815,CAMK2A,x
+BIM (Phospho-Ser69/65),10018,BCL2L11,o
+CPI17 alpha (Phospho-Thr38),94274,PPP1R14A,x
+PKR (Phospho-Thr451),5610,EIF2AK2,x
+Gab1 (Phospho-Tyr627),2549,GAB1,x
+GluR2 (Phospho-Ser880),2891,GRIA2,x
+MARCKS (Phospho-Ser158),4082,MARCKS,x
+Ezrin (Ab-353),7430,EZR,x
+Tau (Ab-235),4137,MAPT,x
+Tau (Ab-181),4137,MAPT,x
+Tau (Ab-205),4137,MAPT,x
+Tau (Ab-214),4137,MAPT,x
+Tau (Ab-231),4137,MAPT,x
+Tau (Ab-262),4137,MAPT,x
+Tau (Ab-404),4137,MAPT,x
+G3BP-1 (Ab-232),10146,G3BP1,x
+Catenin beta (Ab-41/45),1499,CTNNB1,x
+Androgen Receptor (Ab-213),367,AR,x
+Androgen Receptor (Ab-650),367,AR,x
+ICAM-1 (Ab-512),3383,ICAM1,x
+Paxillin (Ab-118),5829,PXN,x
+Rb (Ab-795),5925,RB1,o
+Rb (Ab-807),5925,RB1,o
+Rb (Ab-780),5925,RB1,o
+CDK2 (Ab-160),1017,CDK2,x
+Caveolin-1 (Ab-14),857,CAV1,x
+PKC theta (Ab-676),5588,PRKCQ,x
+14-3-3 zeta (Ab-58) ,7534,YWHAZ,x
+ADD1 (Ab-726) ,118,ADD1,x
+AMPK1 (Ab-172) ,5562,PRKAA1,x
+Amyloid beta A4 (Ab-743/668) ,351,APP,x
+CREB (Ab-142) ,1385,CREB1,x
+DARPP-32 (Ab-75) ,84152,PPP1R1B,x
+EGFR (Ab-678) ,1956,EGFR,x
+EGFR (Ab-693) ,1956,EGFR,x
+GABA-RB (Ab-434) ,2560,GABRB1,x
+HSP90B (Ab-254) ,3326,HSP90AB1,x
+IkB-epsilon (Ab-22) ,4794,NFKBIE,o
+Keratin 18 (Ab-33) ,3875,KRT18,x
+Keratin 8 (Ab-73) ,3875,KRT18,x
+MEF2A (Ab-408) ,4205,MEF2A,x
+Myc (Ab-62) ,4609,MYC,x
+Opioid Receptor (Ab-375) ,4988,OPRM1,x
+PKC zeta (Ab-410) ,5590,PRKCZ,x
+Shc (Ab-349) ,6464,SHC1,x
+LKB1 (Phospho-Ser428),6794,STK11,x
+LKB1 (Phospho-Thr189),6794,STK11,x
+MAPKAPK2 (Phospho-Thr222),9261,MAPKAPK2,x
+MEK1 (Phospho-Ser298),5604,MAP2K1,o
+MEK1 (Phospho-Thr286),5604,MAP2K1,o
+MSK1 (Phospho-Ser360),9252,RPS6KA5,o
+MSK1 (Phospho-Thr581),9252,RPS6KA5,o
+mTOR (Phospho-Ser2481),2475,MTOR,o
+p53 (Phospho-Thr81),7157,TP53,o
+p63 (Phospho-Ser455),8626,TP63,x
+PAK2 (Phospho-Ser20),5062,PAK2,x
+PEA-15 (Phospho-Ser104),8682,PEA15,x
+PKC alpha/beta II (Phospho-Thr638),5578,PRKCA,x
+PKC delta (Phospho-Thr505),5580,PRKCD,x
+PKC delta (Phospho-Tyr313),5580,PRKCD,x
+PKC theta (Phospho-Thr538),5588,PRKCQ,x
+PKD1/PKC mu (Phospho-Ser910),5587,PRKD1,x
+PLC beta3 (Phospho-Ser537),5331,PLCB3,x
+Ras-GRF1 (Phospho-Ser916),5923,RASGRF1,x
+MDM4 (Phospho-Ser367),4194,MDM4,x
+MEF2C (Phospho-Ser396),4208,MEF2C,x
+MKP-1/2 (Phospho-Ser296/318),1843/1846,DUSP1 DUSP4,x
+SREBP-1 (Phospho-Ser439),6720,SREBF1,x
+PLCG1 (Phospho-Tyr771),5335,PLCG1,x
+LYN (Phospho-Tyr507),4067,LYN,x
+p130Cas (Phospho-Tyr410),9564,BCAR1,x
+PLCG1 (Phospho-Tyr783),5335,PLCG1,x
+PLCG2 (Phospho-Tyr753),5336,PLCG2,x
+ATF1 (Phospho-Ser63),466,ATF1,x
+CD19 (Phospho-Tyr531),930,CD19,x
+Fyn (Phospho-Tyr530),2534,FYN,x
+ATPase (Phospho-Ser16),476,ATP1A1,x
+CBL (Phospho-Tyr774),867,CBL,x
+CBL (Phospho-Tyr700),867,CBL,x
+FGFR1 (Phospho-Tyr766),2260,FGFR1,x
+FGFR1 (Phospho-Tyr654),2260,FGFR1,x
+Lamin A/C (Phospho-Ser392),4000,LMNA,x
+MITF (Phospho-Ser73),4286,MITF,x
+4E-BP1 (Ab-65),1978,EIF4EBP1,o
+4E-BP1 (Ab-70),1978,EIF4EBP1,o
+Abl1 (Ab-204),25,ABL1,x
+ACC1 (Ab-79),31,ACACA,x
+AKT1 (Ab-450),207,AKT1,o
+AKT1 (Ab-124),207,AKT1,o
+AMPK beta1 (Ab-182),5564,PRKAB1,x
+Chk2 (Ab-387),11200,CHEK2,x
+Cyclin D1 (Ab-286),595,CCND1,x
+Cyclin D3 (Ab-283),896,CCND3,x
+Interferon-alpha/beta receptor alpha chain (Phospho-Tyr466),3454,IFNAR1,x
+DYN1 (Ab-774),1759,DNM1,x
+E2F1 (Ab-433),1869,E2F1,x
+FAK (Ab-576),5747,PTK2,x
+HDAC5 (Ab-259),10014,HDAC5,x
+HSL (Ab-552/563),3991,LIPE,x
+IkB-beta (Ab-19),4793,NFKBIB,x
+IKK-alpha/beta (Ab-180/181),1147/3551,CHUK IKBKB,x
+IKK-alpha/beta (Ab-176/177),1147/3551,CHUK IKBKB,x
+FAS (Ab-291),355,FAS,x
+FosB (Ab-27),2354,FOSB,x
+GRK1 (Ab-21),6011,GRK1,x
+HDAC3 (Ab-424),8841,HDAC3,x
+HDAC6 (Ab-22),10013,HDAC6,x
+HER2 (Ab-686),2064,ERBB2,x
+HER3/ErbB3 (Ab-1222),2065,ERBB3,x
+HER3/ErbB3 (Ab-1289),2065,ERBB3,x
+HER4/ErbB4 (Ab-1284),2066,ERBB4,x
+Smad1 (Ab-187),4086,SMAD1,x
+Smad2 (Ab-255),4087,SMAD2,x
+Smad2 (Ab-250),4087,SMAD2,x
+Smad2 (Ab-245),4087,SMAD2,x
+Smad2 (Ab-220),4087,SMAD2,x
+Smad2/3 (Ab-8),4088/4087,SMAD3 SMAD2,x
+Smad3 (Ab-179),4088,SMAD3,x
+Smad3 (Ab-204),4088,SMAD3,x
+Smad3 (Ab-213),4088,SMAD3,x
+Calsenilin/KCNIP3 (Ab-63),30818,KCNIP3,x
+Epo-R (Ab-368),2057,EPOR,x
+Interferon-alpha/beta receptor alpha chain (Ab-466),3454,IFNAR1,x
+IL-2RA/CD25 (Ab-268),3559,IL2RA,x
+WEE1 (Phospho-Ser53),7465,WEE1,x
+MKK4/SEK1 (Ab-257),6416,MAP2K4,x
+ATP1A1/Na+K+ ATPase1 (Ab-23),24211,Atp1a1,x
+CK1-A (Ab-321),1452,CSNK1A1,x
+HSP90B (Ab-226),3326,HSP90AB1,x
+Merlin (Ab-10),4771,NF2,x
+MAP3K7/TAK1 (Ab-187),6885,MAP3K7,x
+MAP3K7/TAK1 (Ab-439),6885,MAP3K7,x
+MAP3K8/COT (Ab-400),1326,MAP3K8,x
+MYT1 (Ab-83),9088,PKMYT1,x
+WEE1 (Ab-53),7465,WEE1,x
+EPB41 (Ab-418/660),2035,EPB41,x
+Mnk1 (Ab-385),8569,MKNK1,x
+RAD51 (Ab-309),5888,RAD51,x
+TIF-IA (Ab-649),54700,RRN3,x
+Lamin A (Ab-22),4000,LMNA,x
+p53 (Phospho-Thr18),7157,TP53,o
+p53 (Phospho-Ser33),7157,TP53,o
+p53 (Phospho-Ser37),7157,TP53,o
+p53 (Phospho-Ser46),7157,TP53,o
+p53 (Phospho-Ser315),7157,TP53,o
+Tau (Phospho-Ser356),4137,MAPT,x
+Tau (Phospho-Ser396),4137,MAPT,x
+Tau (Phospho-Ser235),4137,MAPT,x
+Tau (Phospho-Thr181),4137,MAPT,x
+Tau (Phospho-Thr205),4137,MAPT,x
+Tau (Phospho-Ser214),4137,MAPT,x
+Tau (Phospho-Thr231),4137,MAPT,x
+Tau (Phospho-Ser262),4137,MAPT,x
+Tau (Phospho-Ser404),4137,MAPT,x
+FKHR (Phospho-Ser256),2308,FOXO1,x
+Catenin beta (Phospho-Thr41/Ser45),1499,CTNNB1,x
+BRCA1 (Phospho-Ser1524),672,BRCA1,x
+CDC25C (Phospho-Ser216),995,CDC25C,x
+Androgen Receptor (Phospho-Ser213),367,AR,x
+MEK1 (Phospho-Thr291),5604,MAP2K1,o
+NMDAR1 (Phospho-Ser897),2902,GRIN1,x
+PKC delta (Phospho-Ser645),5580,PRKCD,x
+PKC theta (Phospho-Ser676),5588,PRKCQ,x
+14-3-3 zeta (Phospho-Ser58),7534,YWHAZ,x
+AMPK1 (Phospho-Thr172),5562,PRKAA1,x
+Amyloid beta A4 (Phospho-Thr743/668),351,APP,x
+CREB (Phospho-Ser142),1385,CREB1,x
+DARPP-32 (Phospho-Thr75),84152,PPP1R1B,x
+EGFR (Phospho-Thr678),1956,EGFR,x
+Ephrin B2 (Phospho-Tyr330),1948,EFNB2,x
+GABA-RB (Phospho-Ser434),2560,GABRB1,x
+HSP90B (Phospho-Ser254),3326,HSP90AB1,x
+IkB-beta (Phospho-Ser23),4793,NFKBIB,x
+IkB-epsilon (Phospho-Ser22),4794,NFKBIE,o
+Keratin 18 (Phospho-Ser33),3875,KRT18,x
+Keratin 8 (Phospho-Ser73),3875,KRT18,x
+MEF2A (Phospho-Ser408),4205,MEF2A,x
+Myc (Phospho-Ser62),4609,MYC,x
+Chk1 (Ab-280),1111,CHEK1,x
+Chk1 (Ab-317),1111,CHEK1,x
+Src (Ab-418),6714,SRC,x
+MKK3/MAP2K3 (Ab-189),5606,MAP2K3,x
+Chk2 (Ab-516),11200,CHEK2,x
+TYK2 (Ab-1054),7297,TYK2,x
+JAK1 (Ab-1022),3716,JAK1,x
+JAK2 (Ab-221),3717,JAK2,x
+JAK2 (Ab-1007),3717,JAK2,x
+IkB-alpha (Ab-32/36),4792,NFKBIA,x
+ASK1 (Ab-83),4217,MAP3K5,x
+LIMK1 (Ab-508),3984,LIMK1,x
+MKK4/SEK1 (Ab-261),6416,MAP2K4,x
+ASK1 (Ab-966),4217,MAP3K5,x
+Histone H3.1 (Ab-10),8350?/?8351?/?8352?/?8353?/?8354?/?8355/?8356?/?8357?/?8358?/?8968,HIST1H3A HIST1H3D HIST1H3C HIST1H3E HIST1H3I HIST1H3G HIST1H3J HIST1H3H HIST1H3B HIST1H3F,x
+FKHR (Ab-256),2308,FOXO1,x
+BRCA1 (Ab-1524),672,BRCA1,x
+HDAC4 (Ab-632),9759,HDAC4,x
+HDAC5 (Ab-498),10014,HDAC5,x
+SHP-2 (Ab-542) ,5781,PTPN11,x
+SHP-2 (Ab-580) ,5781,PTPN11,x
+Synaptotagmin (Ab-309) ,6857,SYT1,x
+Synaptotagmin (Ab-202) ,6857,SYT1,x
+Trk B (Ab-515) ,4915,NTRK2,x
+Tyrosine Hydroxylase (Ab-19) ,7054,TH,x
+Tyrosine Hydroxylase (Ab-31) ,7054,TH,x
+Tyrosine Hydroxylase (Ab-40) ,7054,TH,x
+LIMK1/2 (Ab-508/505) ,3984,LIMK1,x
+BTK (Ab-223) ,695,BTK,x
+MAP3K8/COT (Ab-290) ,1326,MAP3K8,x
+CrkII (Ab-221) ,1398,CRK,x
+eEF2K (Ab-366) ,29904,EEF2K,x
+Filamin A (Ab-2152) ,2316,FLNA,x
+MKK6/MAP2K6 (Phospho-Ser207),5608,MAP2K6,x
+HDAC2 (Phospho-Ser394),3066,HDAC2,x
+FAK (Phospho-Tyr397),5747,PTK2,x
+EGFR (Phospho-Thr693),1956,EGFR,x
+GSK3 alpha/beta (Phospho-Tyr216/279),2931,GSK3A,x
+14-3-3 theta/tau (Phospho-Ser232),10971,YWHAQ,x
+14-3-3 zeta/delta (Phospho-Thr232),7534,YWHAZ,x
+"6-phosphofructo-2-kinase/fructose-2,6-biphosphatase 2 (PFKFB2)(Phospho-Ser483)",5208,PFKFB2,x
+Actin Pan (a/b/g)(Phospho-Tyr55/53),58?/70/71/72,ACTA1 ACTC1 ACTG1 ACTG2,x
+A-RAF (Phospho-Tyr301/302),369,ARAF,x
+ATRIP (Phospho-Ser68/72),84126,ATRIP,x
+BCL-2 (Phospho-Thr69),596,BCL2,o
+BCL-XL (Phospho-Thr47),598,BCL2L1,x
+B-RAF (Phospho-Thr598),673,BRAF,x
+B-RAF (Phospho-Ser601),673,BRAF,x
+Chk2 (Phospho-Thr383),11200,CHEK2,x
+Gab1 (Phospho-Tyr659),2549,GAB1,x
+HDAC1 (Phospho-Ser421),3065,HDAC1,x
+p38 MAPK (Phospho-Tyr322),1432,MAPK14,o
+PKC alpha (Phospho-Tyr657),5578,PRKCA,x
+PKC delta (Phospho-Tyr52),5580,PRKCD,x
+PKC epsilon (Phospho-Ser729),5581,PRKCE,x
+PKC pan activation site (Phospho),5578?/?5579?/?5580?/?5581?/? 5582?/?5583/?5588?/?5590,PRKCA PRKCB PRKCD PRKCE PRKCG PRKCH PRKCQ PRKCZ,x
+PKC zeta (Phospho-Thr560),5590,PRKCZ,x
+MYPT1 (Phospho-Thr696),4659,PPP1R12A,x
+MYPT1 (Phospho-Thr853),4659,PPP1R12A,x
+PLCG1 (Phospho-Tyr1253),5335,PLCG1,x
+PLCG2 (Phospho-Tyr1217),5336,PLCG2,x
+PPAR-BP (Phospho-Thr1457),5469,MED1,x
+PPAR-gamma (Phospho-Ser112),5468,PPARG,x
+TIE2 (Phospho-Tyr1108),7010,TEK,x
+WAVE1 (Phospho-Tyr125),8936,WASF1,x
+XIAP (Phospho-Ser87),331,XIAP,x
+ATP-Citrate Lyase (Phospho-Ser454),47,ACLY,x
+Mst1/Mst2 (Phospho-Thr183),6789,STK4,x
+Myosin regulatory light chain 2 (Phospho-Ser18),10398,MYL9,x
+p130Cas (Phospho-Tyr165),9564,BCAR1,x
+PP1 alpha (Phospho-Thr320),5499,PPP1CA,x
+CK2-b (Phospho-Ser209),1460,CSNK2B,x
+EPHA2/3/4 (Phospho-Tyr588/596),1969/2042/2043,EPHA2 EPHA3 EPHA4,x
+EPHB1/2 (Phospho-Tyr594/604),2047/1969,EPHB1 EPHA2,x
+Ephrin B1 (Phospho-Tyr317),1947,EFNB1,x
+Epo-R (Phospho-Tyr368),2057,EPOR,x
+IKK-beta (Ab-188),3551,IKBKB,o
+IKK-gamma (Ab-31),8517,IKBKG,x
+AKT1S1 (Ab-246),84335,AKT1S1,x
+Arrestin-1 (Ab-412),408,ARRB1,x
+BID (Ab-78),637,BID,x
+CD3Z (Ab-142),919,CD247,x
+CDK1/CDC2 (Ab-14),983,CDK1,x
+CREB (Ab-121),1385,CREB1,x
+EGFR (Ab-1016),1956,EGFR,x
+FAK (Ab-407),5747,PTK2,x
+FOXO1/3/4-pan (Ab-24/32),2308/4303,FOXO1 FOXO4,x
+FKHR/FOXO1A (Ab-329),2308,FOXO1,x
+GRK2 (Ab-29),156,GRK2,x
+IKK-beta (Ab-199),3551,IKBKB,o
+IRS-1 (Ab-323),3667,IRS1,o
+JNK1/2/3 (Ab-183/185),5599?/?5601?/?5602,MAPK8 MAPK9 MAPK10,x
+LAT (Ab-191),27040,LAT,x
+LCK (Ab-504),3932,LCK,x
+LCK (Ab-192),3932,LCK,x
+Caspase 1 (Ab-376),834,CASP1,x
+Caspase 2 (Ab-157),835,CASP2,x
+GRB10/Growth factor receptor-bound protein 10 (Ab-67),2887,GRB10,x
+GTPase activating protein (Ab-387),29127,RACGAP1,x
+HSP90 co-chaperone Cdc37 (Ab-13),11140,CDC37,x
+IGF2R (Ab-2409),3482,IGF2R,x
+IGFBP-3 (Ab-183),3486,IGFBP3,x
+MKP-1 (Ab-359),1843,DUSP1,x
+PAK1/2 (Ab-199),5058,PAK1,x
+MAP3K7/TAK1 (Ab-184),6885,MAP3K7,x
+TGFBR1 (Ab-165),7046,TGFBR1,x
+TGFBR2 (Ab-250),7048,TGFBR2,x
+eNOS (Ab-615),4846,NOS3,x
+eNOS (Ab-1179),4846,NOS3,x
+IKK-gamma (Ab-85),8517,IKBKG,x
+mTOR (Ab-2446),2475,MTOR,o
+PI3-kinase p85-subunit alpha/gamma (Ab-467/199),5295/8503,PIK3R1 PIK3R3,x
+Rho/Rac guanine nucleotide exchange factor 2 (Ab-885),9181,ARHGEF2,x
+VAV2 (Ab-142),7410,VAV2,x
+AurA (Ab-288),6790,AURKA,x
+AurB (Ab-232),9212,AURKB,x
+AurA (Ab-342),6790,AURKA,x
+AurB (Ab-12),9212,AURKB,x
+AurB/C (Ab-202/175),6795,AURKC,x
+Integrin beta-1 (Ab-788),3688,ITGB1,x
+Integrin beta-1 (Ab-789),3688,ITGB1,x
+PDGFR beta (Ab-1009),5159,PDGFRB,x
+Interferon-gamma receptor alpha chain precursor (Ab-457),3459,IFNGR1,x
+PDGFR beta (Ab-740),5159,PDGFRB,x
+PDGFR beta (Ab-1021),5159,PDGFRB,x
+PDGFR alpha (Ab-849),5156,PDGFRA,x
+14-3-3 beta/zeta (Phospho-Ser184/186),7534/7529,YWHAZ YWHAB,x
+Survivin (Ab-117),332,BIRC5,x
+TOP2A/DNA topoisomerase II (Ab-1106),7153,TOP2A,x
+IL3RB (Ab-593),3563,IL3RA,x
+FLT3 (Ab-599),2322,FLT3,x
+IR (Ab-1361),3643,INSR,o
+KIT (Ab-936),3815,KIT,x
+Androgen Receptor (Phospho-Ser650),367,AR,x
+Chk1 (Phospho-Ser345),1111,CHEK1,x
+FAK (Phospho-Tyr925),5747,PTK2,x
+AKT2 (Phospho-Ser474),208,AKT2,x
+c-Abl (Phospho-Tyr412),25,ABL1,x
+LIMK1 (Phospho-Thr508),3984,LIMK1,x
+IKK-alpha (Phospho-Thr23),1147,CHUK,x
+Rb (Phospho-Ser795),5925,RB1,o
+Rb (Phospho-Ser807),5925,RB1,o
+Rb (Phospho-Ser780),5925,RB1,o
+CDK2 (Phospho-Thr160),1017,CDK2,x
+FKHR (Phospho-Ser319),2308,FOXO1,x
+AFX/FOXO4 (Phospho-Ser197),4303,FOXO4,x
+CDC25A (Phospho-Ser75),993,CDC25A,x
+Cofilin (Phospho-Ser3),1072,CFL1,x
+Chk1 (Phospho-Ser280),1111,CHEK1,x
+Chk1 (Phospho-Ser317),1111,CHEK1,x
+VAV1 (Phospho-Tyr174),7409,VAV1,x
+IRS-1 (Phospho-Ser312),3667,IRS1,o
+Opioid Receptor (Phospho-Ser375),4988,OPRM1,x
+PKC zeta (Phospho-Thr410),5590,PRKCZ,x
+Shc (Phospho-Tyr349),6464,SHC1,x
+Shc (Phospho-Tyr427),6464,SHC1,x
+SHP-1 (Phospho-Tyr536),5777,PTPN6,x
+SHP-2 (Phospho-Tyr542),5781,PTPN11,x
+SHP-2 (Phospho-Tyr580),5781,PTPN11,x
+Smad3 (Phospho-Ser425),4088,SMAD3,x
+Synaptotagmin (Phospho-Ser309),6857,SYT1,x
+Synaptotagmin (Phospho-Thr202),6857,SYT1,x
+Trk A (Phospho-Tyr791),4914,NTRK1,x
+Trk B (Phospho-Tyr515),4915,NTRK2,x
+Tyrosine Hydroxylase (Phospho-Ser19),7054,TH,x
+Tyrosine Hydroxylase (Phospho-Ser31),7054,TH,x
+Tyrosine Hydroxylase (Phospho-Ser40),7054,TH,x
+BTK (Phospho-Tyr223),695,BTK,x
+MAP3K8/COT (Phospho-Thr290),1326,MAP3K8,x
+CrkII (Phospho-Tyr221),1398,CRK,x
+CrkL (Phospho-Tyr207),1399,CRKL,x
+HDAC8 (Ab-39),55869,HDAC8,x
+HSP27 (Ab-15),3315,HSPB1,x
+CDC25C (Ab-216),995,CDC25C,x
+Chk1 (Ab-345),1111,CHEK1,x
+ATM (Ab-1981),472,ATM,x
+FAK (Ab-925),5747,PTK2,x
+p21Cip1 (Ab-145),1026,CDKN1A,o
+p27Kip1 (Ab-10),1027,CDKN1B,o
+p27Kip1 (Ab-187),1027,CDKN1B,o
+AKT2 (Ab-474),208,AKT2,x
+c-Abl (Ab-412),25,ABL1,x
+IKK-alpha (Ab-23),1147,CHUK,x
+HDAC2 (Ab-394),3066,HDAC2,x
+FKHR (Ab-319),2308,FOXO1,x
+AFX/FOXO4 (Ab-197),4303,FOXO4,x
+CDC25A (Ab-75),993,CDC25A,x
+Cofilin (Ab-3),1072,CFL1,x
+VAV1 (Ab-174),7409,VAV1,x
+IRS-1 (Ab-312),3667,IRS1,o
+Trk B (Phospho-Tyr705),4915,NTRK2,x
+Cyclin E1 (Phospho-Thr395),898,CCNE1,x
+KSR (Phospho-Ser392),8844,KSR1,x
+PLC beta3 (Phospho-Ser1105),5331,PLCB3,x
+Pyk2 (Phospho-Tyr580),2185,PTK2B,x
+STAT5B (Phospho-Ser731),6777,STAT5B,x
+SYK (Phospho-Tyr348),6850,SYK,x
+P70S6K (Phospho-Thr421),6198,RPS6KB1,x
+CaMK2 alpha/beta/delta (Phospho-Thr305),815,CAMK2A,x
+MAPKAPK2 (Phospho-Thr334),9261,MAPKAPK2,x
+NFkB-p105/p50 (Phospho-Ser927),4790,NFKB1,o
+Smad1 (Phospho-Ser465),4086,SMAD1,x
+Smad2 (Phospho-Ser467),4087,SMAD2,x
+ACC1 (Phospho-Ser80),31,ACACA,x
+Caspase 6 (Phospho-Ser257),839,CASP6,x
+Caspase 8 (Phospho-Ser347),841,CASP8,x
+Caspase 9 (Phospho-Thr125),842,CASP9,x
+CDC25B (Phospho-Ser323),994,CDC25B,x
+c-PLA2 (Phospho-Ser505),5321,PLA2G4A,x
+PKD1/PKC mu (Phospho-Ser205),5587,PRKD1,x
+PKD1/PKC mu (Phospho-Tyr463),5587,PRKD1,x
+PKD2 (Phospho-Ser876),25865,PRKD2,x
+Rb (Phospho-Ser811),5925,RB1,o
+Rb (Phospho-Thr821),5925,RB1,o
+AKT1 (Phospho-Tyr326),207,AKT1,o
+BAD (Phospho-Ser91/128),572,BAD,x
+BAD (Phospho-Ser134),572,BAD,x
+Calmodulin (Phospho-Thr79/Ser81),801/805/808,CALM1 CALM2 CALM3,x
+CaMK1-alpha (Phospho-Thr177),8536,CAMK1,x
+CaMK4 (Phospho-Thr196/200),814,CAMK4,x
+Caspase 9 (Phospho-Tyr153),842,CASP9,x
+Caspase 9 (Phospho-Ser144),842,CASP9,x
+Caspase 9 (Phospho-Ser196),842,CASP9,x
+Caspase 3 (Phospho-Ser150),836,CASP3,o
+Catalase (Phospho-Tyr385),847,CAT,x
+Catenin beta (Phospho-Tyr654),1499,CTNNB1,x
+CD227/mucin 1 (Phospho-Tyr1243),4582,MUC1,x
+CD28 (Phospho-Tyr218),940,CD28,x
+Interferon-gamma receptor alpha chain precursor (Phospho-Tyr457),3459,IFNGR1,x
+IL-2RA/CD25 (Phospho-Ser268),3559,IL2RA,x
+RAD51 (Phospho-Tyr315),5888,RAD51,x
+RAD52 (Phospho-Tyr104),5893,RAD52,x
+MKK4/SEK1 (Phospho-Ser257),6416,MAP2K4,x
+ATP1A1/Na+K+ ATPase1 (Phospho-Ser23),24211,Atp1a1,x
+PIP5K (Phospho-Ser307),200576,PIKFYVE,x
+WEE1 (Phospho-Ser642),7465,WEE1,x
+CK1-A (Phospho-Thr321),1452,CSNK1A1,x
+HSP90B (Phospho-Ser226),3326,HSP90AB1,x
+Merlin (Phospho-Ser10),4771,NF2,x
+CK1-A/A2 (Phospho-Tyr294),1452/122011,CSNK1A1 CSNK1A1L,x
+MER/SKY (Phospho-Tyr749/Tyr681),10461/7301,MERTK TYRO3,x
+CD22/BL-CAM (Phospho-Tyr807),933,CD22,x
+FRS2 (Phospho-Tyr436),10818,FRS2,x
+Ephrin B1/B2/B3 (Phospho-Tyr324),1947/1948/1949,EFNB1 EFNB2 EFNB3,x
+EPB41 (Phospho-Tyr418/660),2035,EPB41,x
+Mnk1 (Phospho-Thr385),8569,MKNK1,x
+TIF-IA (Phospho-Ser649),54700,RRN3,x
+MDM2 (Ab-166),4193,MDM2,o
+NFAT3 (Ab-676),4776,NFATC4,x
+NFAT4 (Ab-165),4775,NFATC3,x
+NFkB-p65 (Ab-505),5970,RELA,x
+p300 (Ab-89),2033,EP300,x
+p53 (Ab-20),7157,TP53,o
+p53 (Ab-392),7157,TP53,o
+P70S6K (Ab-229),6198,RPS6KB1,x
+P70S6K (Ab-371),6198,RPS6KB1,x
+P70S6K (Ab-418),6198,RPS6KB1,x
+P90RSK (Ab-359/363),6195,RPS6KA1,x
+P90RSK (Ab-380),6195,RPS6KA1,x
+P90RSK (Ab-573),6195,RPS6KA1,x
+PAK1 (Ab-212),5058,PAK1,x
+PAK1/2/3 (Ab-423/402/421),5058/5062/5063,PAK1 PAK2 PAK3,x
+PAK1/2/3 (Ab-141),5058/5062/5063,PAK1 PAK2 PAK3,x
+PEA-15 (Ab-116),8682,PEA15,x
+PKA CAT (Ab-197),5566,PRKACA,x
+PP2A-alpha (Ab-307),5515,PPP2CA,x
+14-3-3 beta/zeta (Ab-184/186),7534/7529,YWHAZ YWHAB,x
+Catenin beta (Ab-489),1499,CTNNB1,x
+CDC25A (Ab-178),993,CDC25A,x
+CREB (Ab-100),1385,CREB1,x
+EGFR (Ab-998),1956,EGFR,x
+Ezrin (Ab-478),7430,EZR,x
+HER2 (Ab-1112),2064,ERBB2,x
+NFkB-p65 (Ab-281),5970,RELA,x
+p53 (Ab-387),7157,TP53,o
+p53 (Ab-376),7157,TP53,o
+p53 (Ab-378),7157,TP53,o
+Rb (Ab-608),5925,RB1,o
+SRF (Ab-77),6722,SRF,x
+Abl1 (Ab-754/735),25,ABL1,x
+AKT1/2/3 (Ab-315),207,AKT1,o
+B-RAF (Ab-446),673,BRAF,x
+CaMK2-beta/gamma/delta (Ab-287),816/818/817,CAMK2B CAMK2G CAMK2D,x
+LKB1 (Ab-334),6794,STK11,x
+MKK3/MAP2K3 (Ab-222),5606,MAP2K3,x
+M-CSF Receptor (Ab-809),1436,CSF1R,x
+NMDAR2B (Ab-1472),2904,GRIN2B,x
+PECAM-1 (Ab-713),5175,PECAM1,x
+ALK (Ab-1507),238,ALK,x
+ALK (Ab-1604),238,ALK,x
+BLNK (Ab-96),29760,BLNK,x
+ETK (Ab-40),660,BMX,x
+Pim-1 (Ab-309),18712,Pim1,x
+PLD1 (Ab-561),5337,PLD1,x
+BCR (Ab-360),613,BCR,x
+ETK (Ab-566),660,BMX,x
+CD5 (Ab-453),921,CD5,x
+M-CSF Receptor (Ab-561),1436,CSF1R,x
+DAPP1 (Ab-139),27071,DAPP1,x
+DDX5/DEAD-box protein 5 (Ab-593),1655,DDX5,x
+Raf1 (Phospho-Ser289),5894,RAF1,x
+VEGFR2 (Ab-1054),3791,KDR,x
+Vinculin (Ab-821),7414,VCL,x
+HRS (Ab-334),9146,HGS,x
+LCK (Phospho-Tyr393),3932,LCK,x
+MKK3/MAP2K3 (Phospho-Ser189),5606,MAP2K3,x
+Chk2 (Phospho-Ser516),11200,CHEK2,x
+TYK2 (Phospho-Tyr1054),7297,TYK2,x
+JAK1 (Phospho-Tyr1022),3716,JAK1,x
+JAK2 (Phospho-Tyr221),3717,JAK2,x
+JAK2 (Phospho-Tyr1007),3717,JAK2,x
+IkB-alpha (Phospho-Ser32/36),4792,NFKBIA,x
+Src (Phospho-Tyr529),6714,SRC,x
+eNOS (Phospho-Ser1177),4846,NOS3,x
+FKHRL1/FOXO3A (Phospho-Ser253),2309,FOXO3,o
+VASP (Phospho-Ser238),7408,VASP,x
+Zap-70 (Phospho-Tyr319),7535,ZAP70,x
+Zap-70 (Phospho-Tyr493),7535,ZAP70,x
+MEK1 (Phospho-Ser221),5604,MAP2K1,o
+IkB-alpha (Phospho-Tyr42),4792,NFKBIA,x
+STAT1 (Phospho-Ser727),6772,STAT1,x
+AMPK1/AMPK2 (Phospho-Ser485/491),5562/5563,PRKAA1 PRKAA2,x
+MKK4/SEK1 (Phospho-Thr261),6416,MAP2K4,x
+eEF2K (Phospho-Ser366),29904,EEF2K,x
+Filamin A (Phospho-Ser2152),2316,FLNA,x
+c-Jun (Ab-63),3725,JUN,x
+GSK3 beta (Ab-9),2932,GSK3B,x
+FLT3 (Phospho-Tyr599),2322,FLT3,x
+Elk1 (Ab-383),2002,ELK1,x
+PDK1 (Ab-241),5170,PDPK1,x
+Raf1 (Ab-259),5894,RAF1,x
+GSK3 alpha (Ab-21),2931,GSK3A,x
+MEK2 (Ab-394),5605,MAP2K2,x
+PTEN (Ab-380),5728,PTEN,o
+NFkB-p65 (Ab-254),5970,RELA,x
+NFkB-p65 (Ab-276),5970,RELA,x
+NFkB-p65 (Ab-435),5970,RELA,x
+NFkB-p65 (Ab-468),5970,RELA,x
+NFkB-p65 (Ab-536),5970,RELA,x
+NFkB-p100/p52 (Ab-865),4791,NFKB2,x
+NFkB-p100/p52 (Ab-869),4791,NFKB2,x
+NFkB-p105/p50 (Ab-337),4790,NFKB1,o
+LCK (Ab-393),3932,LCK,x
+Src (Ab-529),6714,SRC,x
+eNOS (Ab-1177),4846,NOS3,x
+FKHRL1/FOXO3A (Ab-253),2309,FOXO3,o
+VASP (Ab-238),7408,VASP,x
+Zap-70 (Ab-319),7535,ZAP70,x
+Zap-70 (Ab-493),7535,ZAP70,x
+MEK1 (Ab-221),5604,MAP2K1,o
+IkB-alpha (Ab-42),4792,NFKBIA,x
+STAT1 (Ab-727),6772,STAT1,x
+SMC1 (Ab-957),8243,SMC1A,x
+BCR (Ab-177),613,BCR,x
+MSK1 (Ab-376),9252,RPS6KA5,o
+Paxillin (Ab-31),5829,PXN,x
+Ezrin (Ab-566),7430,EZR,x
+Rac1/cdc42 (Ab-71),5879,RAC1,x
+Raf1 (Ab-338),5894,RAF1,x
+MEK1 (Ab-217),5604,MAP2K1,o
+VASP (Ab-157),7408,VASP,x
+Cyclin B1 (Phospho-Ser126),891,CCNB1,x
+EEF2 (Phospho-Thr56),1938,EEF2,x
+HSL (Phospho-Ser554),3991,LIPE,x
+Pyk2 (Phospho-Tyr881),2185,PTK2B,x
+SRF (Phospho-Ser99),6722,SRF,x
+STAT2 (Phospho-Tyr690),6773,STAT2,x
+SYK (Phospho-Tyr525),6850,SYK,x
+4E-BP1 (Phospho-Ser65),1978,EIF4EBP1,o
+4E-BP1 (Phospho-Thr70),1978,EIF4EBP1,o
+Abl1 (Phospho-Tyr412),25,ABL1,x
+Abl1 (Phospho-Tyr204),25,ABL1,x
+ACC1 (Phospho-Ser79),31,ACACA,x
+AKT1 (Phospho-Thr450),207,AKT1,o
+AKT1 (Phospho-Ser124),207,AKT1,o
+AMPK beta1 (Phospho-Ser182),5564,PRKAB1,x
+Chk2 (Phospho-Thr387),11200,CHEK2,x
+Cyclin D1 (Phospho-Thr286),595,CCND1,x
+Cyclin D3 (Phospho-Thr283),896,CCND3,x
+DAXX (Phospho-Ser668),1616,DAXX,x
+CD4 (Phospho-Ser433),920,CD4,x
+CD45 (Phospho-Ser1007),5788,PTPRC,x
+CDC25A (Phospho-Ser124),993,CDC25A,x
+CDC25B (Phospho-Ser353),994,CDC25B,x
+CDK7 (Phospho-Thr170),1022,CDK7,x
+Chk1 (Phospho-Ser286),1111,CHEK1,x
+Chk1 (Phospho-Ser301),1111,CHEK1,x
+Met (Phospho-Tyr1003),4233,MET,x
+Coagulation Factor III (Phospho-Ser290),2152,F3,x
+CXCR4 (Phospho-Ser339),7852,CXCR4,x
+Keratin 18 (Phospho-Ser52),3875,KRT18,x
+Keratin 8 (Phospho-Ser431),3856,KRT8,x
+Catenin delta-1 (Phospho-Tyr228),1500,CTNND1,x
+Raf1 (Phospho-Ser43),5894,RAF1,x
+DNA-PK (Phospho-Thr2647),5591,PRKDC,x
+DNA-PK (Phospho-Thr2638),5591,PRKDC,x
+EGFR (Phospho-Tyr1069),1956,EGFR,x
+ERK3 (Phospho-Ser189),5597,MAPK6,x
+ERK8 (Phospho-Thr175/Tyr177),225689,MAPK15,x
+Lamin A (Phospho-Ser22),4000,LMNA,x
+AurB (Phospho-Thr232),9212,AURKB,x
+AurB (Phospho-Tyr12),9212,AURKB,x
+AurA (Phospho-Thr288),6790,AURKA,x
+Integrin beta-1 (Phospho-Thr788),3688,ITGB1,x
+PDGFR beta (Phospho-Tyr740),5159,PDGFRB,x
+PDGFR beta (Phospho-Tyr1021),5159,PDGFRB,x
+PDGFR alpha (Phospho-Tyr849),5156,PDGFRA,x
+FADD (Phospho-Ser194),8772,FADD,x
+Survivin (Phospho-Thr117),332,BIRC5,x
+TOP2A/DNA topoisomerase II (Phospho-Ser1106),7153,TOP2A,x
+BTK (Phospho-Tyr550),695,BTK,x
+IL3RB (Phospho-Tyr593),3563,IL3RA,x
+IR (Phospho-Tyr1355),3643,INSR,o
+IR (Phospho-Tyr1361),3643,INSR,o
+KIT (Phospho-Tyr936),3815,KIT,x
+KIT (Phospho-Tyr703),3815,KIT,x
+M-CSF Receptor (Phospho-Tyr809),1436,CSF1R,x
+Met (Phospho-Tyr1356),4233,MET,x
+Raf1 (Ab-341),5894,RAF1,x
+Raf1 (Ab-621),5894,RAF1,x
+RhoA (Ab-188),387,RHOA,x
+RyR2 (Ab-2808),6262,RYR2,x
+Synapsin (Ab-62),6853,SYN1,x
+Trk A (Ab-496),4914,NTRK1,x
+Tuberin/TSC2 (Ab-939),7249,TSC2,o
+Tuberin/TSC2 (Ab-1462),7249,TSC2,o
+Tyrosine Hydroxylase (Ab-8),7054,TH,x
+VAV1 (Ab-160),7409,VAV1,x
+VEGFR1 (Ab-1333),2321,FLT1,x
+VEGFR2 (Ab-1059),3791,KDR,x
+WASP (Ab-290),7454,WAS,x
+Zap-70 (Ab-292),7535,ZAP70,x
+AKT1 (Ab-474),207,AKT1,o
+AKT1 (Ab-246),207,AKT1,o
+PLK1 (Phospho-Thr210),5347,PLK1,x
+AKT1 (Ab-72),207,AKT1,o
+CD32 (FcgammaRIIb)(Ab-292),2213,FCGR2B,x
+MKK7/MAP2K7 (Ab-271),5609,MAP2K7,x
+P70S6K (Ab-427),6198,RPS6KB1,x
+P70S6K-beta (Ab-423),6199,RPS6KB2,x
+PAK1 (Ab-204),5058,PAK1,x
+PAK2 (Ab-192),5062,PAK2,x
+PAK2 (Ab-197),5062,PAK2,x
+PAK3 (Ab-154),5063,PAK3,x
+PKC beta/PKCB (Ab-661),5579,PRKCB,x
+Raf1 (Ab-289),5894,RAF1,x
+RSK1/2/3/4 (Ab-221/227/218/232),6195 / 6197 / 6196 / 27330,RPS6KA1 RPS6KA3 RPS6KA2 RPS6KA6,x
+Src (Ab-75),6714,SRC,x
+LAT (Ab-161),27040,LAT,x
+SLP-76 (Ab-128),3937,LCP2,x
+LCK (Ab-59),3932,LCK,x
+Fos (Ab-232),2353,FOS,x
+Gab2 (Ab-159),9846,GAB2,x
+BCL-6 (Ab-333),604,BCL6,x
+BRCA1 (Ab-1457),672,BRCA1,x
+Cyclin D2 (Ab-280),894,CCND2,x
+IL-10R-alpha (Ab-496),3587,IL10RA,x
+IL-13R/CD213a1 (Ab-405),3597,IL13RA1,x
+IL-4R/CD124 (Ab-497),3566,IL4R,x
+Integrin beta-4 (Ab-1510),3691,ITGB4,x
+Kv1.3/KCNA3 (Ab-135),3738,KCNA3,x
+CDK5 (Ab-15),1020,CDK5,x
+STAM2 (Ab-192),10254,STAM2,x
+FER (Ab-402),2241,FER,x
+Claudin 3 (Ab-219),1365,CLDN3,x
+Claudin 7 (Ab-210),1366,CLDN7,x
