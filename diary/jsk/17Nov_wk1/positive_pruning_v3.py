@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 ###It finds the intersection of links present in the PKN and high mutual information links from miraw
 ###Only the links that are well-represented with high mutual information will be present in the processed network
 
-def posprune(miraw, agingnetwork, abmap):
+def posprune(miraw, agingnetwork, abmap, frac):
     #plotting the relationship between mutual information cutoff and the number of interactions
     colist=[]
     nlist=[]
@@ -21,8 +21,8 @@ def posprune(miraw, agingnetwork, abmap):
     plt.ylabel('MI pairs')
     plt.show()
     
-    #selecting the appropriate cutoff; we used the cutoff closest to the median number of interactions to the tenth
-    idx = np.argmin(abs(np.array(nlist) - np.size(np.array(miraw)) / 4))
+    #selecting the appropriate cutoff; we used the cutoff that allows frac amount of samples to be considered to the tenth
+    idx = np.argmin(abs(np.array(nlist) - np.size(np.array(miraw)) * frac / 2))
     cutoff = colist[idx]
     
     #prune selected interactions based on the appropriate cutoff
@@ -56,7 +56,7 @@ if __name__ == "__main__":
     abmap = pd.read_csv('antibody_mapping.csv', index_col=0)
     
     #determine the appropriate agingnetwork
-    agnet, cutoff = posprune(miraw, agingnetwork, abmap)
+    agnet, cutoff = posprune(miraw, agingnetwork, abmap, .5)
     
     #export the resulting network files to .sif format
     agnet.to_csv('agingnetwork' + str(int(cutoff*10)) + 'p.sif', sep='\t', index=None, header=None)

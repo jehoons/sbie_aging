@@ -1,5 +1,5 @@
 from positive_pruning_v3 import posprune
-from negative_pruning_v3 import negprune
+#from negative_pruning_v3 import negprune
 import pandas as pd
 from itertools import combinations
 
@@ -19,10 +19,10 @@ for tempcomb in condcomb:#import each mutual information dataset
     mirawlist.append([tempmiraw, mirawname])#bind the imported MI_raw file with its indicative mirawname
 
 for tempmiraw, mirawname in mirawlist:#perform positive and negative pruning and export the results
-    agnetp, cutoffp = posprune(tempmiraw, agingnetwork, abmap)
-    agnetn, cutoffn = negprune(tempmiraw, agingnetwork, abmap)
+    agnetp, cutoffp = posprune(tempmiraw, agingnetwork, abmap, .5)
+    #agnetn, cutoffn = negprune(tempmiraw, agingnetwork, abmap, .5)
     agnetp.to_csv('agingnetwork' + mirawname + str(int(cutoffp*10)) + 'p.sif', sep='\t', index=None, header=None)
-    agnetn.to_csv('agingnetwork' + mirawname + str(int(cutoffn*10)) + 'n.sif', sep='\t', index=None, header=None)
+    #agnetn.to_csv('agingnetwork' + mirawname + str(int(cutoffn*10)) + 'n.sif', sep='\t', index=None, header=None)
 
 
 
