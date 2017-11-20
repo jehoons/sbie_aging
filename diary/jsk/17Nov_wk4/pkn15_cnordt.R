@@ -7,7 +7,7 @@ optlist <- c()
 scorelist <- c()
 #datano = 0
 #while (datano < 40960) {
-sp = sort(sample(1:40960, 500, replace = F))
+sp = sort(sample(0:40959, 500, replace = F))
 for (spno in sp) {
   ptm <- proc.time()#mark the starting time of each simulation
   cnodata = readMIDAS(paste("C:\\Users\\JSK\\Desktop\\Git\\sbie_aging\\diary\\jsk\\17Nov_wk4\\MIDAS_v15_", toString(spno), ".csv", sep = ""))
