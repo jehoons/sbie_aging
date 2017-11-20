@@ -1,0 +1,58 @@
+AKT1	AKT1 (Phospho-Ser473)	AKT1 (Phospho-Thr308)
+AMPK
+ATM/ATR
+ATP
+BAX	BAX (Phospho-Thr167)	BAX (Ab-167)
+BCL2	BCL-2 (Phospho-Ser87)	BCL-2 (Phospho-Thr69)
+BCL2L11	BIM (Phospho-Ser69/65)
+BMI1
+CDK4
+CDKN1A	p21Cip1 (Phospho-Thr145)	p21Cip1 (Ab-145)
+CDKN2A
+FOXO3	FKHRL1/FOXO3A (Phospho-Ser253)	FKHRL1/FOXO3A (Ab-253)
+G6PC
+IGF1R	IGF1R (Phospho-Tyr1165/1166)
+IRS1	IRS-1 (Phospho-Ser1101)	IRS-1 (Phospho-Ser612)	IRS-1 (Phospho-Ser636)	IRS-1 (Phospho-Ser323)
+KRAS
+MAP2K3/MAP2K6
+MAPK1
+MAPK14	p38 MAPK (Phospho-Thr180)	p38 MAPK (Phospho-Tyr182)
+MDM2	MDM2 (Phospho-Ser166)	MDM2 (Ab-166)
+MTOR	mTOR (Phospho-Ser2481)
+PDK1
+PIK3CA
+PPARGC1A
+PTEN	PTEN (Phospho-Ser380/Thr382/Thr383)
+RB1	Rb (Ab-811)
+RHEB
+S6K1
+SGK1
+SIRT1
+SLC2A4
+SOD2
+TP53	p53 (Phospho-Ser20)	p53 (Phospho-Ser392)	p53 (Phospho-Ser6)	p53 (Phospho-Ser9)	p53 (Phospho-Thr18)
+TSC2	Tuberin/TSC2 (Phospho-Ser939)	Tuberin/TSC2 (Phospho-Thr1462)
+HDAC1	HDAC1 (Phospho-Ser421)	HDAC1 (Ab-421)
+E2F1	E2F1 (Phospho-Thr433)
+HSP90AB1
+PAK2
+CASP3	Caspase 3 (Ab-150)
+NTRK1
+ABL1	Abl1 (Phospho-Tyr412)	Abl1 (Phospho-Tyr204)
+CASP9	Caspase 9 (Phospho-Thr125)
+ERBB2
+PRKCA
+RPS6KB1
+RPS6KA1
+CDKN1B
+ULK1
+ATG5
+EIF4EBP1	4E-BP1 (Phospho-Thr45)
+ATG13
+LIM1/LIM2
+HIF1A
+RPSK6A1
+NFKB1	NFkB-p105/p50 (Phospho-Ser893)
+MYC
+IKBKB	IKK-beta (Phospho-Tyr199)
+NFKBIE	IkB-epsilon (Phospho-Ser22)	IkB-epsilon (Ab-22) 

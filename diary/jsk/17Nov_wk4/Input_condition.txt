@@ -1,0 +1,6 @@
+	dna damage	rapamycin	ampk	igf1	dna damagex
+quiescent            	1	0	1	0	0
+rapamycin            	1	1	0	1	0
+igf            	0	0	0	1	0
+apoptosis            	1	0	1	0	1
+senescent            	1	0	0	1	0
