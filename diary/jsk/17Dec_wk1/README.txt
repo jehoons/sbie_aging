@@ -1,0 +1,2 @@
+PKN_v16_1 has minor change on the original PKN_16: the DNAdamage has been divided into DNAdamage_low and DNAdamage_high and TP53 has been divided into 2 phosphoforms tentatively named TP53 and TP53_p. These node duplication also duplicated the edge relationships as I had no knowledge of how to arrange them in the correct way. This version is a test version for preliminary attempts to use CellNOptR.
+These preliminary attempts failed miserably, therefore, we will no longer use CellNOptR to fit these networks.

@@ -1,0 +1,6 @@
+TR:mock:CellLine,TR:DNAdamage_low,TR:lowNutrition,TR:IGF1,TR:DNAdamage_high
+1,0,0,0,0
+1,1,1,0,0
+1,0,0,1,0
+1,0,1,0,1
+1,1,0,1,0

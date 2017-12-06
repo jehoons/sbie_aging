@@ -1,0 +1,5 @@
+	DNAdamage_low	lowNutrition	igf1	DNAdamage_high
+quiescent            	1	1	0	0
+proliferation	0	0	1	0
+apoptosis            	0	1	0	1
+senescent            	1	0	1	0
