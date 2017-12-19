@@ -1,0 +1,42 @@
+name,shared name,Senescence,quiescence,apoptosis,proliferation
+BCL2,BCL2,1,,,
+CASP3,CASP3,0,0,1,0
+E2F1,E2F1,?,0,0,1
+EIF4EBP1,EIF4EBP1,0,1,1,0
+IL1B,IL1B,1,0,0,0
+IL6,IL6,1,0,0,0
+S6K1,S6K1,1,0,0,1
+TNF,TNF,1,0,0,0
+,,,,,
+,,,,,
+name,shared name,Senescence,quiescence,apoptosis,proliferation
+BCL2,BCL2,1,,,
+CASP3,CASP3,0,0,1,0
+E2F1,E2F1,?,0,0,1
+EIF4EBP1,EIF4EBP1,0,1,1,0
+IL1B,IL1B,1,0,0,0
+IL6,IL6,1,0,0,0
+S6K1,S6K1,1,0,0,1
+TNF,TNF,1,0,0,0
+,,,,,
+,,,,,
+name,shared name,Senescence,quiescence,apoptosis,proliferation
+BCL2,BCL2,1,,,
+CASP3,CASP3,0,0,1,0
+E2F1,E2F1,?,0,0,1
+EIF4EBP1,EIF4EBP1,0,1,1,0
+IL1B,IL1B,1,0,0,0
+IL6,IL6,1,0,0,0
+S6K1,S6K1,1,0,0,1
+TNF,TNF,1,0,0,0
+,,,,,
+,,,,,
+name,shared name,Senescence,quiescence,apoptosis,proliferation
+BCL2,BCL2,1,,,
+CASP3,CASP3,0,0,1,0
+E2F1,E2F1,?,0,0,1
+EIF4EBP1,EIF4EBP1,0,1,1,0
+IL1B,IL1B,1,0,0,0
+IL6,IL6,1,0,0,0
+S6K1,S6K1,1,0,0,1
+TNF,TNF,1,0,0,0
