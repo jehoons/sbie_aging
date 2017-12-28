@@ -93,15 +93,15 @@ class OptWeightandBasal(base):
         b = np.multiply(b, bmask)#adjusting the boundaries to cover negative basal activity levels
         fitness = 0.0
         
-        print('new condition')
+        #print('new condition')#
         
         for condno in range(self.num_conds):#for all of the conditions presented calculate the cost function and add all
             condno += 1
             inistates = self.conddata.loc['INPUT: ' + str(condno)].tolist()#initial states given
             predstateslist = self._func(w, b, inistates)#calculated states form the Boolean model
             
-            print('new attractor')
-            print(predstateslist)
+            #print('new attractor')#
+            #print(predstateslist)#
             
             objstates = np.array(self.conddata.loc['OUTPUT: ' + str(condno)].tolist())#objective states
             objboolmask = np.array([state != 9 for state in objstates])#Boolean mask for selecting only the states required for cost function calculation
@@ -113,13 +113,13 @@ class OptWeightandBasal(base):
                 tmpfit = sum((objphen[idx] - predphen[idx])**2 for idx in range(len(objphen)))#fitness function calulated for this condition and added
                 tmpfitlist.append(tmpfit)
             
-            print('new phenotype')
-            print(tmpfitlist)
+            #print('new phenotype')#
+            #print(tmpfitlist)#
             
             fitness += np.mean(np.array(tmpfitlist))#fitness is the mean of fitness of all the states in a cyclic attractor
             
-            print('new fitness')
-            print(fitness)
+        #print('new fitness')#
+        #print(fitness)#
             
         return (fitness,)
 

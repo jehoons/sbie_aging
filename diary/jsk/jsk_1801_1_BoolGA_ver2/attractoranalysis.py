@@ -11,8 +11,18 @@ for link in netfile:
 dim = len(netdata) + len(conddata.columns)#genetic algorithm parameter dimension; number of edges(weights) + number of nodes(basal activities)
 
 #manual stuff; just temporary
-w = [3,1,3,3,2,3,2,3,2,4,1,3,4,1,3,2,3,2,1,1,1,2,2,4,2,1,4,3,3,3,3,4,1,1,3,2,1,1,2,2,1,2,3,1,3,2,3,2,3,4,1,2,4,3,1,1,3,2,3,2,1,2,1,2,3,4,1,3,2,1,2,3,2,2,1,4,4,1]
-b = [0,-1,-2,-2,0,0,0,-2,-3,-1,-2,-3,-2,-2,-2,-3,0,-1,-1,-1,0,-2,0,-3,-1,0,-1,0,-3,0,-1,-1,-2,-2,0,-1,-3,-1,-3,-1,-1,0,-2,-1,-2,0,-1,-3,0,-2]
+optfile = open('output_fittedparams.txt', 'r')
+idc = 0
+for line in optfile:
+    if idc == 1:
+        w = [float(i) for i in line.strip().split('\t')]
+    if idc == 2:
+        b = [float(j) for j in line.strip().split('\t')]
+    idc = 0
+    if line == 'Mean Weights:\n':
+        idc = 1
+    if line == 'Mean Basal Activity:\n':
+        idc = 2 
 
 #utilize _func in OptWeightandBasal for attractor calculation
 attlist = []
@@ -22,4 +32,24 @@ for condno in range(wab.num_conds):#for all of the conditions presented calculat
     inistates = wab.conddata.loc['INPUT: ' + str(condno)].tolist()#initial states given
     attractors = wab._func(w, b, inistates)#calculated states form the Boolean model
     attlist.append(attractors)
-print(attlist)
+#print(attlist)
+
+
+fitness = 0.0
+
+for condno in range(wab.num_conds):#for all of the conditions presented calculate the cost function and add all
+    condno += 1
+    inistates = conddata.loc['INPUT: ' + str(condno)].tolist()#initial states given
+    objstates = np.array(conddata.loc['OUTPUT: ' + str(condno)].tolist())#objective states
+    objboolmask = np.array([state != 9 for state in objstates])#Boolean mask for selecting only the states required for cost function calculation
+    objphen = list(objstates[objboolmask])
+    tmpfitlist = []#list of fitness value for all of the states within a cyclic attractor; only one of if a point attractor
+    for att in attlist:
+        print(att)
+        print(objboolmask)
+        att = np.array(att)
+        predphen = list(att[objboolmask])
+        tmpfit = sum((objphen[idx] - predphen[idx])**2 for idx in range(len(objphen)))#fitness function calulated for this condition and added
+        tmpfitlist.append(tmpfit)
+    fitness += np.mean(np.array(tmpfitlist))#fitness is the mean of fitness of all the states in a cyclic attractor
+
