@@ -6,12 +6,15 @@ from optweightandbasal import OptWeightandBasal
 
 #variables relevant to genetic algorithm performance
 totnetno = 8192#number of networks; this should be consistent with actual number of PKN_20 variants
-n = 10#number of GA simulations
-num_gens = 500#number of generations
+n = 20#number of GA simulations
+num_gens = 10000#number of generations
 popsize = 500#population size
 
 fitpkn20s = []#list of pkn20 networks with perfect fitness values
 for netno in range(totnetno):
+    if np.random.uniform() > .01:
+        continue#only perform part of the simulation
+    
     netno += 1
     print('%d of %d networks' % (netno, totnetno))
     netfilename = 'PKN_20_' + str(netno) + '.sif'

@@ -45,8 +45,10 @@ class OptWeightandBasal(base):
         #the basal level's bounds has to be adjusted within the _func function by maxindegree
         lb = np.zeros((dim,), dtype=np.double)
         ub = np.zeros((dim,), dtype=np.double)
+        wr = self.maxindeg * (self.maxindeg + 1)#weight resolution; the basal activities should be able to explore larger basin than weight since nodeno < linkno
         lb[:] = 1
-        ub[:] = 2 * self.maxindeg#weight resolution; set as maxindegree(single link should be possible to overthrow all the other)
+        ub[:] = wr
+        print(wr)
         self.set_bounds(lb, ub)#the double is for manual tweak to cover the variation for the basal acitvities
 
 
@@ -86,7 +88,7 @@ class OptWeightandBasal(base):
     ###reimplement the virtual method that defines the objective function
     def _objfun_impl(self, params):#params is edge weight and node basal level in that order
         w = np.array(params[:self.num_edges])#weight parameters
-        w = ((w + 1) / 2).astype(np.int32)#adjusting the boundaries to suit the weight parameters
+        w = ((w + self.maxindeg) / (self.maxindeg + 1)).astype(np.int32)#adjusting the boundaries to suit the weight parameters
         b = np.array(params[self.num_edges:])#basal activity parameter
         bmask = [1 if s % 2 == 1 else -1 for s in b]
         b = ((b + 1) / 2).astype(np.int32)
