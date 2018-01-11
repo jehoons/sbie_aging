@@ -1,0 +1,13 @@
+G	activate	n1
+D	activate	n2
+n1	activate	n4
+n1	inhibit	n3
+n2	inhibit	n1
+n2	activate	n3
+n3	inhibit	n1
+n3	inhibit	n6
+n4	inhibit	n2
+n4	inhibit	n3
+n4	inhibit	n5
+n5	inhibit	n6
+n6	activate	o1
