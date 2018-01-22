@@ -1,0 +1,9 @@
+1. MI.py는 fold_change.csv를 입력받아 MI_raw.csv 생성
+2. MI_sandq.py와 MI_pandapopandrapa는 fold_change.csv를 입력받아 s,q,rappa,apop,p 상태에 대한 MI를 계산한다.
+3. hist.py는 각 행렬을 히스토글램으로 그린다.
+4. cor.py는 correlation을 나타낸다.
+5. MI_diff.py는 MI_q.csv와 MI_s.csv를 입력받아 S와 Q를 비교한 MI_diff.csv와 MI_ratio.csv를 생성
+6. MI_target.py는 MI_ratio.csv를 입력으로 받아 log2를 적용하고 senescence에서 MI가 올라간 행렬 MI_ratio_up.csv, MI가 내려간 행렬 MI_ratio_down.csv, 그리고 그 둘을 합쳐 절대값을 취한 MI_ratio_total_뮨.csv를 생성함
+7. MI_diff_target.py는 MI_diff.csv를 입력으로 받아 s와 q의 절대 차이값인 MI_diff_abs_total.csv 와 총합을 계산한 MI_diff_target.csv입니다.
+
+다른 두 컨디션을 비교하려면 MI_diff.py부터 다시 시작해야함.
