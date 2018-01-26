@@ -1,0 +1,101 @@
+id,type,name,description,target,belongs_to,pc,ts_pc,5a6a9b46b5896005aa...
+CGS001-3205,KD,HOXA9,"Homeoboxes / ANTP class : HOXL subclass, homeobox A9",,,"0.00, 0.00","1.07, 0.35",-99.61
+CGS001-8767,KD,RIPK2,"Receptor interacting protein kinase (RIPK) family, receptor-interacting serine-threonine kinase 2",,,"0.00, 0.00","0.91, 0.27",-99.55
+CGS001-1852,KD,DUSP9,"Protein tyrosine phosphatases / Class I Cys-based PTPs : MAP kinase phosphatases, dual specificity phosphatase 9",,,"0.00, 0.00","1.47, 0.51",-99.42
+CGS001-598,KD,BCL2L1,"Serine/threonine phosphatases / Protein phosphatase 1, regulatory subunits, BCL2-like 1",,,"0.00, 0.00","1.40, 0.48",-99.37
+CGS001-6478,KD,SIAH2,seven in absentia homolog 2 (Drosophila),,,"0.00, 0.00","0.98, 0.32",-99.37
+CGS001-27109,KD,ATP5S,"ATP synthase, H+ transporting, mitochondrial Fo complex, subunit s (factor B)",,,"0.00, 0.00","1.11, 0.34",-98.76
+CGS001-57761,KD,TRIB3,"Trbl family, tribbles homolog 3 (Drosophila)",,,"0.00, 0.00","1.32, 0.30",-98.4
+CGS001-140685,KD,ZBTB46,"BTB/POZ domain containing, zinc finger and BTB domain containing 46",,,"0.00, 0.00","1.31, 0.48",-98.39
+CGS001-5805,KD,PTS,6-pyruvoyltetrahydropterin synthase,,,"0.00, 0.00","1.10, 0.30",-98.21
+CGS001-6509,KD,SLC1A4,"Alanine/serine/cysteine transporter subfamily, solute carrier family 1 (glutamate/neutral amino acid transporter), member 4",,,"0.00, 0.00","1.05, 0.23",-98.03
+CGS001-3315,KD,HSPB1,"Heat shock proteins / HSPB, heat shock 27kDa protein 1",,,"0.00, 0.00","1.35, 0.45",-97.58
+CGS001-4016,KD,LOXL1,lysyl oxidase-like 1,,,"0.00, 0.00","1.20, 0.40",-97.56
+CGS001-5049,KD,PAFAH1B2,"platelet-activating factor acetylhydrolase 1b, catalytic subunit 2 (30kDa)",,,"0.00, 0.00","1.16, 0.31",-97.22
+CGS001-4267,KD,CD99,"CD molecules, CD99 molecule",,,"0.00, 0.00","1.23, 0.32",-97.03
+CGS001-63891,KD,RNF123,"RING-type (C3HC4) zinc fingers, ring finger protein 123",,,"0.00, 0.00","1.22, 0.33",-96.87
+CGS001-6886,KD,TAL1,"Basic helix-loop-helix proteins, T-cell acute lymphocytic leukemia 1",,,"0.00, 0.00","1.41, 0.36",-96.84
+CGS001-51181,KD,DCXR,"Short chain dehydrogenase/reductase superfamily / Classical SDR fold cluster 1, dicarbonyl/L-xylulose reductase",,,"0.00, 0.00","1.09, 0.49",-96.74
+CGS001-25948,KD,KBTBD2,"BTB/POZ domain containing, kelch repeat and BTB (POZ) domain containing 2",,,"0.00, 0.00","1.40, 0.57",-96.73
+CGS001-26064,KD,RAI14,"Ankyrin repeat domain containing, retinoic acid induced 14",,,"0.00, 0.00","2.94, 0.94",-96.61
+CGS001-51015,KD,ISOC1,isochorismatase domain containing 1,,,"0.00, 0.00","1.55, 0.49",-95.74
+CGS001-125965,KD,COX6B2,"Mitochondrial respiratory chain complex / Complex IV, cytochrome c oxidase subunit VIb polypeptide 2 (testis)",,,"0.00, 0.00","1.73, 0.50",-95.45
+CGS001-23131,KD,GPATCH8,"G patch domain containing, G patch domain containing 8",,,"0.00, 0.00","1.22, 0.39",-94.69
+CGS001-9319,KD,TRIP13,"ATPases / AAA-type, thyroid hormone receptor interactor 13",,,"0.00, 0.00","1.41, 0.47",-94.15
+CGS001-6046,KD,BRD2,"Bromodomain kinase (BRDK) family, bromodomain containing 2",,,"0.00, 0.00","1.30, 0.48",-94.13
+CGS001-2952,KD,GSTT1,"Glutathione S-transferases / Soluble, glutathione S-transferase theta 1",,,"0.00, 0.00","1.11, 0.43",-94.11
+CGS001-23012,KD,STK38L,"NDR family, serine/threonine kinase 38 like",,,"0.00, 0.00","1.49, 0.60",-94
+CGS001-100133941,KD,CD24,"CD molecules, CD24 molecule",,,"0.00, 0.00","1.20, 0.40",-93.96
+CGS001-466,KD,ATF1,"basic leucine zipper proteins, activating transcription factor 1",,,"0.00, 0.00","1.03, 0.36",-93.75
+CGS001-6241,KD,RRM2,"Ribonucleoside-diphosphate reductases, ribonucleotide reductase M2",,,"0.00, 0.00","1.19, 0.45",-93.68
+CGS001-163049,KD,ZNF791,"Zinc fingers, C2H2-type, zinc finger protein 791",,,"0.00, 0.00","0.94, 0.32",-93.01
+CGS001-5584,KD,PRKCI,"Iota subfamily, protein kinase C, iota",,,"0.00, 0.00","1.27, 0.40",-92.98
+CGS001-11182,KD,SLC2A6,"Solute carriers, solute carrier family 2 (facilitated glucose transporter), member 6",,,"20.00, 20.00","0.93, 0.32",-92.87
+CGS001-29937,KD,NENF,neudesin neurotrophic factor,,,"0.00, 0.00","1.98, 0.49",-92.6
+CGS001-5054,KD,SERPINE1,"Serine (or cysteine) peptidase inhibitors, serpin peptidase inhibitor, clade E (nexin, plasminogen activator inhibitor type 1), member 1",,,"0.00, 0.00","1.60, 0.52",-91.65
+CGS001-89845,KD,ABCC10,"ATP binding cassette transporters / subfamily C, ATP-binding cassette, sub-family C (CFTR/MRP), member 10",,,"0.00, 0.00","0.78, 0.25",-91.32
+CGS001-10928,KD,RALBP1,ralA binding protein 1,,,"0.00, 0.00","1.57, 0.63",-91.27
+CGS001-23463,KD,ICMT,isoprenylcysteine carboxyl methyltransferase,,,"0.00, 0.00","1.30, 0.51",-91.03
+CGS001-55111,KD,PLEKHJ1,"Pleckstrin homology (PH) domain containing, pleckstrin homology domain containing, family J member 1",,,"0.00, 0.00","1.23, 0.32",-90.81
+CGS001-10400,KD,PEMT,phosphatidylethanolamine N-methyltransferase,,,"0.00, 0.00","1.11, 0.32",-90.57
+CGS001-8022,KD,LHX3,"Homeoboxes / LIM class, LIM homeobox 3",,,"0.00, 0.00","1.44, 0.40",-90.52
+CGS001-9767,KD,PHF16,PHD finger protein 16,,,"0.00, 0.00","1.42, 0.38",-90.11
+CGS001-80218,KD,NAA50,"N(alpha)-acetyltransferase subunits, N(alpha)-acetyltransferase 50, NatE catalytic subunit",,,"0.00, 0.00","1.53, 0.51",-89.98
+CGS001-55620,KD,STAP2,signal transducing adaptor family member 2,,,"0.00, 0.00","3.31, 1.03",-89.4
+CGS001-10123,KD,ARL4C,"ADP-ribosylation factors, ADP-ribosylation factor-like 4C",,,"0.00, 0.00","1.45, 0.49",-89.27
+CGS001-10273,KD,STUB1,"Tetratricopeptide (TTC) repeat domain containing, STIP1 homology and U-box containing protein 1, E3 ubiquitin protein ligase",,,"0.00, 0.00","1.47, 0.44",-89.16
+CGS001-694,KD,BTG1,"B-cell translocation gene 1, anti-proliferative",,,"0.00, 0.00","1.69, 0.51",-88.35
+CGS001-831,KD,CAST,calpastatin,,,"0.00, 0.00","1.39, 0.47",-88.05
+CGS001-5373,KD,PMM2,phosphomannomutase 2,,,"0.00, 0.00","2.13, 0.60",-88.04
+CGS001-79600,KD,TCTN1,"Tectonic proteins, tectonic family member 1",,,"14.29, 0.00","1.61, 0.53",-87.72
+CGS001-5511,KD,PPP1R8,"Serine/threonine phosphatases / Protein phosphatase 1, regulatory subunits, protein phosphatase 1, regulatory subunit 8",,,"0.00, 0.00","1.03, 0.27",-87.65
+CGS001-440435,KD,GPR179,"GPCR / Class C : Orphans, G protein-coupled receptor 179",,,"0.00, 0.00","1.69, 0.50",-87.46
+CGS001-8660,KD,IRS2,"Pleckstrin homology (PH) domain containing, insulin receptor substrate 2",,,"0.00, 0.00","1.69, 0.61",-87.27
+CGS001-10196,KD,PRMT3,"Protein arginine N-methyltransferases, protein arginine methyltransferase 3",,,"0.00, 0.00","0.84, 0.33",-86.75
+CGS001-1409,KD,CRYAA,"Heat shock proteins / HSPB, crystallin, alpha A",,,"0.00, 0.00","1.30, 0.42",-86.67
+CGS001-9988,KD,DMTF1,cyclin D binding myb-like transcription factor 1,,,"0.00, 0.00","1.48, 0.50",-86.54
+CGS001-147837,KD,ZNF563,"Zinc fingers, C2H2-type, zinc finger protein 563",,,"0.00, 0.00","1.60, 0.44",-86.38
+CGS001-3489,KD,IGFBP6,"insulin-like growth factor (IGF) binding proteins, insulin-like growth factor binding protein 6",,,"0.00, 0.00","1.89, 0.50",-86.15
+CGS001-55810,KD,FOXJ2,"Forkhead boxes, forkhead box J2",,,"0.00, 0.00","1.28, 0.31",-86.12
+CGS001-10969,KD,EBNA1BP2,EBNA1 binding protein 2,,,"0.00, 0.00","1.16, 0.35",-85.97
+CGS001-2731,KD,GLDC,glycine dehydrogenase (decarboxylating),,,"0.00, 0.00","1.99, 0.56",-85.81
+CGS001-11344,KD,TWF2,"Twinfilin subfamily, twinfilin, actin-binding protein, homolog 2 (Drosophila)",,,"0.00, 0.00","1.81, 0.45",-85.74
+CGS001-3303,KD,HSPA1A,"Heat shock proteins / HSP70, heat shock 70kDa protein 1A",,,"0.00, 0.00","1.27, 0.40",-85.45
+CGS001-339327,KD,ZNF546,"Zinc fingers, C2H2-type, zinc finger protein 546",,,"0.00, 0.00","1.18, 0.42",-85.22
+CGS001-8894,KD,EIF2S2,"Serine/threonine phosphatases / Protein phosphatase 1, regulatory subunits, eukaryotic translation initiation factor 2, subunit 2 beta, 38kDa",,EIF Proteins LOF,"0.00, 0.00","3.34, 1.70",-85.18
+CGS001-84288,KD,EFCAB2,"EF-hand domain containing, EF-hand calcium binding domain 2",,,"0.00, 0.00","1.66, 0.55",-84.9
+CGS001-51719,KD,CAB39,calcium binding protein 39,,,"0.00, 0.00","1.27, 0.35",-84.84
+CGS001-1611,KD,DAP,death-associated protein,,,"0.00, 0.00","1.50, 0.56",-84.8
+CGS001-1650,KD,DDOST,dolichyl-diphosphooligosaccharide--protein glycosyltransferase,,,"0.00, 0.00","1.56, 0.56",-84.71
+CGS001-2793,KD,GNGT2,"guanine nucleotide binding protein (G protein), gamma transducing activity polypeptide 2",,,"0.00, 0.00","2.16, 0.70",-84.32
+CGS001-1677,KD,DFFB,"DNA fragmentation factor, 40kDa, beta polypeptide (caspase-activated DNase)",,,"0.00, 0.00","1.45, 0.35",-84.23
+CGS001-166,KD,AES,amino-terminal enhancer of split,,,"0.00, 0.00","1.01, 0.44",-84.17
+CGS001-65217,KD,PCDH15,"Cadherins / Cadherin-related, protocadherin-related 15",,,"0.00, 0.00","1.57, 0.49",-83.53
+CGS001-10973,KD,ASCC3,activating signal cointegrator 1 complex subunit 3,,,"0.00, 0.00","1.52, 0.42",-83.29
+CGS001-9326,KD,ZNHIT3,"Zinc fingers, HIT-type, zinc finger, HIT-type containing 3",,,"0.00, 0.00","1.63, 0.33",-83.28
+CGS001-10610,KD,ST6GALNAC2,"Sialyltransferases, ST6 (alpha-N-acetyl-neuraminyl-2,3-beta-galactosyl-1,3)-N-acetylgalactosaminide alpha-2,6-sialyltransferase 2",,,"0.00, 0.00","1.24, 0.35",-83.23
+CGS001-51116,KD,MRPS2,"Mitochondrial ribosomal proteins / small subunits, mitochondrial ribosomal protein S2",,,"0.00, 0.00","1.17, 0.33",-83.22
+CGS001-22937,KD,SCAP,"WD repeat domain containing, SREBF chaperone",,,"14.29, 14.29","1.93, 0.60",-83.17
+CGS001-11157,KD,LSM6,"LSM6 homolog, U6 small nuclear RNA associated (S. cerevisiae)",,,"0.00, 0.00","1.01, 0.31",-82.72
+CGS001-3976,KD,LIF,leukemia inhibitory factor (cholinergic differentiation factor),,,"0.00, 0.00","1.50, 0.53",-82.51
+CGS001-1606,KD,DGKA,"EF-hand domain containing, diacylglycerol kinase, alpha 80kDa",,,"0.00, 0.00","1.30, 0.35",-82.5
+CGS001-64219,KD,PJA1,"RING-type (C3HC4) zinc fingers, praja ring finger 1",,,"0.00, 0.00","1.42, 0.35",-82.43
+CGS001-5236,KD,PGM1,phosphoglucomutase 1,,,"0.00, 0.00","1.51, 0.34",-81.68
+CGS001-8317,KD,CDC7,"CDC7 family, cell division cycle 7 homolog (S. cerevisiae)",,,"0.00, 0.00","1.56, 0.61",-81.56
+CGS001-6915,KD,TBXA2R,"GPCR / Class A : Prostanoid receptors, thromboxane A2 receptor",,,"0.00, 0.00","1.50, 0.59",-81.38
+CGS001-390,KD,RND3,Rho family GTPase 3,,,"25.00, 0.00","2.35, 0.53",-81.33
+CGS001-4782,KD,NFIC,nuclear factor I/C (CCAAT-binding transcription factor),,,"0.00, 0.00","1.64, 0.45",-81.19
+CGS001-1509,KD,CTSD,"Cathepsins, cathepsin D",,,"0.00, 0.00","1.31, 0.42",-81.13
+CGS001-1356,KD,CP,ceruloplasmin (ferroxidase),,,"0.00, 0.00","1.57, 0.42",-80.88
+CGS001-160,KD,AP2A1,"adaptor-related protein complex 2, alpha 1 subunit",,,"0.00, 0.00","1.43, 0.36",-80.41
+CGS001-3035,KD,HARS,"Aminoacyl tRNA synthetases / Class II, histidyl-tRNA synthetase",,,"0.00, 0.00","1.34, 0.45",-80.35
+CGS001-6813,KD,STXBP2,syntaxin binding protein 2,,,"0.00, 0.00","1.44, 0.42",-80.31
+CGS001-9061,KD,PAPSS1,3'-phosphoadenosine 5'-phosphosulfate synthase 1,,,"0.00, 0.00","1.47, 0.40",-80.27
+CGS001-51160,KD,VPS28,vacuolar protein sorting 28 homolog (S. cerevisiae),,,"0.00, 0.00","2.30, 0.64",-79.81
+CGS001-7466,KD,WFS1,Wolfram syndrome 1 (wolframin),,,"0.00, 0.00","1.05, 0.32",-79.67
+CGS001-2071,KD,ERCC3,"General transcription factors, excision repair cross-complementing rodent repair deficiency, complementation group 3 (xeroderma pigmentosum group B complementing)",,,"0.00, 0.00","1.22, 0.41",-79.6
+CGS001-5781,KD,PTPN11,"Protein tyrosine phosphatases, protein tyrosine phosphatase, non-receptor type 11",,,"0.00, 0.00","2.15, 0.80",-79.58
+CGS001-1182,KD,CLCN3,"Ion channels / Chloride channels : Voltage-sensitive, chloride channel 3",,,"0.00, 0.00","1.52, 0.53",-79.4
+CGS001-4846,KD,NOS3,"Nitric oxide synthases, nitric oxide synthase 3 (endothelial cell)",,,"0.00, 0.00","1.57, 0.47",-79.4
+CGS001-7504,KD,XK,"Blood group antigens, X-linked Kx blood group (McLeod syndrome)",,,"0.00, 0.00","2.21, 0.45",-79.35
+CGS001-8625,KD,RFXANK,"Ankyrin repeat domain containing, regulatory factor X-associated ankyrin-containing protein",,,"0.00, 0.00","1.55, 0.34",-79.3

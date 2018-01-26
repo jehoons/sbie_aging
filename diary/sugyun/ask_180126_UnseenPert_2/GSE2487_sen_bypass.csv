@@ -1,0 +1,251 @@
+ID,adj.P.Val,P.Value,t,B,logFC,Gene.symbol,Gene.title
+206569_at,0.00411,9.14E-06,14.06,4.36,9.4,IL24,interleukin 24
+209774_x_at,0.00797,6.70E-05,9.91,2.48,8.53,CXCL2,C-X-C motif chemokine ligand 2
+204470_at,0.00308,2.11E-06,18.13,5.57,7.72,CXCL1,C-X-C motif chemokine ligand 1
+211233_x_at,0.0068,4.22E-05,10.76,2.94,7.69,ESR1,estrogen receptor 1
+202859_x_at,0.00119,5.34E-08,33.94,7.74,7.6,CXCL8,C-X-C motif chemokine ligand 8
+211506_s_at,0.00797,6.75E-05,9.9,2.47,7.53,CXCL8,C-X-C motif chemokine ligand 8
+205830_at,0.0016,3.59E-07,24.54,6.78,6.99,CLGN,calmegin
+209189_at,0.00289,1.55E-06,19.09,5.8,6.9,FOS,"Fos proto-oncogene, AP-1 transcription factor subunit"
+205207_at,0.00289,1.44E-06,19.34,5.85,6.8,IL6,interleukin 6
+211234_x_at,0.00599,2.94E-05,11.47,3.29,6.78,ESR1,estrogen receptor 1
+206897_at,0.00132,1.78E-07,27.66,7.17,6.37,PAGE1,PAGE family member 1
+204475_at,0.00308,3.34E-06,16.74,5.21,6.37,MMP1,matrix metallopeptidase 1
+208075_s_at,0.0042,9.99E-06,13.85,4.28,6.33,CCL7,C-C motif chemokine ligand 7
+201641_at,0.00524,1.93E-05,12.34,3.68,6.08,BST2,bone marrow stromal cell antigen 2
+205681_at,0.00547,2.36E-05,11.92,3.49,6.02,BCL2A1,BCL2 related protein A1
+217767_at,0.00128,1.15E-07,29.79,7.39,5.89,C3,complement component 3
+208893_s_at,0.00893,8.65E-05,9.47,2.22,5.84,DUSP6,dual specificity phosphatase 6
+213415_at,0.0016,3.34E-07,24.84,6.82,5.79,CLIC2,chloride intracellular channel 2
+204143_s_at,0.00289,9.10E-07,20.93,6.18,5.79,ENOSF1,enolase superfamily member 1
+39402_at,0.00444,1.12E-05,13.58,4.18,5.79,IL1B,interleukin 1 beta
+214954_at,0.00797,6.70E-05,9.91,2.48,5.62,SUSD5,sushi domain containing 5
+205234_at,0.00289,1.43E-06,19.36,5.86,5.6,SLC16A4,solute carrier family 16 member 4
+217190_x_at,0.00553,2.51E-05,11.79,3.44,5.57,ESR1,estrogen receptor 1
+204126_s_at,0.00329,5.32E-06,15.45,4.83,5.51,CDC45,cell division cycle 45
+214974_x_at,0.01004,1.09E-04,9.08,1.99,5.5,CXCL5,C-X-C motif chemokine ligand 5
+209267_s_at,0.00289,1.44E-06,19.35,5.85,5.19,SLC39A8,solute carrier family 39 member 8
+201755_at,0.00308,3.64E-06,16.49,5.14,5.14,MCM5,minichromosome maintenance complex component 5
+205046_at,0.00308,3.90E-06,16.3,5.08,5.12,CENPE,centromere protein E
+205422_s_at,0.0051,1.78E-05,12.52,3.76,5,ITGBL1,integrin subunit beta like 1
+213008_at,0.00438,1.08E-05,13.66,4.21,4.93,FANCI,Fanconi anemia complementation group I
+204133_at,0.0054,2.13E-05,12.13,3.59,4.92,RRP9,"ribosomal RNA processing 9, small subunit (SSU) processome component, homolog (yeast)"
+213524_s_at,0.00308,2.99E-06,17.06,5.3,4.91,G0S2,G0/G1 switch 2
+202638_s_at,0.00308,4.01E-06,16.22,5.06,4.88,ICAM1,intercellular adhesion molecule 1
+220091_at,0.00314,4.79E-06,15.73,4.91,4.83,SLC2A6,solute carrier family 2 member 6
+203976_s_at,0.00308,3.23E-06,16.83,5.24,4.71,CHAF1A,chromatin assembly factor 1 subunit A
+216913_s_at,0.00599,2.96E-05,11.46,3.28,4.67,RRP12,ribosomal RNA processing 12 homolog
+208436_s_at,0.00789,6.38E-05,10,2.53,4.56,IRF7,interferon regulatory factor 7
+220089_at,0.00639,3.39E-05,11.18,3.15,4.54,L2HGDH,L-2-hydroxyglutarate dehydrogenase
+204698_at,0.00308,2.93E-06,17.12,5.31,4.51,ISG20,interferon stimulated exonuclease gene 20
+217388_s_at,0.00456,1.33E-05,13.17,4.02,4.43,KYNU,kynureninase
+201890_at,0.00681,4.43E-05,10.67,2.89,4.43,RRM2,ribonucleotide reductase regulatory subunit M2
+206343_s_at,0.00777,5.89E-05,10.14,2.61,4.43,NRG1,neuregulin 1
+218564_at,0.00329,5.30E-06,15.46,4.83,4.33,RFWD3,ring finger and WD repeat domain 3
+201291_s_at,0.00308,3.95E-06,16.26,5.07,4.29,TOP2A,topoisomerase (DNA) II alpha
+204224_s_at,0.00262,7.04E-07,21.87,6.35,4.27,GCH1,GTP cyclohydrolase 1
+210448_s_at,0.0051,1.79E-05,12.52,3.75,4.26,P2RX5,purinergic receptor P2X 5
+202768_at,0.00314,4.80E-06,15.73,4.91,4.18,FOSB,"FosB proto-oncogene, AP-1 transcription factor subunit"
+204558_at,0.00524,1.96E-05,12.31,3.67,4.17,RAD54L,RAD54-like (S. cerevisiae)
+204081_at,0.00308,3.94E-06,16.27,5.08,4.16,NRGN,neurogranin
+221436_s_at,0.00308,1.90E-06,18.45,5.65,4.09,CDCA3,cell division cycle associated 3
+218888_s_at,0.00616,3.10E-05,11.36,3.24,4.09,NETO2,neuropilin and tolloid like 2
+210663_s_at,0.00777,5.87E-05,10.15,2.61,4.06,KYNU,kynureninase
+219555_s_at,0.00595,2.82E-05,11.55,3.32,4.05,CENPN,centromere protein N
+204595_s_at,0.00789,6.47E-05,9.98,2.52,4.05,STC1,stanniocalcin 1
+218719_s_at,0.00524,2.01E-05,12.26,3.64,4,GINS3,GINS complex subunit 3
+209590_at,0.0051,1.76E-05,12.54,3.77,3.99,BMP7,bone morphogenetic protein 7
+218885_s_at,0.00308,3.69E-06,16.45,5.13,3.97,GALNT12,polypeptide N-acetylgalactosaminyltransferase 12
+218069_at,0.00308,2.31E-06,17.84,5.5,3.95,DCTPP1,dCTP pyrophosphatase 1
+220528_at,0.0068,4.18E-05,10.78,2.95,3.95,VNN3,vanin 3
+204596_s_at,0.00616,3.08E-05,11.37,3.24,3.92,STC1,stanniocalcin 1
+205404_at,0.00789,6.32E-05,10.02,2.54,3.92,HSD11B1,hydroxysteroid 11-beta dehydrogenase 1
+218308_at,0.00456,1.32E-05,13.19,4.03,3.87,TACC3,transforming acidic coiled-coil containing protein 3
+210367_s_at,0.00314,4.49E-06,15.91,4.97,3.83,PTGES,prostaglandin E synthase
+204766_s_at,0.00547,2.24E-05,12.03,3.54,3.82,NUDT1,nudix hydrolase 1
+204614_at,0.00875,8.15E-05,9.57,2.28,3.82,SERPINB2,serpin family B member 2
+217167_x_at,0.00524,2.02E-05,12.25,3.64,3.81,GK,glycerol kinase
+221520_s_at,0.00782,6.07E-05,10.09,2.58,3.8,CDCA8,cell division cycle associated 8
+208962_s_at,0.00361,7.09E-06,14.7,4.58,3.79,MIR1908///FADS1,microRNA 1908///fatty acid desaturase 1
+215942_s_at,0.00361,7.37E-06,14.6,4.55,3.77,GTSE1,G2 and S-phase expressed 1
+203213_at,0.00639,3.49E-05,11.13,3.12,3.76,CDK1,cyclin dependent kinase 1
+216212_s_at,0.00789,6.39E-05,10,2.53,3.76,MIR664B///SNORA56///DKC1,"microRNA 664b///small nucleolar RNA, H/ACA box 56///dyskerin pseudouridine synthase 1"
+206237_s_at,0.00648,3.73E-05,11,3.06,3.74,NRG1,neuregulin 1
+202952_s_at,0.0074,5.09E-05,10.41,2.75,3.71,ADAM12,ADAM metallopeptidase domain 12
+203362_s_at,0.00312,4.20E-06,16.09,5.02,3.69,MAD2L1,MAD2 mitotic arrest deficient-like 1 (yeast)
+219229_at,0.00639,3.52E-05,11.11,3.11,3.68,SLCO3A1,solute carrier organic anion transporter family member 3A1
+219650_at,0.00784,6.19E-05,10.05,2.56,3.67,ERCC6L,"ERCC excision repair 6 like, spindle assembly checkpoint helicase"
+202067_s_at,0.0063,3.25E-05,11.27,3.19,3.66,LDLR,low density lipoprotein receptor
+201764_at,0.00331,5.62E-06,15.3,4.78,3.63,TMEM106C,transmembrane protein 106C
+221270_s_at,0.00779,5.99E-05,10.11,2.59,3.61,QTRT1,queuine tRNA-ribosyltransferase catalytic subunit 1
+203806_s_at,0.0051,1.69E-05,12.63,3.8,3.6,FANCA,Fanconi anemia complementation group A
+205229_s_at,0.00456,1.27E-05,13.28,4.06,3.59,COCH,cochlin
+215587_x_at,0.00314,4.74E-06,15.76,4.92,3.56,,
+209773_s_at,0.00562,2.57E-05,11.74,3.41,3.52,RRM2,ribonucleotide reductase regulatory subunit M2
+217771_at,0.00308,2.95E-06,17.1,5.31,3.5,GOLM1,golgi membrane protein 1
+208998_at,0.00868,8.02E-05,9.6,2.3,3.5,UCP2,uncoupling protein 2
+214710_s_at,0.00361,7.25E-06,14.64,4.56,3.48,CCNB1,cyclin B1
+204166_at,0.00481,1.47E-05,12.95,3.93,3.48,SBNO2,strawberry notch homolog 2
+216299_s_at,0.00547,2.22E-05,12.05,3.55,3.48,XRCC3,X-ray repair cross complementing 3
+220794_at,0.00759,5.62E-05,10.23,2.66,3.48,GREM2,"gremlin 2, DAN family BMP antagonist"
+212110_at,0.00639,3.57E-05,11.08,3.1,3.47,SLC39A14,solute carrier family 39 member 14
+209698_at,0.00652,3.89E-05,10.92,3.02,3.4,CCHCR1,coiled-coil alpha-helical rod protein 1
+208117_s_at,0.00361,7.44E-06,14.58,4.54,3.36,LAS1L,"LAS1 like, ribosome biogenesis factor"
+205479_s_at,0.00341,6.43E-06,14.95,4.67,3.32,PLAU,"plasminogen activator, urokinase"
+204817_at,0.00388,8.18E-06,14.34,4.46,3.32,ESPL1,"extra spindle pole bodies like 1, separase"
+200790_at,0.0051,1.65E-05,12.69,3.83,3.3,ODC1,ornithine decarboxylase 1
+214507_s_at,0.00759,5.59E-05,10.24,2.66,3.3,EXOSC2,exosome component 2
+205442_at,0.00456,1.30E-05,13.24,4.05,3.27,MFAP3L,microfibrillar associated protein 3 like
+203821_at,0.00762,5.67E-05,10.21,2.65,3.26,HBEGF,heparin binding EGF like growth factor
+205542_at,0.00907,9.20E-05,9.37,2.16,3.21,STEAP1,six transmembrane epithelial antigen of the prostate 1
+202363_at,0.00456,1.33E-05,13.18,4.03,3.18,SPOCK1,"sparc/osteonectin, cwcv and kazal-like domains proteoglycan (testican) 1"
+205527_s_at,0.00779,6.02E-05,10.1,2.59,3.18,GEMIN4,gem nuclear organelle associated protein 4
+215223_s_at,0.00396,8.54E-06,14.23,4.42,3.16,LOC100129518///SOD2,"uncharacterized LOC100129518///superoxide dismutase 2, mitochondrial"
+204641_at,0.00553,2.50E-05,11.8,3.44,3.15,NEK2,NIMA related kinase 2
+204826_at,0.00945,9.79E-05,9.26,2.1,3.12,CCNF,cyclin F
+212525_s_at,0.00741,5.19E-05,10.37,2.73,3.11,H2AFX,H2A histone family member X
+203560_at,0.00681,4.43E-05,10.67,2.89,3.1,GGH,gamma-glutamyl hydrolase
+209642_at,0.00907,9.05E-05,9.39,2.18,3.1,BUB1,BUB1 mitotic checkpoint serine/threonine kinase
+201802_at,0.00656,3.97E-05,10.87,2.99,3.06,SLC29A1,solute carrier family 29 member 1 (Augustine blood group)
+214682_at,0.00331,5.87E-06,15.19,4.74,3.04,PKD1P1,"polycystin 1, transient receptor potential channel interacting pseudogene 1"
+209480_at,0.00861,7.77E-05,9.65,2.33,3.03,HLA-DQB1,"major histocompatibility complex, class II, DQ beta 1"
+222001_x_at,0.00456,1.24E-05,13.33,4.09,3.02,LINC00623///LINC00869,long intergenic non-protein coding RNA 623///long intergenic non-protein coding RNA 869
+206461_x_at,0.00656,3.95E-05,10.89,3,3.02,MT1H,metallothionein 1H
+204508_s_at,0.00688,4.51E-05,10.64,2.87,3.01,CA12,carbonic anhydrase 12
+202107_s_at,0.00646,3.65E-05,11.04,3.08,3,MCM2,minichromosome maintenance complex component 2
+204026_s_at,0.00868,7.98E-05,9.61,2.3,3,ZWINT,ZW10 interacting kinetochore protein
+35179_at,0.00457,1.35E-05,13.14,4.01,2.99,B3GAT3,"beta-1,3-glucuronyltransferase 3"
+202779_s_at,0.00759,5.52E-05,10.26,2.67,2.97,UBE2S,ubiquitin conjugating enzyme E2 S
+218834_s_at,0.00553,2.44E-05,11.85,3.46,2.94,TMEM132A,transmembrane protein 132A
+205891_at,0.00595,2.82E-05,11.55,3.32,2.94,ADORA2B,adenosine A2b receptor
+209942_x_at,0.00681,4.40E-05,10.68,2.9,2.92,MAGEA6///MAGEA3,MAGE family member A6///MAGE family member A3
+208155_x_at,0.00797,6.61E-05,9.94,2.49,2.92,GAGE12D///GAGE12F///GAGE12H///GAGE12E///GAGE12B///GAGE12C///GAGE2D///GAGE12J///GAGE12G///GAGE13///GAGE12I///GAGE7///GAGE6///GAGE5///GAGE4///GAGE1,G antigen 12D///G antigen 12F///G antigen 12H///G antigen 12E///G antigen 12B///G antigen 12C///G antigen 2D///G antigen 12J///G antigen 12G///G antigen 13///G antigen 12I///G antigen 7///G antigen 6///G antigen 5///G antigen 4///G antigen 1
+220612_at,0.0063,3.25E-05,11.27,3.19,2.88,,
+210559_s_at,0.00863,7.82E-05,9.64,2.33,2.83,CDK1,cyclin dependent kinase 1
+209464_at,0.00456,1.33E-05,13.18,4.03,2.81,AURKB,aurora kinase B
+209928_s_at,0.0051,1.76E-05,12.55,3.77,2.81,MSC,musculin
+202095_s_at,0.00416,9.51E-06,13.97,4.32,2.78,BIRC5,baculoviral IAP repeat containing 5
+202705_at,0.00573,2.65E-05,11.68,3.38,2.78,CCNB2,cyclin B2
+211804_s_at,0.00646,3.68E-05,11.02,3.07,2.78,CDK2,cyclin dependent kinase 2
+221176_x_at,0.01017,1.13E-04,9.03,1.95,2.76,,
+202094_at,0.00789,6.45E-05,9.98,2.52,2.75,BIRC5,baculoviral IAP repeat containing 5
+213110_s_at,0.00547,2.33E-05,11.94,3.5,2.73,COL4A5,collagen type IV alpha 5 chain
+209408_at,0.0068,4.30E-05,10.73,2.92,2.73,KIF2C,kinesin family member 2C
+206102_at,0.00784,6.18E-05,10.06,2.56,2.69,GINS1,GINS complex subunit 1
+211260_at,0.0051,1.66E-05,12.68,3.82,2.67,BMP7,bone morphogenetic protein 7
+219148_at,0.00599,2.91E-05,11.49,3.3,2.67,PBK,PDZ binding kinase
+204621_s_at,0.00759,5.49E-05,10.27,2.68,2.66,NR4A2,nuclear receptor subfamily 4 group A member 2
+38158_at,0.0051,1.74E-05,12.58,3.78,2.62,ESPL1,"extra spindle pole bodies like 1, separase"
+211576_s_at,0.00911,9.33E-05,9.34,2.15,2.62,SLC19A1,solute carrier family 19 member 1
+207111_at,0.00899,8.76E-05,9.45,2.21,2.61,ADGRE1,adhesion G protein-coupled receptor E1
+211668_s_at,0.0074,5.12E-05,10.4,2.75,2.6,PLAU,"plasminogen activator, urokinase"
+200853_at,0.00527,2.06E-05,12.21,3.62,2.58,H2AFZ,H2A histone family member Z
+219420_s_at,0.00789,6.48E-05,9.97,2.51,2.58,COA7,cytochrome c oxidase assembly factor 7 (putative)
+214011_s_at,0.0051,1.73E-05,12.58,3.78,2.56,NOP16,NOP16 nucleolar protein
+201631_s_at,0.00789,6.48E-05,9.97,2.51,2.55,IER3,immediate early response 3
+208581_x_at,0.00868,7.99E-05,9.61,2.3,2.55,MT1X,metallothionein 1X
+216841_s_at,0.00861,7.75E-05,9.66,2.33,2.54,LOC100129518///SOD2,"uncharacterized LOC100129518///superoxide dismutase 2, mitochondrial"
+205266_at,0.00946,9.89E-05,9.25,2.09,2.53,LIF,leukemia inhibitory factor
+213992_at,0.00836,7.35E-05,9.75,2.39,2.52,COL4A6,collagen type IV alpha 6 chain
+218883_s_at,0.00945,9.84E-05,9.25,2.09,2.52,CENPU,centromere protein U
+209962_at,0.00639,3.53E-05,11.1,3.11,2.49,EPOR,erythropoietin receptor
+203764_at,0.00639,3.46E-05,11.14,3.13,2.48,DLGAP5,DLG associated protein 5
+214175_x_at,0.00599,2.95E-05,11.46,3.28,2.47,PDLIM4,PDZ and LIM domain 4
+218764_at,0.00759,5.54E-05,10.25,2.67,2.47,PRKCH,protein kinase C eta
+202644_s_at,0.00956,1.01E-04,9.21,2.07,2.46,TNFAIP3,TNF alpha induced protein 3
+203963_at,0.00648,3.81E-05,10.96,3.04,2.45,CA12,carbonic anhydrase 12
+207014_at,0.00893,8.59E-05,9.48,2.23,2.45,GABRA2,gamma-aminobutyric acid type A receptor alpha2 subunit
+214384_s_at,0.00893,8.52E-05,9.5,2.24,2.44,DCTN2,dynactin subunit 2
+201041_s_at,0.00738,5.02E-05,10.43,2.77,2.43,DUSP1,dual specificity phosphatase 1
+202679_at,0.0068,4.30E-05,10.72,2.92,2.42,NPC1,NPC intracellular cholesterol transporter 1
+208229_at,0.00831,7.27E-05,9.77,2.4,2.42,FGFR2,fibroblast growth factor receptor 2
+201596_x_at,0.00595,2.83E-05,11.55,3.32,2.39,KRT18,keratin 18
+220053_at,0.00875,8.22E-05,9.56,2.28,2.37,GDF3,growth differentiation factor 3
+218046_s_at,0.00784,6.18E-05,10.06,2.56,2.36,MRPS16,mitochondrial ribosomal protein S16
+204962_s_at,0.00789,6.51E-05,9.96,2.51,2.36,SLC35F6///CENPA,solute carrier family 35 member F6///centromere protein A
+204170_s_at,0.00553,2.49E-05,11.81,3.44,2.35,CKS2,CDC28 protein kinase regulatory subunit 2
+214164_x_at,0.00875,8.23E-05,9.56,2.27,2.35,CA12,carbonic anhydrase 12
+203046_s_at,0.00907,9.02E-05,9.4,2.18,2.35,TIMELESS,timeless circadian clock
+206609_at,0.00893,8.63E-05,9.47,2.23,2.34,MAGEC1,MAGE family member C1
+204768_s_at,0.00889,8.42E-05,9.52,2.25,2.31,FEN1,flap structure-specific endonuclease 1
+213906_at,0.01017,1.14E-04,9.02,1.95,2.3,MYBL1,MYB proto-oncogene like 1
+202589_at,0.00759,5.56E-05,10.25,2.67,2.28,TYMS,thymidylate synthetase
+202830_s_at,0.00712,4.73E-05,10.54,2.82,2.25,SLC37A4,solute carrier family 37 member 4
+220840_s_at,0.00797,6.79E-05,9.89,2.47,2.25,C1orf112,chromosome 1 open reading frame 112
+204767_s_at,0.00847,7.49E-05,9.72,2.37,2.25,FEN1,flap structure-specific endonuclease 1
+217739_s_at,0.01038,1.17E-04,8.97,1.92,2.21,NAMPT,nicotinamide phosphoribosyltransfe
+202240_at,0.0067,4.09E-05,10.82,2.97,2.17,PLK1,polo like kinase 1
+201341_at,0.01005,1.10E-04,9.07,1.98,2.16,ENC1,ectodermal-neural cortex 1
+218355_at,0.01017,1.14E-04,9.02,1.95,2.13,KIF4A,kinesin family member 4A
+214805_at,0.00831,7.26E-05,9.77,2.4,2.12,SNORD10///SNORA48///SNORA67///EIF4A1,"small nucleolar RNA, C/D box 10///small nucleolar RNA, H/ACA box 48///small nucleolar RNA, H/ACA box 67///eukaryotic translation initiation factor 4A1"
+204745_x_at,0.00738,5.03E-05,10.43,2.76,2.11,MT1G,metallothionein 1G
+218368_s_at,0.00976,1.04E-04,9.16,2.04,2.1,TNFRSF12A,TNF receptor superfamily member 12A
+213577_at,0.00986,1.06E-04,9.13,2.02,2.1,SQLE,squalene epoxidase
+213757_at,0.00907,9.18E-05,9.37,2.16,2.04,,
+204465_s_at,0.00777,5.90E-05,10.14,2.61,2,INA,internexin neuronal intermediate filament protein alpha
+210735_s_at,0.00907,9.14E-05,9.38,2.17,1.95,CA12,carbonic anhydrase 12
+205806_at,0.00967,1.02E-04,9.19,2.05,1.89,ROM1,retinal outer segment membrane protein 1
+201714_at,0.00907,9.16E-05,9.37,2.17,1.88,TUBG1,tubulin gamma 1
+201584_s_at,0.01017,1.13E-04,9.03,1.95,1.87,DDX39A,DEAD-box helicase 39A
+202075_s_at,0.01002,1.08E-04,-9.1,2,-1.9,PLTP,phospholipid transfer protein
+201065_s_at,0.00831,7.21E-05,-9.78,2.41,-1.93,GTF2IP4///GTF2IP1///GTF2I,general transcription factor IIi pseudogene 4///general transcription factor IIi pseudogene 1///general transcription factor IIi
+212489_at,0.00907,9.15E-05,-9.38,2.17,-2,COL5A1,collagen type V alpha 1 chain
+209737_at,0.00868,8.02E-05,-9.6,2.3,-2.01,MAGI2,"membrane associated guanylate kinase, WW and PDZ domain containing 2"
+208516_at,0.01017,1.12E-04,-9.04,1.96,-2.11,MTNR1B,melatonin receptor 1B
+201368_at,0.00702,4.63E-05,-10.59,2.85,-2.14,ZFP36L2,ZFP36 ring finger protein like 2
+213158_at,0.00906,8.86E-05,-9.43,2.2,-2.17,ZBTB20,zinc finger and BTB domain containing 20
+201010_s_at,0.00639,3.59E-05,-11.07,3.09,-2.2,TXNIP,thioredoxin interacting protein
+213001_at,0.0063,3.25E-05,-11.27,3.19,-2.21,ANGPTL2,angiopoietin like 2
+211986_at,0.00973,1.03E-04,-9.17,2.04,-2.24,AHNAK,AHNAK nucleoprotein
+203477_at,0.0086,7.68E-05,-9.67,2.34,-2.25,COL15A1,collagen type XV alpha 1 chain
+206377_at,0.00547,2.28E-05,-11.99,3.53,-2.35,FOXF2,forkhead box F2
+207043_s_at,0.00777,5.93E-05,-10.13,2.6,-2.35,SLC6A9,solute carrier family 6 member 9
+202765_s_at,0.00797,6.80E-05,-9.89,2.47,-2.44,FBN1,fibrillin 1
+201310_s_at,0.00553,2.49E-05,-11.81,3.44,-2.45,NREP,neuronal regeneration related protein
+219028_at,0.01002,1.08E-04,-9.09,2,-2.48,HIPK2,homeodomain interacting protein kinase 2
+208070_s_at,0.00893,8.63E-05,-9.47,2.23,-2.51,REV3L,"REV3 like, DNA directed polymerase zeta catalytic subunit"
+203088_at,0.00648,3.80E-05,-10.96,3.04,-2.53,FBLN5,fibulin 5
+213247_at,0.00524,2.00E-05,-12.27,3.65,-2.57,SVEP1,"sushi, von Willebrand factor type A, EGF and pentraxin domain containing 1"
+214601_at,0.01004,1.09E-04,-9.08,1.99,-2.58,TPH1,tryptophan hydroxylase 1
+213004_at,0.00639,3.52E-05,-11.11,3.11,-2.62,ANGPTL2,angiopoietin like 2
+205614_x_at,0.00907,9.22E-05,-9.36,2.16,-2.64,MST1,macrophage stimulating 1
+200974_at,0.0068,4.29E-05,-10.73,2.92,-2.65,ACTA2,"actin, alpha 2, smooth muscle, aorta"
+218638_s_at,0.00547,2.28E-05,-11.99,3.53,-2.67,LOC100130872///SPON2,uncharacterized LOC100130872///spondin 2
+222162_s_at,0.00759,5.53E-05,-10.26,2.67,-2.67,ADAMTS1,ADAM metallopeptidase with thrombospondin type 1 motif 1
+203185_at,0.00524,1.98E-05,-12.3,3.66,-2.73,RASSF2,Ras association domain family member 2
+206440_at,0.00831,7.25E-05,-9.77,2.4,-2.75,LIN7A,"lin-7 homolog A, crumbs cell polarity complex component"
+201616_s_at,0.00652,3.87E-05,-10.92,3.02,-2.87,CALD1,caldesmon 1
+203101_s_at,0.00648,3.81E-05,-10.96,3.04,-2.89,MGAT2,"mannosyl (alpha-1,6-)-glycoprotein beta-1,2-N-acetylglucosaminyltransferase"
+213905_x_at,0.00912,9.37E-05,-9.34,2.14,-2.89,BGN,biglycan
+201617_x_at,0.00639,3.33E-05,-11.22,3.17,-2.93,CALD1,caldesmon 1
+212096_s_at,0.00875,8.25E-05,-9.55,2.27,-2.97,MTUS1,microtubule associated tumor suppressor 1
+203184_at,0.00456,1.24E-05,-13.35,4.09,-3.02,FBN2,fibrillin 2
+211352_s_at,0.00952,1.00E-04,-9.23,2.08,-3.02,NCOA3,nuclear receptor coactivator 3
+208554_at,0.00907,9.24E-05,-9.36,2.16,-3.06,POU4F3,POU class 4 homeobox 3
+201008_s_at,0.0051,1.82E-05,-12.48,3.74,-3.08,TXNIP,thioredoxin interacting protein
+205248_at,0.00473,1.42E-05,-13.03,3.96,-3.1,DOPEY2,dopey family member 2
+204072_s_at,0.00639,3.47E-05,-11.14,3.13,-3.15,FRY,FRY microtubule binding protein
+216626_at,0.00858,7.62E-05,-9.69,2.35,-3.22,,
+202202_s_at,0.00453,1.16E-05,-13.5,4.15,-3.23,LAMA4,laminin subunit alpha 4
+210990_s_at,0.00738,5.02E-05,-10.43,2.77,-3.23,LAMA4,laminin subunit alpha 4
+213802_at,0.00943,9.73E-05,-9.27,2.11,-3.4,PRSS12,"protease, serine 12"
+36920_at,0.00741,5.18E-05,-10.38,2.74,-3.44,MTM1,myotubularin 1
+209460_at,0.0051,1.83E-05,-12.46,3.73,-3.45,ABAT,4-aminobutyrate aminotransferase
+206795_at,0.00681,4.43E-05,-10.67,2.89,-3.63,F2RL2,coagulation factor II thrombin receptor like 2
+203980_at,0.00541,2.16E-05,-12.11,3.58,-3.71,FABP4,fatty acid binding protein 4
+210129_s_at,0.00337,6.21E-06,-15.04,4.7,-3.77,ARPC4-TTLL3///TTLL3///ARPC4,ARPC4-TTLL3 readthrough///tubulin tyrosine ligase like 3///actin related protein 2/3 complex subunit 4
+221011_s_at,0.00331,5.95E-06,-15.15,4.73,-3.79,LBH,limb bud and heart development
+219563_at,0.00759,5.42E-05,-10.29,2.69,-3.79,SYNE3///LINC00341,spectrin repeat containing nuclear envelope family member 3///long intergenic non-protein coding RNA 341
+213845_at,0.00331,5.67E-06,-15.28,4.77,-3.99,GRIK2,glutamate ionotropic receptor kainate type subunit 2
+209335_at,0.00499,1.55E-05,-12.83,3.89,-4.02,DCN,decorin
+207575_at,0.00728,4.87E-05,-10.49,2.8,-4.08,GOLGA6A,golgin A6 family member A
+209683_at,0.00751,5.29E-05,-10.34,2.71,-4.24,FAM49A,family with sequence similarity 49 member A
+203028_s_at,0.00411,9.23E-06,-14.04,4.35,-4.46,CYBA,cytochrome b-245 alpha chain
+209596_at,0.00289,1.13E-06,-20.15,6.03,-4.48,MXRA5,matrix remodeling associated 5
+208534_s_at,0.00308,3.15E-06,-16.91,5.26,-4.79,RASA4B///RASA4CP///RASA4,"RAS p21 protein activator 4B///RAS p21 protein activator 4C, pseudogene///RAS p21 protein activator 4"
+204400_at,0.00812,6.96E-05,-9.85,2.44,-4.79,EFS,embryonal Fyn-associated substrate
+209459_s_at,0.0042,9.98E-06,-13.85,4.28,-5.07,ABAT,4-aminobutyrate aminotransferase
+206710_s_at,0.00547,2.36E-05,-11.92,3.5,-5.59,EPB41L3,erythrocyte membrane protein band 4.1 like 3
+203381_s_at,0.00308,1.97E-06,-18.33,5.62,-5.9,APOE,apolipoprotein E
+217757_at,0.00308,3.16E-06,-16.9,5.25,-6.02,A2M,alpha-2-macroglobulin
+212681_at,0.00438,1.08E-05,-13.66,4.21,-6.99,EPB41L3,erythrocyte membrane protein band 4.1 like 3

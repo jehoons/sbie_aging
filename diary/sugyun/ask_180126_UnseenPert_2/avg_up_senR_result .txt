@@ -1,0 +1,34 @@
+Knock down ab : 
+validation of modified senescence R to quiescence, and senescence data
+pred vs qui : 0.547922633603
+pred vs sen : 0.0140631347652
+Knock down ab : Elk1 (Ab-383)	
+validation of modified senescence R to quiescence, and senescence data
+pred vs qui : 0.547701227864
+pred vs sen : 0.0177359493537
+Knock down ab : HSP27 (Phospho-Ser15)	
+validation of modified senescence R to quiescence, and senescence data
+pred vs qui : 0.547919666996
+pred vs sen : 0.0162907020665
+Knock down ab : HSP27 (Ab-78)	
+validation of modified senescence R to quiescence, and senescence data
+pred vs qui : 0.547515442621
+pred vs sen : 0.0250528145433
+Knock down ab : Elk1 (Ab-383)	HSP27 (Phospho-Ser15)	
+validation of modified senescence R to quiescence, and senescence data
+pred vs qui : 0.547698326675
+pred vs sen : 0.0195541573726
+Knock down ab : Elk1 (Ab-383)	HSP27 (Ab-78)	
+validation of modified senescence R to quiescence, and senescence data
+pred vs qui : 0.547293606713
+pred vs sen : 0.027308140228
+Knock down ab : HSP27 (Phospho-Ser15)	HSP27 (Ab-78)	
+validation of modified senescence R to quiescence, and senescence data
+pred vs qui : 0.54751292141
+pred vs sen : 0.0263844238679
+Knock down ab : Elk1 (Ab-383)	HSP27 (Phospho-Ser15)	HSP27 (Ab-78)	
+validation of modified senescence R to quiescence, and senescence data
+pred vs qui : 0.54729115131
+pred vs sen : 0.0285379350687
+total qui err : 4.38085497719
+total sen err : 0.174927257266
