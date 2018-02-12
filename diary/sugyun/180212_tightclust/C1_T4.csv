@@ -1,0 +1,31 @@
+,kclust,tight10,entrez,symbol
+MSK2 (Phospho-Thr568),1,4,8986,RPS6KA4
+JunD (Phospho-Ser255),1,4,3726,JUNB
+MITF (Phospho-Ser73),1,4,4286,MITF
+14-3-3 beta/zeta (Ab-184/186),1,4,7534/7529,YWHAZ/YWHAB
+Tau (Phospho-Ser262),1,4,4137,MAPT
+Tau (Ab-205),1,4,4137,MAPT
+Smad2/3 (Ab-8),1,4,4088/4087,SMAD3/SMAD2
+Smad1 (Ab-465),1,4,4086,SMAD1
+p38 MAPK (Phospho-Tyr182),1,4,1432,MAPK14
+p27Kip1 (Phospho-Thr187),1,4,1027,CDKN1B
+eNOS (Phospho-Ser1177),1,4,4846,NOS3
+WASP (Ab-290),1,4,7454,WAS
+VAV1 (Ab-160),1,4,7409,VAV1
+PI3-kinase p85-alpha (Phospho-Tyr607),1,4,5295,PIK3R1
+NFkB-p65 (Phospho-Ser536),1,4,5970,RELA
+PKC delta (Ab-505),1,4,5580,PRKCD
+Rb (Phospho-Ser795),1,4,5925,RB1
+Pyk2 (Phospho-Tyr402),1,4,2185,PTK2B
+PTEN (Ab-370),1,4,5728,PTEN
+IkB-alpha (Phospho-Tyr305),1,4,4792,NFKBIA
+GATA1 (Phospho-Ser142),1,4,2623,GATA1
+CD32 (FcgammaRIIb)(Ab-292),1,4,2213,FCGR2B
+B-RAF (Ab-598),1,4,673,BRAF
+BTK (Phospho-Tyr223),1,4,695,BTK
+Cyclin E1 (Ab-395),1,4,898,CCNE1
+FAK (Ab-397),1,4,5747,PTK2
+Elk1 (Ab-389),1,4,2002,ELK1
+Estrogen Receptor-alpha (Phospho-Ser118),1,4,2099,ESR1
+HSP27 (Ab-78),1,4,3315,HSPB1
+Arrestin-1 (Ab-412),1,4,408,ARRB1
