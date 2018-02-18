@@ -1,0 +1,1470 @@
+
+
+Iteration 0
+
+configuration_6: 12
+configuration_11: 12
+configuration_23: 12
+configuration_24: 12
+configuration_3: 12
+configuration_21: 12
+configuration_27: 12
+configuration_4: 12
+configuration_5: 12
+configuration_8: 12
+configuration_26: 12
+configuration_0: 12
+configuration_1: 12
+configuration_7: 12
+configuration_2: 12
+configuration_13: 11
+configuration_12: 11
+configuration_14: 8
+configuration_29: 8
+configuration_15: 6
+configuration_20: 6
+configuration_19: 6
+configuration_17: 6
+configuration_10: 6
+configuration_25: 6
+configuration_22: 6
+configuration_18: 6
+configuration_9: 6
+configuration_28: 5
+configuration_16: 5
+MIR-200 -| ZEB2 : 0.466666666666667 
+MIR-200 -| ZEB1 : 0.8 
+SNAI1 -| MIR-200 : 0.666666666666667 
+ZEB2 -| CDH1 : 0.533333333333333 
+SNAI1 -> ZEB2 : 0.666666666666667 
+ZEB1 -| MIR-200 : 0.4 
+SNAI1 -> ZEB1 : 0.666666666666667 
+MIR-203 -| ZEB2 : 0.266666666666667 
+ZEB1 -| MIR-203 : 0.6 
+ZEB2 -| MIR-203 : 1 
+SNAI1 -| MIR-203 : 0.466666666666667 
+MIR-203 -| SNAI1 : 1 
+ZEB2 -| MIR-200 : 0.6 
+ZEB1 -| CDH1 : 0.733333333333333 
+SNAI1 -| CDH1 : 0.666666666666667 
+
+
+Iteration 1
+
+configuration_6: 12
+configuration_11: 12
+configuration_23: 12
+configuration_14: 12
+configuration_20: 12
+configuration_15: 12
+configuration_29: 12
+configuration_24: 12
+configuration_3: 12
+configuration_13: 12
+configuration_10: 12
+configuration_25: 12
+configuration_27: 12
+configuration_17: 12
+configuration_4: 12
+configuration_19: 12
+configuration_8: 12
+configuration_16: 12
+configuration_22: 12
+configuration_5: 12
+configuration_12: 12
+configuration_0: 12
+configuration_26: 12
+configuration_1: 12
+configuration_18: 12
+configuration_9: 12
+configuration_2: 12
+configuration_7: 12
+configuration_28: 10
+configuration_21: 10
+MIR-200 -| ZEB1 : 1 
+MIR-200 -| ZEB2 : 0.6 
+SNAI1 -> ZEB2 : 0.933333333333333 
+SNAI1 -> ZEB1 : 0.666666666666667 
+ZEB1 -| MIR-200 : 0.666666666666667 
+ZEB2 -| CDH1 : 0.666666666666667 
+SNAI1 -| MIR-200 : 0.866666666666667 
+SNAI1 -| MIR-203 : 0.533333333333333 
+ZEB2 -| MIR-203 : 1 
+MIR-203 -| ZEB2 : 0.4 
+ZEB1 -| MIR-203 : 0.933333333333333 
+ZEB2 -| MIR-200 : 0.666666666666667 
+ZEB1 -| CDH1 : 1 
+SNAI1 -| CDH1 : 0.533333333333333 
+MIR-203 -| SNAI1 : 1 
+
+
+Iteration 2
+
+configuration_12: 12
+configuration_22: 12
+configuration_5: 12
+configuration_8: 12
+configuration_16: 12
+configuration_19: 12
+configuration_25: 12
+configuration_10: 12
+configuration_4: 12
+configuration_27: 12
+configuration_21: 12
+configuration_17: 12
+configuration_7: 12
+configuration_9: 12
+configuration_2: 12
+configuration_18: 12
+configuration_26: 12
+configuration_1: 12
+configuration_0: 12
+configuration_11: 12
+configuration_6: 12
+configuration_13: 12
+configuration_29: 12
+configuration_24: 12
+configuration_3: 12
+configuration_20: 12
+configuration_15: 12
+configuration_23: 12
+configuration_14: 12
+configuration_28: 12
+MIR-200 -| ZEB1 : 1 
+MIR-200 -| ZEB2 : 0.733333333333333 
+SNAI1 -> ZEB1 : 0.933333333333333 
+SNAI1 -> ZEB2 : 0.933333333333333 
+ZEB1 -| MIR-200 : 0.733333333333333 
+ZEB2 -| CDH1 : 1 
+SNAI1 -| MIR-200 : 1 
+ZEB2 -| MIR-203 : 1 
+SNAI1 -| MIR-203 : 0.866666666666667 
+MIR-203 -| ZEB2 : 0.533333333333333 
+ZEB1 -| MIR-203 : 1 
+MIR-203 -| SNAI1 : 1 
+ZEB1 -| CDH1 : 0.8 
+SNAI1 -| CDH1 : 0.666666666666667 
+ZEB2 -| MIR-200 : 0.866666666666667 
+
+
+Iteration 3
+
+configuration_6: 12
+configuration_11: 12
+configuration_23: 12
+configuration_14: 12
+configuration_28: 12
+configuration_20: 12
+configuration_15: 12
+configuration_29: 12
+configuration_3: 12
+configuration_24: 12
+configuration_13: 12
+configuration_25: 12
+configuration_10: 12
+configuration_27: 12
+configuration_4: 12
+configuration_21: 12
+configuration_17: 12
+configuration_19: 12
+configuration_8: 12
+configuration_16: 12
+configuration_5: 12
+configuration_22: 12
+configuration_12: 12
+configuration_26: 12
+configuration_0: 12
+configuration_1: 12
+configuration_18: 12
+configuration_9: 12
+configuration_2: 12
+configuration_7: 12
+MIR-200 -| ZEB1 : 1 
+MIR-200 -| ZEB2 : 1 
+ZEB1 -| MIR-200 : 0.866666666666667 
+SNAI1 -> ZEB1 : 0.933333333333333 
+SNAI1 -> ZEB2 : 1 
+ZEB2 -| CDH1 : 0.866666666666667 
+SNAI1 -| MIR-200 : 1 
+ZEB2 -| MIR-203 : 1 
+SNAI1 -| MIR-203 : 0.933333333333333 
+MIR-203 -| ZEB2 : 0.8 
+ZEB1 -| MIR-203 : 1 
+ZEB1 -| CDH1 : 0.8 
+ZEB2 -| MIR-200 : 0.933333333333333 
+SNAI1 -| CDH1 : 0.533333333333333 
+MIR-203 -| SNAI1 : 1 
+
+
+Iteration 4
+
+configuration_6: 12
+configuration_11: 12
+configuration_15: 12
+configuration_20: 12
+configuration_28: 12
+configuration_23: 12
+configuration_14: 12
+configuration_13: 12
+configuration_24: 12
+configuration_3: 12
+configuration_29: 12
+configuration_19: 12
+configuration_17: 12
+configuration_27: 12
+configuration_21: 12
+configuration_4: 12
+configuration_10: 12
+configuration_25: 12
+configuration_5: 12
+configuration_22: 12
+configuration_12: 12
+configuration_16: 12
+configuration_8: 12
+configuration_18: 12
+configuration_0: 12
+configuration_26: 12
+configuration_1: 12
+configuration_7: 12
+configuration_2: 12
+configuration_9: 12
+SNAI1 -| MIR-200 : 1 
+ZEB1 -| MIR-200 : 0.933333333333333 
+SNAI1 -> ZEB1 : 0.933333333333333 
+SNAI1 -> ZEB2 : 1 
+ZEB2 -| CDH1 : 0.733333333333333 
+MIR-200 -| ZEB2 : 1 
+MIR-200 -| ZEB1 : 1 
+ZEB2 -| MIR-200 : 1 
+ZEB1 -| CDH1 : 0.866666666666667 
+SNAI1 -| CDH1 : 0.466666666666667 
+MIR-203 -| SNAI1 : 1 
+MIR-203 -| ZEB2 : 1 
+ZEB1 -| MIR-203 : 1 
+SNAI1 -| MIR-203 : 0.933333333333333 
+ZEB2 -| MIR-203 : 1 
+
+
+Iteration 5
+
+configuration_20: 12
+configuration_23: 12
+configuration_14: 12
+configuration_28: 12
+configuration_13: 12
+configuration_29: 12
+configuration_3: 12
+configuration_24: 12
+configuration_6: 12
+configuration_11: 12
+configuration_18: 12
+configuration_26: 12
+configuration_1: 12
+configuration_0: 12
+configuration_7: 12
+configuration_9: 12
+configuration_2: 12
+configuration_19: 12
+configuration_10: 12
+configuration_25: 12
+configuration_27: 12
+configuration_21: 12
+configuration_4: 12
+configuration_17: 12
+configuration_22: 12
+configuration_5: 12
+configuration_12: 12
+configuration_8: 12
+configuration_16: 12
+configuration_15: 10
+MIR-203 -| SNAI1 : 1 
+SNAI1 -| CDH1 : 0.666666666666667 
+ZEB2 -| MIR-200 : 1 
+ZEB1 -| CDH1 : 0.866666666666667 
+ZEB1 -| MIR-203 : 1 
+MIR-203 -| ZEB2 : 1 
+ZEB2 -| MIR-203 : 1 
+SNAI1 -| MIR-203 : 0.933333333333333 
+SNAI1 -| MIR-200 : 1 
+ZEB1 -| MIR-200 : 1 
+SNAI1 -> ZEB1 : 1 
+SNAI1 -> ZEB2 : 0.933333333333333 
+ZEB2 -| CDH1 : 0.666666666666667 
+MIR-200 -| ZEB2 : 1 
+MIR-200 -| ZEB1 : 1 
+
+
+Iteration 6
+
+configuration_6: 12
+configuration_14: 12
+configuration_23: 12
+configuration_28: 12
+configuration_20: 12
+configuration_15: 12
+configuration_29: 12
+configuration_24: 12
+configuration_3: 12
+configuration_13: 12
+configuration_10: 12
+configuration_25: 12
+configuration_27: 12
+configuration_4: 12
+configuration_21: 12
+configuration_17: 12
+configuration_19: 12
+configuration_8: 12
+configuration_16: 12
+configuration_5: 12
+configuration_22: 12
+configuration_12: 12
+configuration_0: 12
+configuration_26: 12
+configuration_1: 12
+configuration_18: 12
+configuration_9: 12
+configuration_2: 12
+configuration_7: 12
+configuration_11: 10
+MIR-203 -| ZEB2 : 1 
+ZEB1 -| MIR-203 : 1 
+SNAI1 -| MIR-203 : 1 
+ZEB2 -| MIR-203 : 1 
+MIR-203 -| SNAI1 : 1 
+ZEB1 -| CDH1 : 0.933333333333333 
+ZEB2 -| MIR-200 : 1 
+SNAI1 -| CDH1 : 0.6 
+MIR-200 -| ZEB2 : 1 
+MIR-200 -| ZEB1 : 1 
+SNAI1 -| MIR-200 : 1 
+SNAI1 -> ZEB2 : 1 
+ZEB1 -| MIR-200 : 0.933333333333333 
+ZEB2 -| CDH1 : 0.866666666666667 
+SNAI1 -> ZEB1 : 1 
+
+
+Iteration 7
+
+configuration_2: 12
+configuration_9: 12
+configuration_26: 12
+configuration_1: 12
+configuration_0: 12
+configuration_18: 12
+configuration_16: 12
+configuration_8: 12
+configuration_5: 12
+configuration_22: 12
+configuration_12: 12
+configuration_27: 12
+configuration_21: 12
+configuration_17: 12
+configuration_4: 12
+configuration_10: 12
+configuration_25: 12
+configuration_19: 12
+configuration_3: 12
+configuration_24: 12
+configuration_29: 12
+configuration_13: 12
+configuration_28: 12
+configuration_14: 12
+configuration_23: 12
+configuration_15: 12
+configuration_20: 12
+configuration_11: 12
+configuration_6: 12
+configuration_7: 10
+ZEB2 -| MIR-200 : 1 
+ZEB1 -| CDH1 : 0.933333333333333 
+SNAI1 -| CDH1 : 0.533333333333333 
+MIR-203 -| SNAI1 : 1 
+ZEB2 -| MIR-203 : 1 
+SNAI1 -| MIR-203 : 0.866666666666667 
+MIR-203 -| ZEB2 : 1 
+ZEB1 -| MIR-203 : 1 
+ZEB1 -| MIR-200 : 0.933333333333333 
+SNAI1 -> ZEB2 : 1 
+SNAI1 -> ZEB1 : 1 
+ZEB2 -| CDH1 : 0.866666666666667 
+SNAI1 -| MIR-200 : 1 
+MIR-200 -| ZEB1 : 1 
+MIR-200 -| ZEB2 : 0.933333333333333 
+
+
+Iteration 8
+
+configuration_6: 12
+configuration_11: 12
+configuration_20: 12
+configuration_15: 12
+configuration_14: 12
+configuration_23: 12
+configuration_13: 12
+configuration_29: 12
+configuration_3: 12
+configuration_24: 12
+configuration_19: 12
+configuration_10: 12
+configuration_25: 12
+configuration_17: 12
+configuration_27: 12
+configuration_21: 12
+configuration_4: 12
+configuration_22: 12
+configuration_12: 12
+configuration_5: 12
+configuration_8: 12
+configuration_16: 12
+configuration_18: 12
+configuration_0: 12
+configuration_26: 12
+configuration_1: 12
+configuration_7: 12
+configuration_9: 12
+configuration_2: 12
+configuration_28: 10
+ZEB2 -| MIR-203 : 1 
+SNAI1 -| MIR-203 : 1 
+ZEB1 -| MIR-203 : 1 
+MIR-203 -| ZEB2 : 1 
+MIR-203 -| SNAI1 : 1 
+SNAI1 -| CDH1 : 0.466666666666667 
+ZEB2 -| MIR-200 : 1 
+ZEB1 -| CDH1 : 0.933333333333333 
+MIR-200 -| ZEB1 : 1 
+MIR-200 -| ZEB2 : 1 
+SNAI1 -> ZEB2 : 1 
+ZEB2 -| CDH1 : 0.733333333333333 
+SNAI1 -> ZEB1 : 1 
+ZEB1 -| MIR-200 : 0.933333333333333 
+SNAI1 -| MIR-200 : 1 
+
+
+Iteration 9
+
+configuration_22: 12
+configuration_12: 12
+configuration_5: 12
+configuration_16: 12
+configuration_8: 12
+configuration_19: 12
+configuration_17: 12
+configuration_27: 12
+configuration_21: 12
+configuration_4: 12
+configuration_10: 12
+configuration_25: 12
+configuration_7: 12
+configuration_2: 12
+configuration_9: 12
+configuration_18: 12
+configuration_26: 12
+configuration_0: 12
+configuration_1: 12
+configuration_6: 12
+configuration_13: 12
+configuration_3: 12
+configuration_24: 12
+configuration_29: 12
+configuration_15: 12
+configuration_20: 12
+configuration_28: 12
+configuration_14: 12
+configuration_23: 12
+configuration_11: 10
+MIR-203 -| ZEB2 : 1 
+ZEB1 -| MIR-203 : 1 
+ZEB2 -| MIR-203 : 1 
+SNAI1 -| MIR-203 : 1 
+MIR-203 -| SNAI1 : 1 
+ZEB2 -| MIR-200 : 1 
+SNAI1 -| CDH1 : 0.533333333333333 
+ZEB1 -| CDH1 : 0.933333333333333 
+MIR-200 -| ZEB2 : 1 
+MIR-200 -| ZEB1 : 1 
+SNAI1 -| MIR-200 : 1 
+ZEB2 -| CDH1 : 0.733333333333333 
+SNAI1 -> ZEB2 : 1 
+SNAI1 -> ZEB1 : 1 
+ZEB1 -| MIR-200 : 0.933333333333333 
+
+
+Iteration 10
+
+configuration_23: 12
+configuration_15: 12
+configuration_20: 12
+configuration_24: 12
+configuration_3: 12
+configuration_29: 12
+configuration_13: 12
+configuration_6: 12
+configuration_11: 12
+configuration_26: 12
+configuration_1: 12
+configuration_0: 12
+configuration_18: 12
+configuration_2: 12
+configuration_9: 12
+configuration_7: 12
+configuration_21: 12
+configuration_27: 12
+configuration_4: 12
+configuration_17: 12
+configuration_10: 12
+configuration_25: 12
+configuration_19: 12
+configuration_16: 12
+configuration_8: 12
+configuration_5: 12
+configuration_22: 12
+configuration_12: 12
+configuration_28: 10
+configuration_14: 10
+MIR-200 -| ZEB2 : 1 
+MIR-200 -| ZEB1 : 1 
+SNAI1 -| MIR-200 : 1 
+SNAI1 -> ZEB1 : 0.933333333333333 
+ZEB2 -| CDH1 : 0.8 
+SNAI1 -> ZEB2 : 1 
+ZEB1 -| MIR-200 : 1 
+MIR-203 -| ZEB2 : 1 
+ZEB1 -| MIR-203 : 1 
+SNAI1 -| MIR-203 : 0.933333333333333 
+ZEB2 -| MIR-203 : 1 
+MIR-203 -| SNAI1 : 1 
+ZEB1 -| CDH1 : 0.866666666666667 
+SNAI1 -| CDH1 : 0.6 
+ZEB2 -| MIR-200 : 1 
+
+
+Iteration 11
+
+configuration_3: 12
+configuration_24: 12
+configuration_29: 12
+configuration_13: 12
+configuration_28: 12
+configuration_14: 12
+configuration_23: 12
+configuration_15: 12
+configuration_20: 12
+configuration_11: 12
+configuration_6: 12
+configuration_2: 12
+configuration_9: 12
+configuration_7: 12
+configuration_26: 12
+configuration_0: 12
+configuration_1: 12
+configuration_18: 12
+configuration_16: 12
+configuration_8: 12
+configuration_22: 12
+configuration_5: 12
+configuration_12: 12
+configuration_27: 12
+configuration_17: 12
+configuration_21: 12
+configuration_4: 12
+configuration_10: 12
+configuration_25: 12
+configuration_19: 12
+MIR-203 -| ZEB2 : 1 
+ZEB1 -| MIR-203 : 1 
+SNAI1 -| MIR-203 : 0.866666666666667 
+ZEB2 -| MIR-203 : 1 
+ZEB2 -| MIR-200 : 1 
+ZEB1 -| CDH1 : 0.866666666666667 
+SNAI1 -| CDH1 : 0.666666666666667 
+MIR-203 -| SNAI1 : 1 
+MIR-200 -| ZEB2 : 1 
+MIR-200 -| ZEB1 : 1 
+SNAI1 -| MIR-200 : 1 
+ZEB2 -| CDH1 : 0.666666666666667 
+SNAI1 -> ZEB1 : 0.933333333333333 
+SNAI1 -> ZEB2 : 1 
+ZEB1 -| MIR-200 : 0.933333333333333 
+
+
+Iteration 12
+
+configuration_19: 12
+configuration_4: 12
+configuration_21: 12
+configuration_17: 12
+configuration_25: 12
+configuration_10: 12
+configuration_22: 12
+configuration_5: 12
+configuration_12: 12
+configuration_16: 12
+configuration_8: 12
+configuration_18: 12
+configuration_26: 12
+configuration_1: 12
+configuration_0: 12
+configuration_7: 12
+configuration_2: 12
+configuration_9: 12
+configuration_6: 12
+configuration_11: 12
+configuration_15: 12
+configuration_20: 12
+configuration_28: 12
+configuration_23: 12
+configuration_14: 12
+configuration_13: 12
+configuration_3: 12
+configuration_24: 12
+configuration_29: 12
+configuration_27: 10
+MIR-203 -| ZEB2 : 1 
+ZEB1 -| MIR-203 : 1 
+SNAI1 -| MIR-203 : 0.933333333333333 
+ZEB2 -| MIR-203 : 1 
+MIR-203 -| SNAI1 : 1 
+SNAI1 -| CDH1 : 0.6 
+ZEB1 -| CDH1 : 0.866666666666667 
+ZEB2 -| MIR-200 : 0.933333333333333 
+MIR-200 -| ZEB2 : 1 
+MIR-200 -| ZEB1 : 1 
+SNAI1 -| MIR-200 : 1 
+SNAI1 -> ZEB1 : 0.933333333333333 
+SNAI1 -> ZEB2 : 1 
+ZEB2 -| CDH1 : 0.866666666666667 
+ZEB1 -| MIR-200 : 1 
+
+
+Iteration 13
+
+configuration_13: 12
+configuration_3: 12
+configuration_24: 12
+configuration_29: 12
+configuration_15: 12
+configuration_20: 12
+configuration_28: 12
+configuration_14: 12
+configuration_23: 12
+configuration_11: 12
+configuration_6: 12
+configuration_7: 12
+configuration_2: 12
+configuration_9: 12
+configuration_18: 12
+configuration_0: 12
+configuration_26: 12
+configuration_1: 12
+configuration_12: 12
+configuration_22: 12
+configuration_5: 12
+configuration_16: 12
+configuration_8: 12
+configuration_19: 12
+configuration_27: 12
+configuration_21: 12
+configuration_17: 12
+configuration_4: 12
+configuration_25: 12
+configuration_10: 12
+MIR-203 -| ZEB2 : 1 
+ZEB1 -| MIR-203 : 1 
+SNAI1 -| MIR-203 : 0.933333333333333 
+ZEB2 -| MIR-203 : 1 
+MIR-203 -| SNAI1 : 1 
+ZEB2 -| MIR-200 : 0.933333333333333 
+SNAI1 -| CDH1 : 0.666666666666667 
+ZEB1 -| CDH1 : 0.866666666666667 
+MIR-200 -| ZEB2 : 1 
+MIR-200 -| ZEB1 : 1 
+SNAI1 -| MIR-200 : 1 
+SNAI1 -> ZEB2 : 1 
+ZEB1 -| MIR-200 : 1 
+SNAI1 -> ZEB1 : 0.866666666666667 
+ZEB2 -| CDH1 : 0.733333333333333 
+
+
+Iteration 14
+
+configuration_12: 12
+configuration_22: 12
+configuration_5: 12
+configuration_16: 12
+configuration_8: 12
+configuration_19: 12
+configuration_17: 12
+configuration_27: 12
+configuration_21: 12
+configuration_4: 12
+configuration_25: 12
+configuration_10: 12
+configuration_7: 12
+configuration_2: 12
+configuration_9: 12
+configuration_18: 12
+configuration_0: 12
+configuration_26: 12
+configuration_1: 12
+configuration_11: 12
+configuration_6: 12
+configuration_13: 12
+configuration_3: 12
+configuration_24: 12
+configuration_29: 12
+configuration_15: 12
+configuration_20: 12
+configuration_28: 12
+configuration_23: 12
+configuration_14: 12
+MIR-203 -| ZEB2 : 1 
+ZEB1 -| MIR-203 : 1 
+SNAI1 -| MIR-203 : 0.933333333333333 
+ZEB2 -| MIR-203 : 1 
+ZEB2 -| MIR-200 : 1 
+SNAI1 -| CDH1 : 0.866666666666667 
+ZEB1 -| CDH1 : 0.733333333333333 
+MIR-203 -| SNAI1 : 1 
+MIR-200 -| ZEB2 : 1 
+MIR-200 -| ZEB1 : 1 
+SNAI1 -| MIR-200 : 1 
+SNAI1 -> ZEB2 : 1 
+ZEB1 -| MIR-200 : 0.933333333333333 
+SNAI1 -> ZEB1 : 1 
+ZEB2 -| CDH1 : 0.933333333333333 
+
+
+Iteration 15
+
+configuration_23: 12
+configuration_14: 12
+configuration_28: 12
+configuration_20: 12
+configuration_15: 12
+configuration_29: 12
+configuration_24: 12
+configuration_3: 12
+configuration_13: 12
+configuration_6: 12
+configuration_11: 12
+configuration_0: 12
+configuration_26: 12
+configuration_1: 12
+configuration_18: 12
+configuration_9: 12
+configuration_2: 12
+configuration_7: 12
+configuration_10: 12
+configuration_25: 12
+configuration_4: 12
+configuration_27: 12
+configuration_21: 12
+configuration_17: 12
+configuration_8: 12
+configuration_16: 12
+configuration_22: 12
+configuration_12: 12
+configuration_5: 12
+configuration_19: 10
+MIR-200 -| ZEB1 : 1 
+MIR-200 -| ZEB2 : 0.933333333333333 
+ZEB1 -| MIR-200 : 1 
+SNAI1 -> ZEB2 : 1 
+ZEB2 -| CDH1 : 0.733333333333333 
+SNAI1 -> ZEB1 : 1 
+SNAI1 -| MIR-200 : 1 
+ZEB2 -| MIR-203 : 1 
+SNAI1 -| MIR-203 : 1 
+MIR-203 -| ZEB2 : 1 
+ZEB1 -| MIR-203 : 1 
+MIR-203 -| SNAI1 : 1 
+ZEB1 -| CDH1 : 0.666666666666667 
+SNAI1 -| CDH1 : 0.8 
+ZEB2 -| MIR-200 : 1 
+
+
+Iteration 16
+
+configuration_13: 12
+configuration_3: 12
+configuration_24: 12
+configuration_29: 12
+configuration_15: 12
+configuration_20: 12
+configuration_28: 12
+configuration_23: 12
+configuration_14: 12
+configuration_11: 12
+configuration_6: 12
+configuration_7: 12
+configuration_2: 12
+configuration_9: 12
+configuration_26: 12
+configuration_1: 12
+configuration_0: 12
+configuration_22: 12
+configuration_12: 12
+configuration_16: 12
+configuration_8: 12
+configuration_19: 12
+configuration_27: 12
+configuration_21: 12
+configuration_4: 12
+configuration_17: 12
+configuration_25: 12
+configuration_10: 12
+configuration_18: 10
+configuration_5: 10
+ZEB1 -| MIR-203 : 1 
+MIR-203 -| ZEB2 : 1 
+SNAI1 -| MIR-203 : 0.933333333333333 
+ZEB2 -| MIR-203 : 1 
+MIR-203 -| SNAI1 : 1 
+ZEB2 -| MIR-200 : 1 
+ZEB1 -| CDH1 : 0.8 
+SNAI1 -| CDH1 : 0.8 
+MIR-200 -| ZEB2 : 1 
+MIR-200 -| ZEB1 : 1 
+SNAI1 -| MIR-200 : 1 
+SNAI1 -> ZEB2 : 1 
+ZEB1 -| MIR-200 : 1 
+SNAI1 -> ZEB1 : 1 
+ZEB2 -| CDH1 : 0.6 
+
+
+Iteration 17
+
+configuration_28: 12
+configuration_14: 12
+configuration_23: 12
+configuration_15: 12
+configuration_20: 12
+configuration_24: 12
+configuration_3: 12
+configuration_29: 12
+configuration_13: 12
+configuration_6: 12
+configuration_11: 12
+configuration_26: 12
+configuration_1: 12
+configuration_0: 12
+configuration_18: 12
+configuration_2: 12
+configuration_9: 12
+configuration_7: 12
+configuration_4: 12
+configuration_27: 12
+configuration_21: 12
+configuration_25: 12
+configuration_10: 12
+configuration_19: 12
+configuration_16: 12
+configuration_8: 12
+configuration_22: 12
+configuration_5: 12
+configuration_12: 12
+configuration_17: 10
+MIR-200 -| ZEB2 : 1 
+MIR-200 -| ZEB1 : 1 
+SNAI1 -| MIR-200 : 1 
+SNAI1 -> ZEB2 : 1 
+ZEB1 -| MIR-200 : 1 
+SNAI1 -> ZEB1 : 1 
+ZEB2 -| CDH1 : 0.533333333333333 
+ZEB1 -| MIR-203 : 1 
+MIR-203 -| ZEB2 : 1 
+ZEB2 -| MIR-203 : 1 
+SNAI1 -| MIR-203 : 0.866666666666667 
+ZEB1 -| CDH1 : 0.8 
+SNAI1 -| CDH1 : 0.733333333333333 
+ZEB2 -| MIR-200 : 1 
+MIR-203 -| SNAI1 : 1 
+
+
+Iteration 18
+
+configuration_19: 12
+configuration_25: 12
+configuration_10: 12
+configuration_4: 12
+configuration_27: 12
+configuration_21: 12
+configuration_17: 12
+configuration_22: 12
+configuration_5: 12
+configuration_12: 12
+configuration_8: 12
+configuration_16: 12
+configuration_26: 12
+configuration_0: 12
+configuration_1: 12
+configuration_7: 12
+configuration_9: 12
+configuration_2: 12
+configuration_6: 12
+configuration_20: 12
+configuration_15: 12
+configuration_23: 12
+configuration_14: 12
+configuration_28: 12
+configuration_13: 12
+configuration_29: 12
+configuration_24: 12
+configuration_3: 12
+configuration_18: 10
+configuration_11: 10
+SNAI1 -> ZEB1 : 0.933333333333333 
+ZEB1 -| MIR-200 : 0.866666666666667 
+SNAI1 -> ZEB2 : 1 
+ZEB2 -| CDH1 : 0.4 
+SNAI1 -| MIR-200 : 1 
+MIR-200 -| ZEB1 : 1 
+MIR-200 -| ZEB2 : 1 
+MIR-203 -| SNAI1 : 1 
+ZEB1 -| CDH1 : 0.8 
+ZEB2 -| MIR-200 : 1 
+SNAI1 -| CDH1 : 0.8 
+ZEB2 -| MIR-203 : 1 
+SNAI1 -| MIR-203 : 1 
+ZEB1 -| MIR-203 : 1 
+MIR-203 -| ZEB2 : 1 
+
+
+Iteration 19
+
+configuration_6: 12
+configuration_11: 12
+configuration_20: 12
+configuration_15: 12
+configuration_23: 12
+configuration_14: 12
+configuration_28: 12
+configuration_13: 12
+configuration_29: 12
+configuration_24: 12
+configuration_3: 12
+configuration_19: 12
+configuration_25: 12
+configuration_10: 12
+configuration_21: 12
+configuration_27: 12
+configuration_17: 12
+configuration_4: 12
+configuration_22: 12
+configuration_5: 12
+configuration_12: 12
+configuration_16: 12
+configuration_18: 12
+configuration_26: 12
+configuration_0: 12
+configuration_1: 12
+configuration_7: 12
+configuration_9: 12
+configuration_2: 12
+configuration_8: 10
+ZEB2 -| MIR-200 : 1 
+ZEB1 -| CDH1 : 0.866666666666667 
+SNAI1 -| CDH1 : 0.6 
+MIR-203 -| SNAI1 : 1 
+MIR-203 -| ZEB2 : 1 
+ZEB1 -| MIR-203 : 1 
+SNAI1 -| MIR-203 : 1 
+ZEB2 -| MIR-203 : 1 
+SNAI1 -| MIR-200 : 1 
+ZEB2 -| CDH1 : 0.266666666666667 
+ZEB1 -| MIR-200 : 1 
+SNAI1 -> ZEB1 : 0.933333333333333 
+SNAI1 -> ZEB2 : 0.933333333333333 
+MIR-200 -| ZEB2 : 1 
+MIR-200 -| ZEB1 : 1 
+
+
+Iteration 20
+
+configuration_3: 12
+configuration_24: 12
+configuration_29: 12
+configuration_15: 12
+configuration_20: 12
+configuration_28: 12
+configuration_14: 12
+configuration_23: 12
+configuration_11: 12
+configuration_6: 12
+configuration_7: 12
+configuration_2: 12
+configuration_9: 12
+configuration_18: 12
+configuration_1: 12
+configuration_26: 12
+configuration_0: 12
+configuration_12: 12
+configuration_22: 12
+configuration_5: 12
+configuration_16: 12
+configuration_8: 12
+configuration_19: 12
+configuration_27: 12
+configuration_4: 12
+configuration_21: 12
+configuration_17: 12
+configuration_10: 12
+configuration_25: 12
+configuration_13: 10
+MIR-200 -| ZEB1 : 1 
+MIR-200 -| ZEB2 : 1 
+SNAI1 -> ZEB2 : 0.933333333333333 
+ZEB2 -| CDH1 : 0.533333333333333 
+SNAI1 -> ZEB1 : 1 
+ZEB1 -| MIR-200 : 1 
+SNAI1 -| MIR-200 : 1 
+SNAI1 -| MIR-203 : 0.933333333333333 
+ZEB2 -| MIR-203 : 1 
+MIR-203 -| ZEB2 : 1 
+ZEB1 -| MIR-203 : 1 
+MIR-203 -| SNAI1 : 1 
+ZEB2 -| MIR-200 : 1 
+ZEB1 -| CDH1 : 0.866666666666667 
+SNAI1 -| CDH1 : 0.6 
+
+
+Iteration 21
+
+configuration_19: 12
+configuration_25: 12
+configuration_10: 12
+configuration_21: 12
+configuration_27: 12
+configuration_4: 12
+configuration_17: 12
+configuration_12: 12
+configuration_22: 12
+configuration_5: 12
+configuration_8: 12
+configuration_16: 12
+configuration_18: 12
+configuration_26: 12
+configuration_1: 12
+configuration_0: 12
+configuration_7: 12
+configuration_9: 12
+configuration_2: 12
+configuration_6: 12
+configuration_11: 12
+configuration_15: 12
+configuration_23: 12
+configuration_14: 12
+configuration_28: 12
+configuration_13: 12
+configuration_29: 12
+configuration_24: 12
+configuration_3: 12
+configuration_20: 10
+ZEB2 -| MIR-203 : 1 
+SNAI1 -| MIR-203 : 0.933333333333333 
+MIR-203 -| ZEB2 : 1 
+ZEB1 -| MIR-203 : 1 
+ZEB1 -| CDH1 : 0.533333333333333 
+ZEB2 -| MIR-200 : 1 
+SNAI1 -| CDH1 : 0.866666666666667 
+MIR-203 -| SNAI1 : 1 
+MIR-200 -| ZEB1 : 1 
+MIR-200 -| ZEB2 : 1 
+SNAI1 -> ZEB2 : 1 
+ZEB2 -| CDH1 : 0.466666666666667 
+SNAI1 -> ZEB1 : 0.933333333333333 
+ZEB1 -| MIR-200 : 1 
+SNAI1 -| MIR-200 : 1 
+
+
+Iteration 22
+
+configuration_28: 12
+configuration_23: 12
+configuration_15: 12
+configuration_20: 12
+configuration_24: 12
+configuration_3: 12
+configuration_29: 12
+configuration_13: 12
+configuration_6: 12
+configuration_11: 12
+configuration_1: 12
+configuration_0: 12
+configuration_18: 12
+configuration_2: 12
+configuration_9: 12
+configuration_7: 12
+configuration_21: 12
+configuration_27: 12
+configuration_17: 12
+configuration_4: 12
+configuration_25: 12
+configuration_10: 12
+configuration_19: 12
+configuration_16: 12
+configuration_8: 12
+configuration_22: 12
+configuration_12: 12
+configuration_5: 12
+configuration_14: 10
+configuration_26: 10
+SNAI1 -| CDH1 : 0.933333333333333 
+ZEB1 -| CDH1 : 0.6 
+ZEB2 -| MIR-200 : 1 
+MIR-203 -| SNAI1 : 1 
+ZEB1 -| MIR-203 : 1 
+MIR-203 -| ZEB2 : 1 
+SNAI1 -| MIR-203 : 0.933333333333333 
+ZEB2 -| MIR-203 : 1 
+SNAI1 -| MIR-200 : 1 
+SNAI1 -> ZEB1 : 0.933333333333333 
+SNAI1 -> ZEB2 : 1 
+ZEB2 -| CDH1 : 0.533333333333333 
+ZEB1 -| MIR-200 : 1 
+MIR-200 -| ZEB2 : 1 
+MIR-200 -| ZEB1 : 1 
+
+
+Iteration 23
+
+configuration_5: 12
+configuration_22: 12
+configuration_12: 12
+configuration_16: 12
+configuration_8: 12
+configuration_19: 12
+configuration_4: 12
+configuration_27: 12
+configuration_21: 12
+configuration_17: 12
+configuration_10: 12
+configuration_25: 12
+configuration_7: 12
+configuration_2: 12
+configuration_9: 12
+configuration_18: 12
+configuration_0: 12
+configuration_1: 12
+configuration_11: 12
+configuration_6: 12
+configuration_13: 12
+configuration_3: 12
+configuration_24: 12
+configuration_29: 12
+configuration_15: 12
+configuration_20: 12
+configuration_28: 12
+configuration_14: 12
+configuration_23: 12
+configuration_26: 10
+ZEB2 -| MIR-203 : 1 
+SNAI1 -| MIR-203 : 0.866666666666667 
+MIR-203 -| ZEB2 : 1 
+ZEB1 -| MIR-203 : 1 
+MIR-203 -| SNAI1 : 1 
+ZEB2 -| MIR-200 : 1 
+SNAI1 -| CDH1 : 0.933333333333333 
+ZEB1 -| CDH1 : 0.333333333333333 
+MIR-200 -| ZEB1 : 1 
+MIR-200 -| ZEB2 : 1 
+SNAI1 -> ZEB2 : 1 
+SNAI1 -> ZEB1 : 1 
+ZEB2 -| CDH1 : 0.666666666666667 
+ZEB1 -| MIR-200 : 1 
+SNAI1 -| MIR-200 : 1 
+
+
+Iteration 24
+
+configuration_6: 12
+configuration_11: 12
+configuration_15: 12
+configuration_28: 12
+configuration_14: 12
+configuration_23: 12
+configuration_13: 12
+configuration_24: 12
+configuration_3: 12
+configuration_29: 12
+configuration_19: 12
+configuration_4: 12
+configuration_27: 12
+configuration_21: 12
+configuration_17: 12
+configuration_25: 12
+configuration_10: 12
+configuration_22: 12
+configuration_12: 12
+configuration_5: 12
+configuration_16: 12
+configuration_8: 12
+configuration_18: 12
+configuration_1: 12
+configuration_26: 12
+configuration_0: 12
+configuration_7: 12
+configuration_2: 12
+configuration_9: 12
+configuration_20: 10
+MIR-200 -| ZEB1 : 1 
+MIR-200 -| ZEB2 : 1 
+SNAI1 -> ZEB2 : 1 
+SNAI1 -> ZEB1 : 1 
+ZEB1 -| MIR-200 : 1 
+ZEB2 -| CDH1 : 0.666666666666667 
+SNAI1 -| MIR-200 : 0.933333333333333 
+SNAI1 -| MIR-203 : 0.933333333333333 
+ZEB2 -| MIR-203 : 1 
+ZEB1 -| MIR-203 : 1 
+MIR-203 -| ZEB2 : 1 
+MIR-203 -| SNAI1 : 1 
+ZEB1 -| CDH1 : 0.4 
+ZEB2 -| MIR-200 : 1 
+SNAI1 -| CDH1 : 0.733333333333333 
+
+
+Iteration 25
+
+configuration_18: 12
+configuration_0: 12
+configuration_1: 12
+configuration_7: 12
+configuration_9: 12
+configuration_2: 12
+configuration_19: 12
+configuration_25: 12
+configuration_10: 12
+configuration_27: 12
+configuration_21: 12
+configuration_4: 12
+configuration_5: 12
+configuration_22: 12
+configuration_12: 12
+configuration_8: 12
+configuration_16: 12
+configuration_20: 12
+configuration_15: 12
+configuration_23: 12
+configuration_14: 12
+configuration_28: 12
+configuration_13: 12
+configuration_29: 12
+configuration_24: 12
+configuration_3: 12
+configuration_6: 12
+configuration_26: 10
+configuration_17: 10
+configuration_11: 10
+MIR-203 -| SNAI1 : 1 
+ZEB2 -| MIR-200 : 1 
+ZEB1 -| CDH1 : 0.4 
+SNAI1 -| CDH1 : 0.666666666666667 
+SNAI1 -| MIR-203 : 1 
+ZEB2 -| MIR-203 : 1 
+MIR-203 -| ZEB2 : 1 
+ZEB1 -| MIR-203 : 1 
+ZEB1 -| MIR-200 : 0.933333333333333 
+SNAI1 -> ZEB1 : 1 
+SNAI1 -> ZEB2 : 1 
+ZEB2 -| CDH1 : 0.466666666666667 
+SNAI1 -| MIR-200 : 0.933333333333333 
+MIR-200 -| ZEB1 : 1 
+MIR-200 -| ZEB2 : 1 
+
+
+Iteration 26
+
+configuration_13: 12
+configuration_24: 12
+configuration_3: 12
+configuration_29: 12
+configuration_15: 12
+configuration_20: 12
+configuration_28: 12
+configuration_23: 12
+configuration_14: 12
+configuration_11: 12
+configuration_6: 12
+configuration_7: 12
+configuration_2: 12
+configuration_9: 12
+configuration_18: 12
+configuration_0: 12
+configuration_26: 12
+configuration_1: 12
+configuration_12: 12
+configuration_22: 12
+configuration_5: 12
+configuration_8: 12
+configuration_27: 12
+configuration_21: 12
+configuration_17: 12
+configuration_4: 12
+configuration_10: 12
+configuration_25: 12
+configuration_16: 10
+configuration_19: 10
+MIR-200 -| ZEB2 : 1 
+MIR-200 -| ZEB1 : 1 
+SNAI1 -| MIR-200 : 1 
+SNAI1 -> ZEB1 : 0.933333333333333 
+ZEB1 -| MIR-200 : 1 
+ZEB2 -| CDH1 : 0.466666666666667 
+SNAI1 -> ZEB2 : 1 
+MIR-203 -| ZEB2 : 1 
+ZEB1 -| MIR-203 : 1 
+SNAI1 -| MIR-203 : 0.933333333333333 
+ZEB2 -| MIR-203 : 1 
+MIR-203 -| SNAI1 : 1 
+SNAI1 -| CDH1 : 0.733333333333333 
+ZEB2 -| MIR-200 : 1 
+ZEB1 -| CDH1 : 0.466666666666667 
+
+
+Iteration 27
+
+configuration_15: 12
+configuration_20: 12
+configuration_28: 12
+configuration_14: 12
+configuration_23: 12
+configuration_13: 12
+configuration_24: 12
+configuration_3: 12
+configuration_29: 12
+configuration_6: 12
+configuration_11: 12
+configuration_18: 12
+configuration_0: 12
+configuration_1: 12
+configuration_7: 12
+configuration_2: 12
+configuration_9: 12
+configuration_19: 12
+configuration_27: 12
+configuration_4: 12
+configuration_21: 12
+configuration_17: 12
+configuration_10: 12
+configuration_25: 12
+configuration_12: 12
+configuration_22: 12
+configuration_5: 12
+configuration_16: 12
+configuration_8: 12
+configuration_26: 10
+MIR-200 -| ZEB1 : 1 
+MIR-200 -| ZEB2 : 1 
+SNAI1 -> ZEB1 : 0.933333333333333 
+ZEB2 -| CDH1 : 0.333333333333333 
+ZEB1 -| MIR-200 : 1 
+SNAI1 -> ZEB2 : 1 
+SNAI1 -| MIR-200 : 1 
+ZEB2 -| MIR-203 : 1 
+SNAI1 -| MIR-203 : 0.866666666666667 
+ZEB1 -| MIR-203 : 1 
+MIR-203 -| ZEB2 : 1 
+ZEB2 -| MIR-200 : 1 
+ZEB1 -| CDH1 : 0.6 
+SNAI1 -| CDH1 : 0.666666666666667 
+MIR-203 -| SNAI1 : 1 
+
+
+Iteration 28
+
+configuration_27: 12
+configuration_21: 12
+configuration_17: 12
+configuration_4: 12
+configuration_10: 12
+configuration_25: 12
+configuration_19: 12
+configuration_16: 12
+configuration_8: 12
+configuration_22: 12
+configuration_12: 12
+configuration_5: 12
+configuration_1: 12
+configuration_26: 12
+configuration_0: 12
+configuration_18: 12
+configuration_2: 12
+configuration_9: 12
+configuration_7: 12
+configuration_6: 12
+configuration_11: 12
+configuration_28: 12
+configuration_14: 12
+configuration_23: 12
+configuration_20: 12
+configuration_3: 12
+configuration_29: 12
+configuration_13: 12
+configuration_15: 10
+configuration_24: 10
+ZEB2 -| MIR-203 : 1 
+SNAI1 -| MIR-203 : 0.933333333333333 
+ZEB1 -| MIR-203 : 1 
+MIR-203 -| ZEB2 : 1 
+MIR-203 -| SNAI1 : 1 
+SNAI1 -| CDH1 : 0.6 
+ZEB2 -| MIR-200 : 1 
+ZEB1 -| CDH1 : 0.8 
+MIR-200 -| ZEB1 : 1 
+MIR-200 -| ZEB2 : 1 
+ZEB2 -| CDH1 : 0.2 
+ZEB1 -| MIR-200 : 1 
+SNAI1 -> ZEB2 : 1 
+SNAI1 -> ZEB1 : 1 
+SNAI1 -| MIR-200 : 1 
+
+
+Iteration 29
+
+configuration_10: 12
+configuration_25: 12
+configuration_17: 12
+configuration_27: 12
+configuration_21: 12
+configuration_4: 12
+configuration_22: 12
+configuration_5: 12
+configuration_12: 12
+configuration_8: 12
+configuration_16: 12
+configuration_18: 12
+configuration_26: 12
+configuration_0: 12
+configuration_1: 12
+configuration_7: 12
+configuration_9: 12
+configuration_2: 12
+configuration_6: 12
+configuration_11: 12
+configuration_20: 12
+configuration_15: 12
+configuration_23: 12
+configuration_28: 12
+configuration_13: 12
+configuration_29: 12
+configuration_3: 12
+configuration_24: 12
+configuration_19: 10
+configuration_14: 10
+ZEB1 -| MIR-203 : 1 
+MIR-203 -| ZEB2 : 1 
+SNAI1 -| MIR-203 : 1 
+ZEB2 -| MIR-203 : 1 
+ZEB1 -| CDH1 : 0.8 
+SNAI1 -| CDH1 : 0.533333333333333 
+ZEB2 -| MIR-200 : 1 
+MIR-203 -| SNAI1 : 1 
+MIR-200 -| ZEB2 : 1 
+MIR-200 -| ZEB1 : 1 
+SNAI1 -| MIR-200 : 1 
+ZEB1 -| MIR-200 : 0.933333333333333 
+ZEB2 -| CDH1 : 0.466666666666667 
+SNAI1 -> ZEB1 : 1 
+SNAI1 -> ZEB2 : 1 
