@@ -1,0 +1,15 @@
+A	activate	C
+A	activate	D
+A	activate	E
+B	inhibit	D
+B	activate	E
+B	activate	F
+C	activate	G
+D	activate	G
+D	activate	H
+D	inhibit	E
+E	activate	G
+E	activate	I
+F	inhibit	H
+F	activate	I
+G	inhibit	I
