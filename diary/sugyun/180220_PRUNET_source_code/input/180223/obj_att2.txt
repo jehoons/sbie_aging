@@ -1,0 +1,14 @@
+IGF1R up
+INSR up
+KRAS up
+MAPK1 up
+IKBKB up
+AMPK down
+CDKN2A up
+IL1B up
+IL6 up
+NFKB1 up
+NFKBIE down
+TNF up
+TP53 up
+IGF1 up
