@@ -1,0 +1,9 @@
+rules = datamining_logic.txt
+turn_on = 
+turn_off =
+ini_on = DNAdamage,IGF1
+ini_off = LowNutrition
+mode=Sync
+rounds = 500
+steps = 100
+initial_limit=0

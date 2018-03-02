@@ -1,0 +1,10 @@
+rules = datamining_logic.txt
+turn_on = 
+turn_off =
+ini_on = DNAdamage,LowNutrition
+ini_off = IGF1
+mode=Sync
+rounds = 500
+steps = 100
+plot_nodes = NFKB1,IKBKB,JUN,IL2,RB1,HSPB1,AR
+missing=False

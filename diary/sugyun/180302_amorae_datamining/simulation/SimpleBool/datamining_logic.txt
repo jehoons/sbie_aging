@@ -1,0 +1,12 @@
+AR* = (RB1 or HSPB1) and not RELA
+CHEK1* = DNAdamage
+HSPB1* = not RPS6KB1 and AR
+IKBKB* = (PRKCQ and not HSPB1) or NFKB1
+IL2* = JUN and NFKB1
+IRS1* = IGF1 and not (PRKCQ and IKBKB)
+JUN* = RB1 or (NFKB1 and RELA) or AR
+NFKB1* = (RELA and IKBKB) or not CHEK1
+PRKCQ* = DNAdamage
+RB1* = CHEK1
+RELA* = IKBKB or NFKB1
+RPS6KB1* = not LowNutrition and IRS1
