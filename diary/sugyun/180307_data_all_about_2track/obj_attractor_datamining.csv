@@ -1,0 +1,9 @@
+,,AR,CHEK1,DNAdamage,HSPB1,IGF1,IKBKB,IL6,IRS1,JUN,LowNutrition,NFKB1,PRKCQ,RB1,RELA,RPS6KB1
+sen,INPUT: 1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0
+qui,INPUT: 2,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
+IGF1_only,INPUT: 3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+DNAdamage_only,INPUT: 4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+sen,OUTPUT: 1,9,1,1,0,1,1,1,1,1,0,1,1,1,1,1
+qui,OUTPUT: 2,9,1,1,1,0,0,0,0,9,1,0,0,1,0,0
+IGF1_only,OUTPUT: 3,9,0,0,9,1,9,0,1,9,0,9,1,0,9,1
+DNAdamage_only,OUTPUT: 4,1,1,1,1,0,0,0,0,9,0,0,0,1,0,0

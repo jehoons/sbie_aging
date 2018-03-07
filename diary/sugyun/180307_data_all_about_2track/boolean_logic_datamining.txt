@@ -1,0 +1,15 @@
+IGF1* = IGF1
+LowNutrition* = LowNutrition
+DNAdamage* = DNAdamage
+AR* = RB1 or (not RELA and HSPB1) or JUN
+CHEK1* = DNAdamage
+HSPB1* = not RPS6KB1 and AR
+IKBKB* = (PRKCQ or NFKB1) and not HSPB1
+IL6* = JUN and NFKB1
+IRS1* = IGF1
+JUN* = RB1 or (NFKB1 and RELA and AR)
+NFKB1* = (not CHEK1 and IKBKB) or (IKBKB and RELA)
+PRKCQ* = IGF1
+RB1* = CHEK1
+RELA* = IKBKB or NFKB1
+RPS6KB1* = not LowNutrition and IRS1
