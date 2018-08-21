@@ -79,8 +79,8 @@ for itno in range(iteration):
         if os.stat('netparamsdump.txt').st_size == 0:#if file is empty
             f.write('Format: tab separated\nWeights\nBasal Activities\n\n')
         if champfit == 0:
-            ws = np.array(champparams[:prob.num_edges - len(prob.forcew)], dtype = np.int32)#weight parameters
-            bs = np.array(champparams[prob.num_edges - len(prob.forcew):], dtype = np.int32)#basal activity parameter
+            ws = np.array(champparams[:prob.num_edges - len(prob.forcew)], dtype = np.float)#weight parameters
+            bs = np.array(champparams[prob.num_edges - len(prob.forcew):], dtype = np.float)#basal activity parameter
             for w in ws:
                 f.write('%f\t' % w)
             f.write('\n')

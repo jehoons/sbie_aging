@@ -5,8 +5,8 @@ from PyGMO import algorithm, population, island, util
 from optweightandbasal import OptWeightandBasal
 
 #variables relevant to genetic algorithm performance
-n = 1000#number of GA simulations
-num_gens = 10000#number of generations
+n = 20000#number of GA simulations
+num_gens = 5000#number of generations
 popsize = 500#population size
 
 #import network and objective network conditions with inputs

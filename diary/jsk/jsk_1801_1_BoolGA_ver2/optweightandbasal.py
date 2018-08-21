@@ -92,17 +92,25 @@ class OptWeightandBasal(base):
         b = ((b + 1) / 2).astype(np.int32)
         b = np.multiply(b, bmask)#adjusting the boundaries to cover negative basal activity levels
         fitness = 0.0
-        
-        #print('new condition')#
-        
+        '''
+        #########
+        print('new condition')#
+        ws = np.array(params[:self.num_edges])#list of weights for each links
+        ws = ((ws + 1) / 2).astype(np.int32)
+        print('ws')
+        print(ws)
+        bs = np.array(params[self.num_edges:])#list of basal activities for each nodes
+        bmask = [1 if s % 2 == 1 else -1 for s in bs]
+        bs = ((bs + 1) / 2).astype(np.int32)
+        bs = np.multiply(bs, bmask)
+        print('bs')
+        print(bs)
+        ########
+        '''
         for condno in range(self.num_conds):#for all of the conditions presented calculate the cost function and add all
             condno += 1
             inistates = self.conddata.loc['INPUT: ' + str(condno)].tolist()#initial states given
             predstateslist = self._func(w, b, inistates)#calculated states form the Boolean model
-            
-            #print('new attractor')#
-            #print(predstateslist)#
-            
             objstates = np.array(self.conddata.loc['OUTPUT: ' + str(condno)].tolist())#objective states
             objboolmask = np.array([state != 9 for state in objstates])#Boolean mask for selecting only the states required for cost function calculation
             objphen = list(objstates[objboolmask])
@@ -112,14 +120,7 @@ class OptWeightandBasal(base):
                 predphen = list(predstates[objboolmask])
                 tmpfit = sum((objphen[idx] - predphen[idx])**2 for idx in range(len(objphen)))#fitness function calulated for this condition and added
                 tmpfitlist.append(tmpfit)
-            
-            #print('new phenotype')#
-            #print(tmpfitlist)#
-            
             fitness += np.mean(np.array(tmpfitlist))#fitness is the mean of fitness of all the states in a cyclic attractor
-            
-        #print('new fitness')#
-        #print(fitness)#
             
         return (fitness,)
 
