@@ -1,0 +1,15 @@
+Gene Symbol,Antibody Name,Quiescence,Senescence,Proliferation
+EIF4EBP1,4E-BP1_(Ab-65),1,0,0
+AKT1,AKT1_(Phospho-Ser473),0,1,1
+E2F1,E2F1_(Phospho-Thr433),0,0,1
+IGF1R,IGF1R_(Phospho-Tyr1165/1166),0,1,1
+NFKBIA,IkB-alpha_(Ab-32/36),1,0,1
+IKBKB,IKK-beta_(Ab-188),0,1,0
+IRS1,IRS-1_(Phospho-Ser636),0,1,1
+MAP2K3/MAP2K6,MKK6/MAP2K6_(Phospho-Ser207),0,1,1
+MTOR,mTOR_(Phospho-Ser2481),0,1,1
+MAPK14,p38_MAPK_(Phospho-Tyr322),0,1,1
+TP53,p53_(Phospho-Ser15),1,1,0
+S6K1,P70S6K_(Phospho-Ser411),0,1,1
+RB1,Rb_(Phospho-Thr821),0,0,1
+ TSC2,Tuberin/TSC2_(Phospho-Ser939),0,0,1
