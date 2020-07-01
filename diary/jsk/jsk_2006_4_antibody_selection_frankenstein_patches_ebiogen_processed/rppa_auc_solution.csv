@@ -1,0 +1,15 @@
+,Quiescence,Senescence,Proliferation
+4E-BP1 (Ab-65),1,0,0
+AKT1 (Phospho-Ser473),0,1,1
+E2F1 (Phospho-Thr433),0,0,1
+IGF1R (Phospho-Tyr1165/1166),0,1,1
+IkB-alpha (Ab-32/36),1,0,1
+IKK-beta (Ab-188),0,1,0
+IRS-1 (Phospho-Ser636),0,1,1
+MKK6/MAP2K6 (Phospho-Ser207),0,1,1
+mTOR (Phospho-Ser2481),0,1,1
+p38 MAPK (Phospho-Tyr322),0,1,1
+p53 (Phospho-Ser15),1,1,0
+P70S6K (Phospho-Ser411),0,1,1
+Rb (Phospho-Thr821),0,0,1
+Tuberin/TSC2 (Phospho-Ser939),0,0,1
